@@ -9,8 +9,8 @@ role: Post-Doc
 
 # Organizations/Affiliations
 organizations:
-- name: KU Leuven
-  url: https://www.kuleuven.be
+- name: Universität Konstanz
+  url: https://www.soziologie.uni-konstanz.de/diehl/team/mitarbeiterinnen/dr-katrin-arnadottir/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:katrin.arnadottir@kuleuven.be <katrin.arnadottir@kuleuven.be>
+  link: mailto:katrin.arnadottir@uni-konstanz.de
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
