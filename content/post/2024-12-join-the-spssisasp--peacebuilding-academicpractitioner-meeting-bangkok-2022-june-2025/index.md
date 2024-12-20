@@ -4,7 +4,7 @@ date: 2024-12-19
 tags: []
 categories:
   - events
-authors: ["Michèle Birtel"]
+authors: ["Stefania Paolini"]
 ---
 
 We invite you to participate in an exciting international meeting -- Peacebuilding through Conflict Transformation: Intraindividual, Interpersonal, Intergroup, and Global Processes – that will be held June 20-22, 2025 in Nonh Chock, Bangkok, Thailand.
