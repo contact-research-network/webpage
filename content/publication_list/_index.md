@@ -27,11 +27,17 @@
 
 - <span style='color:#3F50B5'>Visintin, E. P.</span>, Rullo, M. & Lo Destro, C. (2024). **Imagine Being Humble: Integrating Imagined Intergroup Contact and Cultural Humility to Foster Inclusive Intergroup Relations.** *Behavioral Sciences* [https://doi.org/10.3390/bs14010051](https://doi.org/10.3390/bs14010051)
 
+- Valsecchi, G., Berent, J., <span style='color:#3F50B5'>Borinca, I.</span>, <span style='color:#3F50B5'>Green, E. G. T.</span> & Falomir-Pichastor, J. M. (2024). **Inclusive social norms and nationals’ positive intergroup orientations toward refugees: The moderating role of initial prejudice and intergroup contact.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302231156399](https://doi.org/10.1177/13684302231156399)
+
 - Husnu, S., <span style='color:#3F50B5'>Paolini, S.</span> & Berrigan, A. (2024). **Freely-chosen positive intergroup imagery causes improved outgroup emotions and encourages increased contact seeking immediately and at follow-up.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302221147000](https://doi.org/10.1177/13684302221147000)
 
 - Bagci, S., Turnuklu, A., Tercan, M., <span style='color:#3F50B5'>Cameron, L.</span> & <span style='color:#3F50B5'>Turner, R.</span> (2023). **Have some confidence in contact: Self‐efficacy beliefs among children moderate the associations between cross‐group friendships and outgroup attitudes.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.12929](https://doi.org/10.1111/jasp.12929)
 
+- Vezzali, L., Trifiletti, E., Wölfer, R., Di Bernardo, G. A., <span style='color:#3F50B5'>Stathi, S.</span>, Cocco, V. M., Cadamuro, A., Shamloo, S. E. & Hewstone, M. (2023). **Sequential models of intergroup contact and social categorization: An experimental field test of integrated models.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302221104921](https://doi.org/10.1177/13684302221104921)
+
 - <span style='color:#3F50B5'>Drury, L.</span>, <span style='color:#3F50B5'>Birtel, M. D.</span>, Randsley de Moura, G. & Crisp, R. J. (2023). **Remembrance of contact past: When intergroup contact metacognitions decrease outgroup tolerance.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302221079220](https://doi.org/10.1177/13684302221079220)
+
+- Hotchin, V. & <span style='color:#3F50B5'>West, K.</span> (2022). **Open to Contact? Increased State Openness Can Lead to Greater Interest in Contact With Diverse Groups.** *Personality and Social Psychology Bulletin* [https://doi.org/10.1177/01461672211030125](https://doi.org/10.1177/01461672211030125)
 
 # Other Research by Network Members
 - <span style='color:#3F50B5'>Hodson, G.</span> & Puffer, H. (2025). **The Evolving Nature of Generalized Prejudice Toward Marginalized Groups in the United States 2004–2020.** *Social Psychological and Personality Science* [https://doi.org/10.1177/19485506241305698](https://doi.org/10.1177/19485506241305698)
