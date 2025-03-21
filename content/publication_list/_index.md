@@ -35,6 +35,8 @@
 
 - <span style='color:#3F50B5'>Cheso, D.</span>, <span style='color:#3F50B5'>Zagefka, H.</span> & Bjornsdottir, R. T. (2024). **Exploring the Relations Among Knowledge, Contact, and Transgender Prejudice.** *Sex Roles* [https://doi.org/10.1007/s11199-024-01513-x](https://doi.org/10.1007/s11199-024-01513-x)
 
+- <span style='color:#3F50B5'>Drury, L.</span> & Fasbender, U. (2024). **Fostering intergenerational harmony: Can good quality contact between older and younger employees reduce workplace conflict?** *Journal of Occupational and Organizational Psychology* [https://doi.org/10.1111/joop.12539](https://doi.org/10.1111/joop.12539)
+
 - <span style='color:#3F50B5'>Paolini, S.</span>, Gibbs, M., Sales, B., Anderson, D. & McIntyre, K. (2024). **Negativity bias in intergroup contact: Meta-analytical evidence that bad is stronger than good, especially when people have the opportunity and motivation to opt out of contact.** *Psychological Bulletin* [https://doi.org/10.1037/bul0000439](https://doi.org/10.1037/bul0000439)
 
 - <span style='color:#3F50B5'>Borinca, I.</span>, <span style='color:#3F50B5'>Van Assche, J.</span> & Koc, Y. (2024). **How meta-humanization leads to conciliatory attitudes but not intergroup negotiation: The mediating roles of attribution of secondary emotions and blatant dehumanization.** *Current Research in Ecological and Social Psychology* [https://doi.org/10.1016/j.cresp.2024.100198](https://doi.org/10.1016/j.cresp.2024.100198)
@@ -95,6 +97,8 @@
 
 - Burrows, B., <span style='color:#3F50B5'>Tropp, L. R.</span>, Dehrone, T. A. & Čehajić-Clancy, S. (2022). **How intergroup contact shapes intergroup attitudes and construals of relations between ethnic groups: Evidence from Bosnia and Herzegovina.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000629](https://doi.org/10.1037/pac0000629)
 
+- <span style='color:#3F50B5'>Drury, L.</span>, Abrams, D. & Swift, H. J. (2022). **Intergenerational contact during and beyond COVID‐19.** *Journal of Social Issues* [https://doi.org/10.1111/josi.12551](https://doi.org/10.1111/josi.12551)
+
 - <span style='color:#3F50B5'>Visintin, E. P.</span> & Tasso, A. (2022). **Are You Willing to Protect the Health of Older People? Intergenerational Contact and Ageism as Predictors of Attitudes toward the COVID-19 Vaccination Passport.** *International Journal of Environmental Research and Public Health* [https://doi.org/10.3390/ijerph191711061](https://doi.org/10.3390/ijerph191711061)
 
 - <span style='color:#3F50B5'>McKeown, S.</span>, Sagherian-Dickey, T., Kwong, J. & Charlesford, J. J. (2022). **Putting theory into peaceful practice: Insights and reflections on the process of coproducing a school-based intergroup relations intervention with teachers.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000598](https://doi.org/10.1037/pac0000598)
@@ -104,6 +108,8 @@
 - <span style='color:#3F50B5'>Tropp, L. R.</span>, White, F., Rucinski, C. L. & Tredoux, C. (2022). **Intergroup Contact and Prejudice Reduction: Prospects and Challenges in Changing Youth Attitudes.** *Review of General Psychology* [https://doi.org/10.1177/10892680211046517](https://doi.org/10.1177/10892680211046517)
 
 - Reimer, N. K., Hughes, J., <span style='color:#3F50B5'>Blaylock, D.</span>, Donnelly, C., Wölfer, R. & Hewstone, M. (2022). **Shared education as a contact-based intervention to improve intergroup relations among adolescents in postconflict Northern Ireland.** *Developmental Psychology* [https://doi.org/10.1037/dev0001274](https://doi.org/10.1037/dev0001274)
+
+- Fasbender, U. & <span style='color:#3F50B5'>Drury, L.</span> (2022). **One plus one equals one: age-diverse friendship and its complex relation to employees’ job satisfaction and turnover intentions.** *European Journal of Work and Organizational Psychology* [https://doi.org/10.1080/1359432x.2021.2006637](https://doi.org/10.1080/1359432x.2021.2006637)
 
 - <span style='color:#3F50B5'>Schäfer, S. J.</span>, Simsek, M., Jaspers, E., Kros, M., Hewstone, M., Schmid, K., Fell, B. F., Dorrough, A. R., Glöckner, A. & <span style='color:#3F50B5'>Christ, O.</span> (2022). **Dynamic contact effects: Individuals’ positive and negative contact history influences intergroup contact effects in a behavioral game.** *Journal of Personality and Social Psychology* [https://doi.org/10.1037/pspi0000374](https://doi.org/10.1037/pspi0000374)
 
