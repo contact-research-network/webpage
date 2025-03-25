@@ -9,29 +9,42 @@ authors: ["Libby Drury"]
 
 Birkbeck, University of London, is seeking a Postdoctoral Researcher to join the project, 'Overcoming Societal Tensions in Europe: Can Age Diverse Friendships be the Solution?'. 
   
-  This exciting opportunity is funded by the Volkswagen Foundation and investigates how intergenerational friendships at work can foster cooperation and tolerance within Europe's diverse society.
+  This **exciting opportunity** is funded by the Volkswagen Foundation and investigates how intergenerational friendships at work can foster cooperation and tolerance within Europe's diverse society.
   
   • Salary: £34,909 rising to £39,746 per annum – part time at 28 hours (4 days) a week
+  
   • Opportunities for international conference visits and research stays abroad
+  
   • Excellent learning and development opportunities.
+  
   • Scope for creativity, own ideas, and self-initiative
   
   As Postdoctoral Researcher you will play a crucial role in our international research project and;
   
   • Support the research project on age-diverse friendships in collaboration with partner universities
+  
   • Plan and conduct empirical studies 
+  
   • Develop networks to collect data from organisations, via student research projects and other avenues
+  
   • Perform statistical data analysis using SPSS, Mplus, or R on a range of data types, including; multi-level, dyadic and social network data
+  
   • Collaborate with scholars and PhD students to complete project tasks
+  
   • Present research findings at international conferences and publish in scientific journals
+  
   • Teach and supervise student
+  
   • Prepare funding proposals.
   
   The ideal Postdoctoral Researcher will;
   
   • Possess a PhD (or equivalent) in a relevant subject area
+  
   • Strong knowledge of quantitative research methods and statistics, including SPSS
+  
   • Effective oral and written communication skills
+  
   • Experience in contributing to research and interest in age-diverse friendships.
   
   Salary and benefits:
