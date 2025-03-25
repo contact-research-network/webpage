@@ -14,7 +14,9 @@ We invite conceptual and empirical contributions from all disciplines represente
   career stages, and others situated in peace psychology more broadly.
   
   Submission Deadline: 22 April 2025
+  
   Location: Constructor University Bremen, Germany
+  
   Travel Stipends: Limited support available for participants from low- and middle-income
   countries (contact organizers early).
   
