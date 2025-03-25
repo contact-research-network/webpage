@@ -57,7 +57,7 @@ Interested in joining the Contact Research Network? Fill out the form below to g
         </div>
         <div class="form-group">
             <label class="form-label" for="message">Your interest/expertise</label>
-            <textarea class="form-textarea" name="Message" id="message" required>Please describe your interest and/or expertise regarding contact research in just 1-2 sentences.</textarea>
+            <textarea class="form-textarea" name="Message" id="message" required>What was your latest research activity regarding intergroup contact?</textarea>
         </div>
         <div class="form-group">
             <input type="submit" value="Request to join" />
