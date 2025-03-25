@@ -20,6 +20,7 @@ We invite conceptual and empirical contributions from all disciplines represente
   
   Organizing Team: Klaus Boehnke, Franziska Deutsch, Monika Liorentaite-Rossdeutscher
   (pp35@bigsss-bremen.de)
+  
   Peace Psychology Conference: pp35@bigsss-bremen.de
   
 [Read more](https://www.dgps.de/uploads/tx_powermail/8zzsbmkls9l1hnav6rtferzxfwb3uz3e.pdf)
