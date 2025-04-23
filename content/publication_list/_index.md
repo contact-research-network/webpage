@@ -107,6 +107,8 @@
 
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
+- Livingstone, A. G., Bedford, S., Afyouni, A., Vu, N., Kapantai, I., Makanju, D., Chayinska, M., Gonzalez, R., Carozzi, P. J., Contreras, C., Byrne, S., Guy, J., King, L., Lo, C. H. C., Pearson, H. & Tapp, C. (2022). **You get us, so you like us: Feeling understood by an outgroup predicts more positive intergroup relations via perceived positive regard.** *PsyArXiv* [https://doi.org/10.31234/osf.io/5u7pa_v1](https://doi.org/10.31234/osf.io/5u7pa_v1)
+
 - Burrows, B., <span style='color:#3F50B5'>Tropp, L. R.</span>, Dehrone, T. A. & Čehajić-Clancy, S. (2022). **How intergroup contact shapes intergroup attitudes and construals of relations between ethnic groups: Evidence from Bosnia and Herzegovina.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000629](https://doi.org/10.1037/pac0000629)
 
 - <span style='color:#3F50B5'>Drury, L.</span>, Abrams, D. & Swift, H. J. (2022). **Intergenerational contact during and beyond COVID‐19.** *Journal of Social Issues* [https://doi.org/10.1111/josi.12551](https://doi.org/10.1111/josi.12551)
