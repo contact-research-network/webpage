@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- Shum, P. L., Mylett, M. L., Levin, Z., <span style='color:#3F50B5'>Wright, S. C.</span>, Mazziotta, A., Droogendyk, L. & Bitacola, L. M. (2025). **Indirect Contact and Collective Action Among Disadvantaged Groups: A Multi‐Level Mini‐Meta‐Analysis.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70101](https://doi.org/10.1002/casp.70101)
+
 - O'Donnell, A. W. & <span style='color:#3F50B5'>Barlow, F.</span> (2025). **Stable profiles of contact and prejudice: Few people report co-occurring increases in intergroup contact and decreases in prejudice over time.** *PsyArXiv* [https://doi.org/10.31234/osf.io/spmyu_v1](https://doi.org/10.31234/osf.io/spmyu_v1)
 
 - Carmona‐López, C., <span style='color:#3F50B5'>Urbiola, A.</span>, Navas, M., Torres‐Vega, L. d. C., López‐Rodríguez, L. & Vázquez, A. (2025). **Investigating majority‐minority asymmetries between intergroup contact and collective action for Roma rights.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12880](https://doi.org/10.1111/bjso.12880)
