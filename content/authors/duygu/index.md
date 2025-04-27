@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Marco Marinucci
+title: Duygu Cavdar
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Postdoc Fellow in Social Psychology
+role: Education Specialist
 
 # Organizations/Affiliations
 organizations:
-- name: University of Milano-Bicocca
-  url: https://connectlab.psicologia.unimib.it/people/marco-marinucci/
+- name: "Ministry of Education: Ankara, TR"
+  url: https://orcid.org/0000-0002-2071-9894
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:marco.marinucci@unimib.it
+  link: mailto:duyguucavdar@gmail.com
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
