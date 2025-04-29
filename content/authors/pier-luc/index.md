@@ -10,7 +10,7 @@ role: Lecturer in Identity Politics
 # Organizations/Affiliations
 organizations:
 - name: Swansea University
-  url: https://www.swansea.ac.uk/staff/p.l.dupont/
+  url: https://www.swansea.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:p.l.dupont@swansea.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.swansea.ac.uk/staff/p.l.dupont/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

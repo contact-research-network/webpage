@@ -10,7 +10,7 @@ role: PhD Candidate in Behavioural Science Institute
 # Organizations/Affiliations
 organizations:
 - name: Radboud University
-  url: https://www.ru.nl/en/people/khalid-s
+  url: https://www.ru.nl/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:afreen.khalid@ru.nl
+- icon: globe
+  icon-pack: fas
+  link: https://www.ru.nl/en/people/khalid-s
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

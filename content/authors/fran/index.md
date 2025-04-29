@@ -10,7 +10,7 @@ role: PhD Candidate in Psychology
 # Organizations/Affiliations
 organizations:
 - name: Durham University
-  url: https://www.durham.ac.uk/staff/frances-m-cavanagh/
+  url: https://www.dur.ac.uk
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:frances.m.cavanagh@durham.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.durham.ac.uk/staff/frances-m-cavanagh/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

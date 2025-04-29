@@ -10,7 +10,7 @@ role: Postdoc Researcher in Psychology
 # Organizations/Affiliations
 organizations:
 - name: University of Granada
-  url: https://www.pps-ugr.es/en/about-us/ana-urbiola/
+  url: https://www.ugr.es/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:aurbiola@ugr.es
+- icon: globe
+  icon-pack: fas
+  link: https://www.pps-ugr.es/en/about-us/ana-urbiola/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -10,7 +10,7 @@ role: Education Specialist
 # Organizations/Affiliations
 organizations:
 - name: "Ministry of Education: Ankara, TR"
-  url: https://orcid.org/0000-0002-2071-9894
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

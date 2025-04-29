@@ -10,7 +10,7 @@ role: Lecturer in School of Psychology and Neuroscience
 # Organizations/Affiliations
 organizations:
 - name: University of St Andrews
-  url: https://www.st-andrews.ac.uk/psychology-neuroscience/people/as612/
+  url: https://www.st-andrews.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:as612@st-andrews.ac.uk
+  - icon: globe
+  icon-pack: fas
+  link: https://www.st-andrews.ac.uk/psychology-neuroscience/people/as612/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

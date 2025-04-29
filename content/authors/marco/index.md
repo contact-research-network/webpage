@@ -10,7 +10,7 @@ role: Postdoc Fellow in Social Psychology
 # Organizations/Affiliations
 organizations:
 - name: University of Milano-Bicocca
-  url: https://connectlab.psicologia.unimib.it/people/marco-marinucci/
+  url: https://en.unimib.it/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:marco.marinucci@unimib.it
+- icon: globe
+  icon-pack: fas
+  link: https://connectlab.psicologia.unimib.it/people/marco-marinucci/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

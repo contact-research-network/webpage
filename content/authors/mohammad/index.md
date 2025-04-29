@@ -10,7 +10,7 @@ role: PhD Student in Psychology
 # Organizations/Affiliations
 organizations:
 - name: Durham University
-  url: 
+  url: https://www.dur.ac.uk
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

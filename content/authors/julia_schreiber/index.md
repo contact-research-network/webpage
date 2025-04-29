@@ -10,7 +10,7 @@ role: Research Student in Psychology
 # Organizations/Affiliations
 organizations:
 - name: University of Sussex
-  url: https://profiles.sussex.ac.uk/p537435-julia-schreiber
+  url: https://www.sussex.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:J.Schreiber@sussex.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://profiles.sussex.ac.uk/p537435-julia-schreiber
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

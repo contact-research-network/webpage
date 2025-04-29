@@ -10,7 +10,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
 - name: Utrecht University
-  url: https://www.uu.nl/staff/MvanderLinden
+  url: https://www.uu.nl/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:m.vanderlinden3@uu.nl
+- icon: globe
+  icon-pack: fas
+  link: https://www.uu.nl/staff/MvanderLinden
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

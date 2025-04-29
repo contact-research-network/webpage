@@ -10,7 +10,7 @@ role: Master student in Experimental Psychology
 # Organizations/Affiliations
 organizations:
 - name: University College Oxford
-  url: https://www.univ.ox.ac.uk/learn-at-univ/scholars-and-exhibitioners/
+  url: https://www.univ.ox.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:elena.manchorova@univ.ox.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.univ.ox.ac.uk/learn-at-univ/scholars-and-exhibitioners/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

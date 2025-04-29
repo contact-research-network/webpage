@@ -5,12 +5,12 @@ title: Zafer Ozkan
 superuser: true
 
 # Role/position
-role: 
+role: Assistant Professor in Psychology
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: 
+- name: Jagiellonian University
+  url: https://en.uj.edu.pl/en_GB
 
 # Short bio (displayed in user profile at end of posts)
 bio:

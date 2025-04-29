@@ -25,6 +25,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:stefania.paolini@durham.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.durham.ac.uk/staff/stefania-paolini/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=xwUnA5IAAAAJ&hl=en&oi=ao

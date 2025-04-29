@@ -10,7 +10,7 @@ role: Postdoctoral Researcher
 # Organizations/Affiliations
 organizations:
 - name: Slovak Academy of Sciences
-  url: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=11408
+  url: https://www.sav.sk/?lang=en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:xenia-daniela.poslon@savba.sk
+- icon: globe
+  icon-pack: fas
+  link: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=11408
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

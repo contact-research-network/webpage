@@ -10,7 +10,7 @@ role: Lecturer in Social Psychology
 # Organizations/Affiliations
 organizations:
 - name: FernUniversität in Hagen
-  url: https://www.fernuni-hagen.de/community-psychology/team/sybille.neji.shtml
+  url: https://www.fernuni-hagen.de/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:sybille.neji@fernuni-hagen.de
+- icon: globe
+  icon-pack: fas
+  link: https://www.fernuni-hagen.de/community-psychology/team/sybille.neji.shtml
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -10,7 +10,7 @@ role: Post Doctoral Research Associate
 # Organizations/Affiliations
 organizations:
 - name: Open University
-  url: https://www.open.ac.uk/people/sr4453
+  url: https://www.open.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:sumedh.rao@open.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.open.ac.uk/people/sr4453
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

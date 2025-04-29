@@ -10,7 +10,7 @@ role: Postdoctoral Researcher in Social Psychology
 # Organizations/Affiliations
 organizations:
 - name: University of Helsinki
-  url: https://researchportal.helsinki.fi/en/persons/viivi-m%C3%A4kinen
+  url: https://www.helsinki.fi/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:viivi.m.makinen@helsinki.fi
+- icon: globe
+  icon-pack: fas
+  link: https://researchportal.helsinki.fi/en/persons/viivi-m%C3%A4kinen
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

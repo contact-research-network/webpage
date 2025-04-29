@@ -10,7 +10,7 @@ role: PhD student in Psychology
 # Organizations/Affiliations
 organizations:
 - name: University of Bologna
-  url: https://www.unibo.it/sitoweb/lucia.illy2
+  url: https://www.unibo.it/en
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:lucia.illy2@unibo.it
+- icon: globe
+  icon-pack: fas
+  link: https://www.unibo.it/sitoweb/lucia.illy2
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
