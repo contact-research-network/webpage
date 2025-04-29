@@ -23,7 +23,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:as612@st-andrews.ac.uk
-  - icon: globe
+- icon: globe
   icon-pack: fas
   link: https://www.st-andrews.ac.uk/psychology-neuroscience/people/as612/
 
