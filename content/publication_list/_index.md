@@ -19,6 +19,8 @@
 
 - Mendoza-Franco, G., Jasinskaja-Lahti, I., Aulbach, M. B., Harjunen, V. J., Peltola, A., Ravaja, J. N., <span style='color:#3F50B5'>Tassinari, M.</span>, Vainio, S. & Jääskeläinen, I. P. (2025). **Fingerprint patterns of human brain activity reveal a dynamic mix of emotional responses during virtual intergroup encounters.** *NeuroImage* [https://doi.org/10.1016/j.neuroimage.2025.121129](https://doi.org/10.1016/j.neuroimage.2025.121129)
 
+- <span style='color:#3F50B5'>Afandiyev, Z.</span> & Bilewicz, M. (2025). **Mediated contact improves attitudes during an ongoing armed conflict: A study during the war between Armenia and Azerbaijan.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000786](https://doi.org/10.1037/pac0000786)
+
 - Guvensoy, I., Bagci, S. C., <span style='color:#3F50B5'>Turner, R. N.</span> & <span style='color:#3F50B5'>Stathi, S.</span> (2025). **Do they dislike us as much as we think? Positive contact as a potential rectifier of meta-attitude inaccuracy in conflictual intergroup settings.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302251315063](https://doi.org/10.1177/13684302251315063)
 
 - Doyle, L., <span style='color:#3F50B5'>Tropp, L. R.</span> & Easterbrook, M. J. (2025). **Examining How White Teachers’ Interracial Contact Experiences Shape Their Self-Efficacy and School Choices.** *Educational Researcher* [https://doi.org/10.3102/0013189x251322791](https://doi.org/10.3102/0013189x251322791)
@@ -144,6 +146,7 @@
 - Burmeister, A., Alterman, V., <span style='color:#3F50B5'>Fasbender, U.</span> & Wang, M. (2022). **Too much to know? The cognitive demands of daily knowledge seeking and the buffering role of coworker contact quality.** *Journal of Applied Psychology* [https://doi.org/10.1037/apl0000925](https://doi.org/10.1037/apl0000925)
 
 # Other Research by Network Members
+- Wollast, R., Phillips, J. B., <span style='color:#3F50B5'>Bracegirdle, C.</span>, <span style='color:#3F50B5'>Spiegler, O.</span>, Sibley, C. G., Lacourse, É. & <span style='color:#3F50B5'>Sengupta, N. K.</span> (2025). **Modeling Heterogeneity in the Long-Term Trajectories of Individuals’ Well-Being.** *Personality and Social Psychology Bulletin* [https://doi.org/10.1177/01461672251331654](https://doi.org/10.1177/01461672251331654)
 - Long, F., Scheepers, D., <span style='color:#3F50B5'>Zingora, T.</span> & Pliskin, R. (2025). **The network dynamics of antiprejudice norms: A field experiment testing antiprejudice interventions in real groups.** *Political Psychology* [https://doi.org/10.1111/pops.70029](https://doi.org/10.1111/pops.70029)
 - Zhang, J., Ma, F., <span style='color:#3F50B5'>Birtel, M. D.</span>, Pan, X. & Farmer, H. (2025). **Squeeze The Pain Away: Using a Wireless Ball to Measure Efforts to Reduce Other’s Pain Expressions in VR.** *Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems* [https://doi.org/10.1145/3706599.3720164](https://doi.org/10.1145/3706599.3720164)
 - Gallyamova, A., <span style='color:#3F50B5'>Komyaginskaya, E.</span>, Vasyunina, A. & Grigoryev, D. (2025). **Demography and Culture in Russia: Life History Trade-Offs in Regional Differences.** *Population and Economics* [https://doi.org/10.3897/popecon.9.e139731](https://doi.org/10.3897/popecon.9.e139731)
