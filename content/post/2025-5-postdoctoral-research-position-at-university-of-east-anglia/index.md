@@ -1,6 +1,6 @@
 ---
 title: "Postdoctoral Research Position at University of East Anglia"
-date: 2025-05-07
+date: 2025-05-06
 tags: []
 categories:
   - jobs
