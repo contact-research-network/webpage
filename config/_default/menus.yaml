@@ -16,6 +16,9 @@ main:
   - name: Contact Colloquium
     url: "colloquium"
     weight: 90
+  - name: Podcast
+    url: "https://contactresearch.substack.com/podcast"
+    weight: 95
   - name: Publications
     url: "publication_list"
     weight: 100
