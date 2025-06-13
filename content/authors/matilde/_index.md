@@ -5,7 +5,7 @@ title: Matilde Tassinari
 superuser: true
 
 # Role/position
-role: Doctoral Researcher
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
