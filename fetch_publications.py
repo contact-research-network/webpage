@@ -151,5 +151,5 @@ def main(email, orcid_url, additions_url):
             
 if __name__ == "__main__":
     main('lukas.wallrich@gmail.com', 
-      'https://docs.google.com/spreadsheets/d/e/2PACX-1vSUimHSgWwFYMjJRGacDTz_tvRxIjWEq5zn780Ow7-hUnze2riCZMQ9ur_LnlWneLVY2a0Mh3Qoa2V_/pub?gid=1836176751&single=true&output=csv',
+      'https://docs.google.com/spreadsheets/d/e/2PACX-1vRquajekw2qmXA6XhKsf5YQ4z4llRTrFuqkZzjQTS3TCh1MLUV-uQeLddmTeXceABCrdRXpjGDWbJp5/pub?gid=569779606&single=true&output=csv',
       'https://docs.google.com/spreadsheets/d/e/2PACX-1vQbvk04Bi6A5a3BHxZ-b4FDZubqUxXR7wUnC33PMjnXmVhcDf40otCapWI9ioN2hLalDGqI1B-K7Z8t/pub?output=csv')
