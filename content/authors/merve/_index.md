@@ -5,12 +5,12 @@ title: Merve Ozturk
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: Durham University
-  url: https://www.dur.ac.uk
+- name: Ankara Hacı Bayram Veli University
+  url: https://hacibayram.edu.tr/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:merve.ozturk@durham.ac.uk
+  link: mailto:merve-ozturk@hbv.edu.tr
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
