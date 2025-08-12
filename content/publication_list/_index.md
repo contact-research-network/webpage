@@ -127,8 +127,6 @@
 
 - <span style='color:#3F50B5'>Köbrich, J.</span>, Martinović, B. & Stark, T. H. (2024). **Interreligious contact and attitudes in Togo and Sierra Leone: The role of ingroup norms and individual preferences.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000702](https://doi.org/10.1037/pac0000702)
 
-- <span style='color:#3F50B5'>Birtel, M. D.</span>, Di Bernardo, G. A., Hobson, H., Collins‐Quirk, A. & Vezzali, L. (2024). **Avoiding affect in intergroup relations: The roles of dispositional and intergroup empathy in the relationship between alexithymia and prejudice.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.13015](https://doi.org/10.1111/jasp.13015)
-
 - Paterson, J. L., <span style='color:#3F50B5'>Hodson, G.</span> & <span style='color:#3F50B5'>Turner, R. N.</span> (2024). **When Harry met Meghan (got married, had a baby, and “Megxited”): Intergroup anxiety, ingroup norms, and racialized categorization as predictors of receptivity to interracial romances.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.13016](https://doi.org/10.1111/jasp.13016)
 
 - <span style='color:#3F50B5'>Morhayim, L.</span>, <span style='color:#3F50B5'>Tropp, L. R.</span> & Maloku, E. (2024). **Examining beliefs about reconciliation and social integration in Kosovo: Testing effects of interethnic contact and differences in perspective among ethnic Albanians and Serbs.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.2986](https://doi.org/10.1002/ejsp.2986)
