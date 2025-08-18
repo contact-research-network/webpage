@@ -10,11 +10,11 @@ weight: 2
 superuser: true
 
 # Role/position
-role: Network Founder and Colloquium Organizer — Associate Professor of Social Clinical Psychology
+role: Network Founder — Associate Professor, Lead of Centre for Mental Health
 
 # Organizations/Affiliations
 organizations:
-- name: University of Greenwich
+- name: University of Greenwich & University of Vienna
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -45,4 +45,8 @@ user_groups:
 
 # Below the line: a longer bio if you like
 ---
-Founder of the International Contact Research Network and organizer of the Contact Colloquium. For more details about my background and my work, please visit my [website](https://www.michelebirtel.com).
+Founder of the International Contact Research Network and organizer of the Contact Colloquium 2024/25. 
+Associate Professor of Social Clinical Psychology
+Lead, Research Centre for Mental Health, University of Greenwich
+Senior Research Fellow in Health Psychology, University of Vienna
+For more details about my background and my work, please visit my [website](https://www.michelebirtel.com).
