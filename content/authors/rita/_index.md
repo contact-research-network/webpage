@@ -5,7 +5,7 @@ title: Rita Guerra
 superuser: true
 
 # Role/position
-role: Research Fellow
+role: Secretary — Research Fellow
 
 # Organizations/Affiliations
 organizations:

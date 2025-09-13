@@ -5,7 +5,7 @@ title: Deborah Shulman
 superuser: true
 
 # Role/position
-role: Senior Research Associate
+role: Membership — Senior Research Associate
 
 # Organizations/Affiliations
 organizations:

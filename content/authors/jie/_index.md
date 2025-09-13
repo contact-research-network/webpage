@@ -5,7 +5,7 @@ title: Jie Huang
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Website — PhD Candidate
 
 # Organizations/Affiliations
 organizations:

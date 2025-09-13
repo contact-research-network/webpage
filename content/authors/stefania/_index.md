@@ -5,7 +5,7 @@ title: Stefania Paolini
 superuser: true
 
 # Role/position
-role: Professor of Psychology, Durham University
+role: Chair — Professor of Psychology, Durham University
 
 # Organizations/Affiliations
 organizations:
