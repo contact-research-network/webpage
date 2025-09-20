@@ -4,6 +4,9 @@ title: Deborah Shulman
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 12
+
 # Role/position
 role: Membership — Senior Research Associate
 

@@ -4,6 +4,9 @@ title: Caitlin Baker
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 16
+
 # Role/position
 role: Lecturer
 

@@ -4,6 +4,9 @@ title: Rita Guerra
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 8
+
 # Role/position
 role: Secretary — Research Fellow
 

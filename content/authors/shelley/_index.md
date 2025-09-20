@@ -4,6 +4,9 @@ title: Shelley McKeown Jones
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 18
+
 # Role/position
 role: Professor of Social Psychology
 

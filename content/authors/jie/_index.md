@@ -4,6 +4,9 @@ title: Jie Huang
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 14
+
 # Role/position
 role: Website — PhD Candidate
 

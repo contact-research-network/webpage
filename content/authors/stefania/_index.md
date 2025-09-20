@@ -4,6 +4,9 @@ title: Stefania Paolini
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 2
+
 # Role/position
 role: Chair — Professor of Psychology, Durham University
 
