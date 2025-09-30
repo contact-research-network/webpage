@@ -59,6 +59,8 @@
 
 - <span style='color:#3F50B5'>Shulman, D.</span>, <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Hodson, G.</span> & Crisp, R. J. (2025). **Fluctuations in Prejudice Do Not Track Fluctuations in Ordinary Contact in Three 5-Wave “Shortitudinal” Studies Examining Daily, Weekly, or Monthly Intervals.** *Social Psychological and Personality Science* [https://doi.org/10.1177/19485506241284079](https://doi.org/10.1177/19485506241284079)
 
+- <span style='color:#3F50B5'>Prati, F.</span>, Kana Kenfack, C. S., Hewstone, M. & Rubini, M. (2025). **The association between mass media news about interethnic contact and relations between ethnic minorities and natives: The perspective of African immigrants in Italy.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000707](https://doi.org/10.1037/cdp0000707)
+
 - <span style='color:#3F50B5'>Zingora, T.</span> (2025). **On the spurious effect of intergroup friendship on outgroup attitudes in schools: The role of social influence and the positive impact of exposure to outgroup peers.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12797](https://doi.org/10.1111/bjso.12797)
 
 - <span style='color:#3F50B5'>Schäfer, S. J.</span>, <span style='color:#3F50B5'>Kros, M.</span>, Hewstone, M., Schmid, K., Fell, B. F., Jaspers, E., <span style='color:#3F50B5'>Kauff, M.</span>, Lemmer, G. & <span style='color:#3F50B5'>Christ, O.</span> (2025). **Differential effects of positive versus negative contact: The importance of distinguishing valence from intensity.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302241258070](https://doi.org/10.1177/13684302241258070)
@@ -78,8 +80,6 @@
 - <span style='color:#3F50B5'>McKeown, S.</span>, Schaefer, C. D., Ali, S., <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., <span style='color:#3F50B5'>Rao, S.</span>, Taylor, L. K. & <span style='color:#3F50B5'>Meleady, R.</span> (2024). **The Longitudinal Relationship Between Youth Intergroup Contact and Social Cohesion Outcomes in Two Divided Societies.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.3121](https://doi.org/10.1002/ejsp.3121)
 
 - <span style='color:#3F50B5'>Tausch, N.</span>, <span style='color:#3F50B5'>Birtel, M. D.</span>, Górska, P., Bode, S. & Rocha, C. (2024). **A post-Brexit intergroup contact intervention reduces affective polarization between Leavers and Remainers short-term.** *Communications Psychology* [https://doi.org/10.1038/s44271-024-00146-w](https://doi.org/10.1038/s44271-024-00146-w)
-
-- <span style='color:#3F50B5'>Prati, F.</span>, Kana Kenfack, C. S., Hewstone, M. & Rubini, M. (2024). **The association between mass media news about interethnic contact and relations between ethnic minorities and natives: The perspective of African immigrants in Italy.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000707](https://doi.org/10.1037/cdp0000707)
 
 - Acar, B., <span style='color:#3F50B5'>Van Assche, J.</span>, Ardaya Velarde, S., Gonzalez, R., Lay, S., <span style='color:#3F50B5'>Rao, S.</span> & <span style='color:#3F50B5'>McKeown, S.</span> (2024). **R-E-S-P-E-C-T, find out what it means to mixing: Testing novel emotional mediators of intergroup contact effects.** *International Journal of Intercultural Relations* [https://doi.org/10.1016/j.ijintrel.2024.102070](https://doi.org/10.1016/j.ijintrel.2024.102070)
 
