@@ -46,5 +46,5 @@ user_groups:
 # Below the line: a longer bio if you like
 ---
 Founder of the International Contact Research Network and organizer of the Contact Colloquium 2024/25. 
-Associate Professor of Social Clinical Psychology, Lead of Research Centre for Mental Health at University of Greenwich, Senior Research Fellow in Health Psychology at University of Vienna.
+Associate Professor of Social Clinical Psychology and Lead of Research Centre for Mental Health at University of Greenwich. Senior Research Fellow in Health Psychology at University of Vienna.
 For more details about my background and my work, please visit my [website](https://www.michelebirtel.com).
