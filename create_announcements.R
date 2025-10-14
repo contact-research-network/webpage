@@ -31,7 +31,7 @@ if (!is.null(old_hash) && new_hash == old_hash) {
 writeLines(new_hash, hash_file)
 
 # Filter for show = yes
-filtered_data <- data[data$Show == "yes", ]
+filtered_data <- data[tolower(trimws(data$Show)) == "yes", ]
 
 # Extract ID from Google Drive URL
 extract_id <- function(url) {
