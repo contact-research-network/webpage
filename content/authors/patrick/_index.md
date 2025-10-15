@@ -8,7 +8,7 @@ superuser: true
 weight: 10
 
 # Role/position
-role: Colloquium — Assistant Professor in Psychology
+role: Colloquium — Associate Professor in Psychology
 
 # Organizations/Affiliations
 organizations:

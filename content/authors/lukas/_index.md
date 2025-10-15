@@ -8,7 +8,7 @@ superuser: true
 weight: 4
 
 # Role/position
-role: Co-Chair. Podcast — Lecturer in Organisational Psychology
+role: Co-Chair. Podcast — Senior Lecturer in Organisational Psychology
 
 # Organizations/Affiliations
 organizations:
