@@ -1,86 +1,74 @@
-/* ===== Clean hero layout: full-bleed image, heading overlaps, body below ===== */
-
-/* Controls overall hero height; tune 48–64vh as desired */
-.home-section.wg-hero { --hero-h: 56vh; }
-
-/* Make the hero section truly full-bleed */
-.home-section.wg-hero > .container,
-.home-section.wg-hero > .container-xl {
-  max-width: 100%;
-  width: 100vw;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
-/* Stack hero parts vertically */
+/* === Force hero section to full-width stacked layout === */
 .home-section.wg-hero .row {
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
+  align-items: center;
   gap: 0;
 }
 
-/* Full-bleed image area (uses the existing <img>) */
-.home-section.wg-hero .row > div:last-child {
-  position: relative;
-  flex: 0 0 auto;
-  max-width: none;
+/* --- Full-width hero image block --- */
+.home-section.wg-hero .hero-media {
+  order: 1;
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  height: var(--hero-h);
-  min-height: 360px;
+  max-height: 60vh;     /* adjust hero height */
   overflow: hidden;
+  position: relative;
 }
-.home-section.wg-hero .row > div:last-child img {
-  position: absolute;
-  inset: 0;
+
+.home-section.wg-hero .hero-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: none;
-  filter: none; /* no blur/darken */
 }
 
-/* Heading overlaps the lower part of the image without absolute positioning */
-.home-section.wg-hero .section-heading {
-  /* Pull the heading up so it sits over the image edge; adjust factor to taste */
-  margin-top: calc(-0.35 * var(--hero-h));
-  margin-bottom: 0;
-}
-.home-section.wg-hero .section-heading h1 {
-  margin: 0 auto;
-  padding: 0 24px;
-  max-width: 1100px;   /* remove for longer lines */
+/* --- Overlay title on image --- */
+.home-section.wg-hero h1.hero-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
+  font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
-  text-shadow: 0 2px 10px rgba(0,0,0,.35);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  margin: 0;
+  z-index: 2;
 }
 
-/* Center and balance body text for better readability */
-.home-section.wg-hero .content {
-  margin: 2rem auto 3rem;          /* center horizontally */
+/* --- Body text block below the hero image --- */
+.home-section.wg-hero .col-12.col-md-6.text-center.text-md-left {
+  order: 2;
+  max-width: 850px;
+  margin: 2rem auto 3rem;
   padding: 0 clamp(16px, 5vw, 48px);
-  max-width: 850px;                /* comfortable reading width */
   font-size: clamp(15px, 1.05vw, 18px);
   line-height: 1.7;
-  text-align: center;              /* center the text */
+  text-align: center;
+  color: #333;
 }
 
-/* Font family consistent with body/People section */
+/* --- Font consistency --- */
 .home-section.wg-hero,
 .home-section.wg-hero h1,
-.home-section.wg-hero .content {
+.home-section.wg-hero p {
   font-family: var(--wc-font-text, inherit) !important;
 }
 
-/* Mobile tweaks */
+/* --- Mobile adjustments --- */
 @media (max-width: 768px) {
-  .home-section.wg-hero { --hero-h: 46vh; }
-  .home-section.wg-hero .section-heading { margin-top: calc(-0.28 * var(--hero-h)); }
-  .home-section.wg-hero .section-heading h1 {
-    padding: 0 16px;
-    font-size: clamp(22px, 7vw, 30px);
+  .home-section.wg-hero .hero-media {
+    max-height: 45vh;
+  }
+  .home-section.wg-hero h1.hero-title {
+    height: 45vh;
+    font-size: clamp(1.5rem, 6vw, 2.2rem);
+    padding: 0 1rem;
   }
 }
