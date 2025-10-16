@@ -12,7 +12,7 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: "1"
   # Add custom styles
-  css_style: ""
+  css_style: "outline: 6px dashed magenta; padding-top: 20px;"
   css_class: "hero-overlay"
   
 ---
