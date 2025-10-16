@@ -11,6 +11,8 @@
 
 - <span style='color:#3F50B5'>Fasbender, U.</span> & Junker, N. M. (2025). **Are Workplace Friendships Nothing for Older Workers? Decoding the Psychological Mechanisms Linking Age to Workplace Friendship.** *Journal of Organizational Behavior* [https://doi.org/10.1002/job.70014](https://doi.org/10.1002/job.70014)
 
+- O'Donnell, A. W., <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span>, Nitschinsk, L., Lizzio-Wilson, M., Sibley, C. G. & <span style='color:#3F50B5'>Barlow, F. K.</span> (2025). **Stable profiles of contact and prejudice: Few people report co-occurring increases in intergroup contact and decreases in prejudice over time.** *Journal of Personality and Social Psychology* [https://doi.org/10.1037/pspi0000500](https://doi.org/10.1037/pspi0000500)
+
 - <span style='color:#3F50B5'>Cameron, L.</span>, <span style='color:#3F50B5'>Drury, L.</span>, Torwu, E. Y. & Cane, J. (2025). **Meaningful Intergenerational Contact to Build Social Connections, Enhance Felt Understanding and Build Confidence in Future Community Social Action.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70157](https://doi.org/10.1002/casp.70157)
 
 - <span style='color:#3F50B5'>Marinucci, M.</span>, Schaefer, C. D., <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., Taylor, L. K. & <span style='color:#3F50B5'>McKeown, S.</span> (2025). **Desegregating spaces: GPS evidence replicated in two UK contexts shows that youth frequent urban spaces with higher outgroup prevalence after positive intergroup contact.** *Open Science Framework* [https://doi.org/10.31219/osf.io/3tnrz_v1](https://doi.org/10.31219/osf.io/3tnrz_v1)
@@ -32,8 +34,6 @@
 - Puffer, H. & <span style='color:#3F50B5'>Hodson, G.</span> (2025). **Primary and secondary generalization effects from Black and gay contact: Longitudinal evidence of between‐ and within‐person effects.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12900](https://doi.org/10.1111/bjso.12900)
 
 - Shum, P. L., Mylett, M. L., Levin, Z., <span style='color:#3F50B5'>Wright, S. C.</span>, Mazziotta, A., Droogendyk, L. & Bitacola, L. M. (2025). **Indirect Contact and Collective Action Among Disadvantaged Groups: A Multi‐Level Mini‐Meta‐Analysis.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70101](https://doi.org/10.1002/casp.70101)
-
-- O'Donnell, A. W., <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span>, Nitschinsk, L., Lizzio-Wilson, M., Sibley, C. G. & <span style='color:#3F50B5'>Barlow, F.</span> (2025). **Stable profiles of contact and prejudice: Few people report co-occurring increases in intergroup contact and decreases in prejudice over time.** *PsyArXiv* [https://doi.org/10.31234/osf.io/spmyu_v1](https://doi.org/10.31234/osf.io/spmyu_v1)
 
 - Carmona‐López, C., <span style='color:#3F50B5'>Urbiola, A.</span>, Navas, M., Torres‐Vega, L. d. C., López‐Rodríguez, L. & Vázquez, A. (2025). **Investigating majority‐minority asymmetries between intergroup contact and collective action for Roma rights.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12880](https://doi.org/10.1111/bjso.12880)
 
@@ -61,6 +61,10 @@
 
 - <span style='color:#3F50B5'>Shulman, D.</span>, <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Hodson, G.</span> & Crisp, R. J. (2025). **Fluctuations in Prejudice Do Not Track Fluctuations in Ordinary Contact in Three 5-Wave “Shortitudinal” Studies Examining Daily, Weekly, or Monthly Intervals.** *Social Psychological and Personality Science* [https://doi.org/10.1177/19485506241284079](https://doi.org/10.1177/19485506241284079)
 
+- <span style='color:#3F50B5'>Borinca, I.</span>, Koc, Y. & Mustafa, S. (2025). **Fostering Social Cohesion in Post‐Conflict Societies: The Power of Normative Apologies in Reducing Competitive Victimhood and Enhancing Reconciliation and Intergroup Negotiation.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.3116](https://doi.org/10.1002/ejsp.3116)
+
+- <span style='color:#3F50B5'>McKeown, S.</span>, Schaefer, C. D., Ali, S., <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., <span style='color:#3F50B5'>Rao, S.</span>, Taylor, L. K. & <span style='color:#3F50B5'>Meleady, R.</span> (2025). **The Longitudinal Relationship Between Youth Intergroup Contact and Social Cohesion Outcomes in Two Divided Societies.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.3121](https://doi.org/10.1002/ejsp.3121)
+
 - <span style='color:#3F50B5'>Prati, F.</span>, Kana Kenfack, C. S., Hewstone, M. & Rubini, M. (2025). **The association between mass media news about interethnic contact and relations between ethnic minorities and natives: The perspective of African immigrants in Italy.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000707](https://doi.org/10.1037/cdp0000707)
 
 - <span style='color:#3F50B5'>Zingora, T.</span> (2025). **On the spurious effect of intergroup friendship on outgroup attitudes in schools: The role of social influence and the positive impact of exposure to outgroup peers.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12797](https://doi.org/10.1111/bjso.12797)
@@ -76,10 +80,6 @@
 - Puffer, H. & <span style='color:#3F50B5'>Hodson, G.</span> (2024). **Exploring Secondary Transfer Generalisation Effects From Black and Gay Contact: The Role of Humanisation.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70009](https://doi.org/10.1002/casp.70009)
 
 - <span style='color:#3F50B5'>Árnadóttir, K.</span>, Baysu, G., van Laar, C., Phalet, K., <span style='color:#3F50B5'>Tropp, L.</span>, Ullrich, J., Sebben, S. & <span style='color:#3F50B5'>Hässler, T.</span> (2024). **How positive and negative intergroup contact jointly inform minority support for social change: The role of system-fairness beliefs.** *PsyArXiv* [https://doi.org/10.31234/osf.io/pc8r9](https://doi.org/10.31234/osf.io/pc8r9)
-
-- <span style='color:#3F50B5'>Borinca, I.</span>, Koc, Y. & Mustafa, S. (2024). **Fostering Social Cohesion in Post‐Conflict Societies: The Power of Normative Apologies in Reducing Competitive Victimhood and Enhancing Reconciliation and Intergroup Negotiation.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.3116](https://doi.org/10.1002/ejsp.3116)
-
-- <span style='color:#3F50B5'>McKeown, S.</span>, Schaefer, C. D., Ali, S., <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., <span style='color:#3F50B5'>Rao, S.</span>, Taylor, L. K. & <span style='color:#3F50B5'>Meleady, R.</span> (2024). **The Longitudinal Relationship Between Youth Intergroup Contact and Social Cohesion Outcomes in Two Divided Societies.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.3121](https://doi.org/10.1002/ejsp.3121)
 
 - <span style='color:#3F50B5'>Tausch, N.</span>, <span style='color:#3F50B5'>Birtel, M. D.</span>, Górska, P., Bode, S. & Rocha, C. (2024). **A post-Brexit intergroup contact intervention reduces affective polarization between Leavers and Remainers short-term.** *Communications Psychology* [https://doi.org/10.1038/s44271-024-00146-w](https://doi.org/10.1038/s44271-024-00146-w)
 
