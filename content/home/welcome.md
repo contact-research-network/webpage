@@ -13,7 +13,7 @@ design:
   columns: "1"
   # Add custom styles
   css_style: "outline: 6px dashed magenta; padding-top: 20px;"
-  css_class: "hero-overlay"
+  css_class: "wg-hero"
   
 ---
 
