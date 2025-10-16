@@ -188,3 +188,40 @@
 .home-section.wg-hero .content {
   font-family: var(--wc-font-text, inherit) !important;
 }
+
+/* --- Minimal fix: overlay H1, smaller hero height, no content push --- */
+
+/* smaller hero height */
+.home-section.wg-hero { --hero-h: 40vh; }  /* try 38–46vh to taste */
+
+/* cancel the previous padding that pushed the text block down */
+.home-section.wg-hero .row > div:first-child {
+  padding-top: 0 !important;
+}
+
+/* force the H1 to overlay the hero image area */
+.home-section.wg-hero .section-heading h1,
+.home-section.wg-hero h1 {
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 100vw !important;
+  height: var(--hero-h) !important;
+  min-height: 300px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 4vw, 56px);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0,0,0,.35);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* tidy the paragraph block below the hero */
+.home-section.wg-hero .content {
+  margin-top: 1rem;   /* gentle spacing under the hero */
+}
