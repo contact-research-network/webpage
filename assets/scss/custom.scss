@@ -80,4 +80,23 @@
     font-size: clamp(1.5rem, 6vw, 2.2rem);
     padding: 0 1rem;
   }
+
+  /* --- TEMP FIX: separate hero title and paragraph --- */
+.home-section.wg-hero h1.hero-title {
+  position: static !important;  /* cancel absolute overlay */
+  transform: none !important;
+  width: auto !important;
+  height: auto !important;
+  color: #000 !important;
+  text-shadow: none !important;
+  margin: 1.5rem auto 1rem !important;
+  text-align: center !important;
 }
+
+.home-section.wg-hero .hero-lead {
+  position: static !important;
+  margin: 0 auto 2.5rem !important;
+  max-width: 800px !important;
+  text-align: center !important;
+}
+
