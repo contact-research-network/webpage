@@ -81,9 +81,9 @@
     padding: 0 1rem;
   }
 
-  /* --- TEMP FIX: separate hero title and paragraph --- */
+/* --- TEMP FIX: separate hero title and paragraph for wg-hero --- */
 .home-section.wg-hero h1.hero-title {
-  position: static !important;  /* cancel absolute overlay */
+  position: static !important;
   transform: none !important;
   width: auto !important;
   height: auto !important;
@@ -99,4 +99,5 @@
   max-width: 800px !important;
   text-align: center !important;
 }
+
 
