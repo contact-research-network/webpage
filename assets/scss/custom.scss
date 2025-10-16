@@ -1,9 +1,9 @@
-/* ===== Full-bleed hero using the existing <img>, with overlaid H1 and body below ===== */
+/* ===== Clean hero layout: full-bleed image, heading overlaps, body below ===== */
 
-/* Full-bleed container (remove side gutters) */
-.home-section.wg-hero {
-  position: relative;
-}
+/* Controls overall hero height; tune 48–64vh as desired */
+.home-section.wg-hero { --hero-h: 56vh; }
+
+/* Make the hero section truly full-bleed */
 .home-section.wg-hero > .container,
 .home-section.wg-hero > .container-xl {
   max-width: 100%;
@@ -14,27 +14,25 @@
   margin-right: calc(50% - 50vw);
 }
 
-/* Stack blocks vertically (title/body first, image second) */
+/* Stack hero parts vertically */
 .home-section.wg-hero .row {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
-.home-section.wg-hero .row > div:first-child { order: 2; }  /* text block (body text) */
-.home-section.wg-hero .row > div:last-child  { order: 1; }  /* image block */
 
-/* Image block becomes a full-bleed hero area */
+/* Full-bleed image area (uses the existing <img>) */
 .home-section.wg-hero .row > div:last-child {
   position: relative;
-  /* push beyond any internal max-width and span the viewport */
+  flex: 0 0 auto;
+  max-width: none;
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  height: 52vh;            /* tweak: 45–60vh as you like */
+  height: var(--hero-h);
   min-height: 360px;
   overflow: hidden;
 }
-/* Make the existing <img> fill and cover the hero area (no blur, no darken) */
 .home-section.wg-hero .row > div:last-child img {
   position: absolute;
   inset: 0;
@@ -42,186 +40,47 @@
   height: 100%;
   object-fit: cover;
   transform: none;
-  filter: none;            /* remove blur/darken */
+  filter: none; /* no blur/darken */
 }
 
-/* Overlay the <h1> on top of the hero area */
-.home-section.wg-hero h1 {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;            /* span full width */
-  height: 52vh;            /* same as the hero image block */
-  min-height: 360px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(16px, 4vw, 56px);
+/* Heading overlaps the lower part of the image without absolute positioning */
+.home-section.wg-hero .section-heading {
+  /* Pull the heading up so it sits over the image edge; adjust factor to taste */
+  margin-top: calc(-0.35 * var(--hero-h));
+  margin-bottom: 0;
+}
+.home-section.wg-hero .section-heading h1 {
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 1100px;   /* remove for longer lines */
   color: #fff;
   text-align: center;
   text-shadow: 0 2px 10px rgba(0,0,0,.35);
-  pointer-events: none;    /* avoid covering links below */
-  z-index: 2;
 }
 
-/* Body text below the hero */
+/* Center and balance body text for better readability */
 .home-section.wg-hero .content {
-  max-width: 1100px;       /* remove if you want truly full width */
-  margin: 1.25rem auto 2.5rem;
-  padding: 0 24px;
+  margin: 2rem auto 3rem;          /* center horizontally */
+  padding: 0 clamp(16px, 5vw, 48px);
+  max-width: 850px;                /* comfortable reading width */
   font-size: clamp(15px, 1.05vw, 18px);
-  line-height: 1.55;
-  text-align: left;
+  line-height: 1.7;
+  text-align: center;              /* center the text */
+}
+
+/* Font family consistent with body/People section */
+.home-section.wg-hero,
+.home-section.wg-hero h1,
+.home-section.wg-hero .content {
+  font-family: var(--wc-font-text, inherit) !important;
 }
 
 /* Mobile tweaks */
 @media (max-width: 768px) {
-  .home-section.wg-hero .row > div:last-child { height: 44vh; min-height: 300px; }
-  .home-section.wg-hero h1 {
-    height: 44vh;
-    min-height: 300px;
-    padding: 16px;
+  .home-section.wg-hero { --hero-h: 46vh; }
+  .home-section.wg-hero .section-heading { margin-top: calc(-0.28 * var(--hero-h)); }
+  .home-section.wg-hero .section-heading h1 {
+    padding: 0 16px;
     font-size: clamp(22px, 7vw, 30px);
   }
-}
-
-/* Match body font (same as People section) */
-.home-section.wg-hero,
-.home-section.wg-hero h1,
-.home-section.wg-hero .content {
-  font-family: var(--wc-font-text, inherit) !important;
-}
-
-/* === Fix hero: full-bleed image, title overlay, no blur/darken === */
-
-/* 1) Global variable: hero height (adjust 45–60vh as needed) */
-.home-section.wg-hero { --hero-h: 52vh; }
-
-/* 2) Make the hero container truly full-bleed (override column width limits) */
-.home-section.wg-hero > .container,
-.home-section.wg-hero > .container-xl {
-  max-width: 100%;
-  width: 100vw;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
-/* 3) Turn the image column into a full-width hero area */
-.home-section.wg-hero .row > div:last-child {
-  position: relative;
-  flex: 0 0 auto;       /* remove Bootstrap column width constraints */
-  max-width: none;      /* ensure it can span full width */
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  height: var(--hero-h);
-  min-height: 360px;
-  overflow: hidden;
-}
-
-/* 4) Make the image fill the area and remove any filters */
-.home-section.wg-hero .row > div:last-child img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: none;
-  filter: none;         /* remove blur/brightness */
-}
-
-/* 5) Overlay the <h1> centered over the hero image */
-.home-section.wg-hero h1 {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: var(--hero-h);
-  min-height: 360px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(16px, 4vw, 56px);
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 2px 10px rgba(0,0,0,.35);
-  z-index: 2;
-  pointer-events: none;
-}
-
-/* 6) Push the text block below the hero image to avoid overlap */
-.home-section.wg-hero .row > div:first-child {
-  padding-top: calc(var(--hero-h) + 16px);  /* increase/decrease if needed */
-}
-
-/* 7) Style for the intro text block */
-.home-section.wg-hero .content {
-  max-width: 1100px;    /* remove this line for truly full-width text */
-  margin: 0 auto 2.5rem;
-  padding: 0 24px;
-  font-size: clamp(15px, 1.05vw, 18px);
-  line-height: 1.55;
-  text-align: left;
-}
-
-/* 8) Mobile adjustments */
-@media (max-width: 768px) {
-  .home-section.wg-hero { --hero-h: 44vh; }
-  .home-section.wg-hero .row > div:first-child {
-    padding-top: calc(var(--hero-h) + 12px);
-  }
-  .home-section.wg-hero h1 {
-    padding: 16px;
-    font-size: clamp(22px, 7vw, 30px);
-  }
-}
-
-/* 9) Match the same font family as the People section */
-.home-section.wg-hero,
-.home-section.wg-hero h1,
-.home-section.wg-hero .content {
-  font-family: var(--wc-font-text, inherit) !important;
-}
-
-/* --- Minimal fix: overlay H1, smaller hero height, no content push --- */
-
-/* smaller hero height */
-.home-section.wg-hero { --hero-h: 40vh; }  /* try 38–46vh to taste */
-
-/* cancel the previous padding that pushed the text block down */
-.home-section.wg-hero .row > div:first-child {
-  padding-top: 0 !important;
-}
-
-/* force the H1 to overlay the hero image area */
-.home-section.wg-hero .section-heading h1,
-.home-section.wg-hero h1 {
-  position: absolute !important;
-  top: 0 !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  width: 100vw !important;
-  height: var(--hero-h) !important;
-  min-height: 300px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(16px, 4vw, 56px);
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 2px 10px rgba(0,0,0,.35);
-  z-index: 3;
-  pointer-events: none;
-}
-
-/* tidy the paragraph block below the hero */
-.home-section.wg-hero .content {
-  margin-top: 1rem;   /* gentle spacing under the hero */
 }
