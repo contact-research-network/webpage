@@ -14,7 +14,7 @@ design:
   columns: '1'
   # Add custom styles
   css_style:
-  css_class:hero-overlay
+  css_class: hero-overlay
 
 ---
 
