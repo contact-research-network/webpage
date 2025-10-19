@@ -79,6 +79,7 @@ copyright_license:
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 plugins_js: []
+plugins_css: ["custom"]
 avatar:
   gravatar: false
   shape: circle
