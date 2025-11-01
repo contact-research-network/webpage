@@ -74,6 +74,10 @@
   margin: 0 !important;
   background: white !important;
 }
+/* DARK MODE - Add dark mode styles for hero text section */
+.dark .home-section.wg-hero .col-md-6:first-child {
+  background: #212529 !important;
+}
 /* Description text block styling */
 .home-section.wg-hero .hero-lead {
   max-width: 1000px !important;
@@ -87,6 +91,19 @@
     line-height: 1.7 !important;
     margin: 0 !important;
   }
+}
+/* DARK MODE - Change text color */
+.dark .home-section.wg-hero .hero-lead p {
+  color: #e0e0e0 !important;
+}
+
+/* DARK MODE - Change link colors in hero section */
+.dark .home-section.wg-hero .hero-lead a {
+  color: #64b5f6 !important;
+}
+
+.dark .home-section.wg-hero .hero-lead a:hover {
+  color: #90caf9 !important;
 }
 
 /* === NAVBAR STYLING === */
@@ -110,20 +127,20 @@
 }
 
 /* Dark mode - navbar with dark background and light text */
-[data-theme="dark"] .navbar-dark {
-  background-color: rgba(0, 0, 0, 0.85) !important;
+.dark .navbar-light {
+  background-color: rgba(55, 59, 63, 0.92) !important;
   border-bottom: 1px solid #444444 !important;
   box-shadow: none !important;
 }
 
-[data-theme="dark"] .navbar-dark .navbar-nav .nav-link {
+.dark .navbar-light .navbar-nav .nav-link {
   color: #ffffff !important;
 }
 
-[data-theme="dark"] .navbar-dark .navbar-nav .nav-link:hover {
+.dark .navbar-light .navbar-nav .nav-link:hover {
   color: #cccccc !important;
 }
 
-[data-theme="dark"] .navbar-dark .navbar-brand {
+.dark .navbar-light .navbar-brand {
   color: #ffffff !important;
 }
