@@ -3,6 +3,7 @@
 .home-section.wg-hero {
   padding: 0 !important;
   margin: 0 !important;
+  position: relative !important;
 }
 .home-section.wg-hero .container {
   max-width: 100% !important;
@@ -41,9 +42,9 @@
   object-position: center 15% !important;
   display: block !important;
 }
-/* Title text overlay on the image - using fixed positioning relative to hero */
+/* Title text overlay on the image - using absolute positioning within hero */
 .home-section.wg-hero h1.hero-title {
-  position: fixed !important;
+  position: absolute !important;
   top: 35% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
