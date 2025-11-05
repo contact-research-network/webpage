@@ -42,10 +42,10 @@
   object-position: center 15% !important;
   display: block !important;
 }
-/* Title text overlay on the image - using absolute positioning within hero */
+/* Title text overlay on the image - constrained to image area only */
 .home-section.wg-hero h1.hero-title {
   position: absolute !important;
-  top: 35% !important;
+  top: calc(62.5vh * 0.35) !important; /* 35% position within the 62.5vh image area */
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
   width: 90vw !important;
