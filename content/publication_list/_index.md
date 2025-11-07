@@ -11,6 +11,8 @@
 
 - Policardo, G. R., <span style='color:#3F50B5'>Prati, F.</span>, Burak, C., <span style='color:#3F50B5'>Van Assche, J.</span> & Rubini, M. (2025). **Fostering Solidarity Among Ethnic Minority Groups: Addressing the Role of Inter-Minority Contact in Cross-Cultural Contexts.** *International Review of Social Psychology* [https://doi.org/10.5334/irsp.1096](https://doi.org/10.5334/irsp.1096)
 
+- Yin, J., Liu, S., Lee, S., Kitsios, A., Gillies, M., <span style='color:#3F50B5'>Birtel, M. D.</span>, Farmer, H. & Pan, X. (2025). **Immersive Intergroup Contact: Using Virtual Reality to Enhance Empathy and Reduce Stigma Towards Schizophrenia.** *IEEE Transactions on Visualization and Computer Graphics* [https://doi.org/10.1109/tvcg.2025.3616759](https://doi.org/10.1109/tvcg.2025.3616759)
+
 - <span style='color:#3F50B5'>Zingora, T.</span> & Flache, A. (2025). **Effects of Friendship Influence and Normative Pressure on Adolescent Attitudes and Behaviors.** *Personality and Social Psychology Bulletin* [https://doi.org/10.1177/01461672251366388](https://doi.org/10.1177/01461672251366388)
 
 - <span style='color:#3F50B5'>Borinca, I.</span>, <span style='color:#3F50B5'>Cakal, H.</span>, Pintea, S., Salat, L. & <span style='color:#3F50B5'>Dixon, J.</span> (2025). **From Contact to Solidarity: Triadic Intergroup Relations and Collective Action via Perspective‐Taking, Guilt, and Shared Grievances.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70177](https://doi.org/10.1002/casp.70177)
@@ -299,6 +301,7 @@
 - Moftizadeh, N., <span style='color:#3F50B5'>Zagefka, H.</span>, López‐Rodríguez, L., Vázquez, A. & Barn, R. (2022). **Exploring the intergroup consequences of majority members' perceptions that minority members want majority members to adopt the minority culture.** *International Journal of Psychology* [https://doi.org/10.1002/ijop.12756](https://doi.org/10.1002/ijop.12756)
 
 # Other Research by Network Members
+- Swift, H. J. & <span style='color:#3F50B5'>Drury, L.</span> (2025). **Age wording in job advertisements sustains age inequality through selection and partially through attraction processes.** *European Journal of Work and Organizational Psychology* [https://doi.org/10.1080/1359432x.2025.2581093](https://doi.org/10.1080/1359432x.2025.2581093)
 - <span style='color:#3F50B5'>Fasbender, U.</span>, Froidevaux, A. & Klehe, U. (2025). **Age‐Inclusive
                     <scp>HR</scp>
                     Practices as Resource Passageways: Explaining Retirement Intentions Through Employability and Job Insecurity.** *Human Resource Management* [https://doi.org/10.1002/hrm.70036](https://doi.org/10.1002/hrm.70036)
