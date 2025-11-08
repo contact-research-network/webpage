@@ -301,6 +301,7 @@
 - Moftizadeh, N., <span style='color:#3F50B5'>Zagefka, H.</span>, López‐Rodríguez, L., Vázquez, A. & Barn, R. (2022). **Exploring the intergroup consequences of majority members' perceptions that minority members want majority members to adopt the minority culture.** *International Journal of Psychology* [https://doi.org/10.1002/ijop.12756](https://doi.org/10.1002/ijop.12756)
 
 # Other Research by Network Members
+- Flöther, J. & <span style='color:#3F50B5'>Degner, J.</span> (2025). **Testing the multicomponent ingroup identification model in diverse stigmatized groups: model fit, group differences, and predictors of social identification.** *Self and Identity* [https://doi.org/10.1080/15298868.2025.2577940](https://doi.org/10.1080/15298868.2025.2577940)
 - Swift, H. J. & <span style='color:#3F50B5'>Drury, L.</span> (2025). **Age wording in job advertisements sustains age inequality through selection and partially through attraction processes.** *European Journal of Work and Organizational Psychology* [https://doi.org/10.1080/1359432x.2025.2581093](https://doi.org/10.1080/1359432x.2025.2581093)
 - <span style='color:#3F50B5'>Fasbender, U.</span>, Froidevaux, A. & Klehe, U. (2025). **Age‐Inclusive
                     <scp>HR</scp>
