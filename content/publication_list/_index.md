@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Peetz, H. K.</span>, <span style='color:#3F50B5'>McKeown, S.</span>, Leckie, G. & Broadwood, J. (2025). **A Longitudinal Multilevel Analysis of Individual- and Contextual-Level Predictors of Cross-Ethnic Friendships in the UK.** *PsyArXiv* [https://doi.org/10.31234/osf.io/n4fpx_v1](https://doi.org/10.31234/osf.io/n4fpx_v1)
+
 - Masala, B. & <span style='color:#3F50B5'>West, K.</span> (2025). **Predicting Anti-Schizophrenia Prejudice: A Moderated-Mediated Model Using Positive Contact, Negative Contact, Fear, and Social Distance.** *Psychological Studies* [https://doi.org/10.1007/s12646-025-00853-2](https://doi.org/10.1007/s12646-025-00853-2)
 
 - <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Shulman, D.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span>, <span style='color:#3F50B5'>Hodson, G.</span> & Crisp, R. J. (2025). **Contact ruptures: How ecological shifts reshape intergroup contact and outgroup attitudes.** *American Psychologist* [https://doi.org/10.1037/amp0001624](https://doi.org/10.1037/amp0001624)
