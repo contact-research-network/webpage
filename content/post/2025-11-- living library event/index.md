@@ -1,6 +1,6 @@
 ---
 title: "Living Library Online Event: December 11"
-date: NA
+date: 2025-11-17
 tags: []
 categories:
   - events

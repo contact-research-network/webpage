@@ -1,6 +1,6 @@
 ---
 title: "ICRN's next Contaxt Colloqium"
-date: NA
+date: 2025-11-17
 tags: []
 categories:
   - events
