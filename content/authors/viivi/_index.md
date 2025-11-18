@@ -31,7 +31,7 @@ social:
   link: https://scholar.google.com/citations?user=OGYJhSYAAAAJ&hl=fi
 - icon: linkedin
   icon_pack: fab
-  link: http://www.linkedin.com/in/viivi-makinen
+  link: https://www.linkedin.com/in/viivi-makinen
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
