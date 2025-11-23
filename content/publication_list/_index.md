@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- Cyr, E. N., Steele, J. R., Schmader, T., Robinson, K., <span style='color:#3F50B5'>Wright, S. C.</span>, Spencer, S. J. & Bergsieker, H. B. (2025). **Friendship networks predict girls’ STEM fit and interest through subjective belonging.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302251385462](https://doi.org/10.1177/13684302251385462)
+
 - <span style='color:#3F50B5'>Kotzur, P. F.</span>, Bruns, A., <span style='color:#3F50B5'>Wagner, U.</span> & <span style='color:#3F50B5'>van Zalk, M. H. W.</span> (2025). **Intergroup Contact With Refugees Shapes Levels of Social Fear of Crime.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.70036](https://doi.org/10.1002/ejsp.70036)
 
 - <span style='color:#3F50B5'>Garau, T.</span>, Destro, C. L., Rullo, M., Syropoulos, S., <span style='color:#3F50B5'>Prati, F.</span> & <span style='color:#3F50B5'>Visintin, E. P.</span> (2025). **Cultural Humility: A Catalyst for Increasing Future Contact Intentions.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.70034](https://doi.org/10.1111/jasp.70034)
