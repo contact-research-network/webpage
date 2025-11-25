@@ -10,7 +10,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
 - name: Tel Aviv University
-  url: https://www.unipd.it/en/
+  url: https://english.tau.ac.il/
 
 # Short bio (displayed in user profile at end of posts)
 bio:
