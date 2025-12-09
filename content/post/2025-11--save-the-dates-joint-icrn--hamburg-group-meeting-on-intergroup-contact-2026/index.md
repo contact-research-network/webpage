@@ -10,6 +10,8 @@ authors: ["Lukas Wallrich"]
 We’re thrilled to announce that **ICRN** and the **Hamburg EASP-sponsored meeting group on Advances in Intergroup Contact** will be **joining forces** to host a **joint satellite meeting** on and for intergroup contact!  
   This meeting will take place **right after the EASP General Meeting (July 2026)** — making it easy to attend both events.
   
+  It is organised by Stefania Paolini, Libby Drury, Rita Guerra and Lukas Wallrich from the ICRN, and Maria-Therese Friehs, Mathias Kauff, Sarina Schäfer and Oliver Christ, who organised the EASP Small Group Meeting in Hamburg that we will build on here.
+  
   ---
   
   ## 🗓️ Dates & Locations
