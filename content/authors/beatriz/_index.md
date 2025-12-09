@@ -4,8 +4,11 @@ title: Beatriz Casquinho
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 11
+
 # Role/position
-role: PhD Candidate
+role: Colloquium — PhD Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -27,5 +30,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Network Members
+- Network Committee
 ---
