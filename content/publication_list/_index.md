@@ -277,6 +277,9 @@
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
 # Other Research by Network Members
+- <span style='color:#3F50B5'>Ditlmann, R. K.</span> & Moustakas, L. (2026). **Participatory Football and Social Development: Evaluating the Impact of
+                    <scp>football3</scp>
+                    on and Off the Pitch.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70207](https://doi.org/10.1002/casp.70207)
 - Eisner, L. & <span style='color:#3F50B5'>Hässler, T.</span> (2026). **Panel Svizzero LGBTIQ+ - Rapporto di sintesi 2025.** *PsyArXiv* [https://doi.org/10.31234/osf.io/bkpn9_v1](https://doi.org/10.31234/osf.io/bkpn9_v1)
 - <span style='color:#3F50B5'>Travaglino, G. A.</span>, Mirisola, A., Abrams, D., Burgmer, P., Bagnasco, G., Buscemi, A. & Kemp, P. (2026). **When do two wrongs make a right? Schadenfreude and the legitimization of illegal attacks against corrupt national institutions.** *Emotion* [https://doi.org/10.1037/emo0001643](https://doi.org/10.1037/emo0001643)
 - <span style='color:#3F50B5'>Rao, S.</span>, <span style='color:#3F50B5'>Van Assche, J.</span>, <span style='color:#3F50B5'>McKeown, S.</span> & Sagherian-Dickey, T. (2026). **Political trust in divided societies: Who trusts whom in Northern Ireland?** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000828](https://doi.org/10.1037/pac0000828)
