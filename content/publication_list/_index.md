@@ -3,7 +3,7 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
-- <span style='color:#3F50B5'>Tassinari, M.</span>, <span style='color:#3F50B5'>Marinucci, M.</span> & Hasler, B. S. (2026). **Immersive Technologies and Intergroup Relations: A Critical Review of Theoretical Questions and Methodological Challenges.** *Computers in Human Behavior* [https://doi.org/10.1016/j.chb.2026.108908](https://doi.org/10.1016/j.chb.2026.108908)
+- <span style='color:#3F50B5'>Tassinari, M.</span>, <span style='color:#3F50B5'>Marinucci, M.</span> & Hasler, B. S. (2026). **Immersive technologies and intergroup relations: A critical review of theoretical questions and methodological challenges.** *Computers in Human Behavior* [https://doi.org/10.1016/j.chb.2026.108908](https://doi.org/10.1016/j.chb.2026.108908)
 
 - <span style='color:#3F50B5'>Marinucci, M.</span>, Schaefer, C. D., <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., Taylor, L. K. & <span style='color:#3F50B5'>McKeown, S.</span> (2026). **Desegregating spaces: The interplay between ecological intergroup contact and GPS-traced spatial segregation among youth in two UK cities.** *Open Science Framework* [https://doi.org/10.31219/osf.io/3tnrz_v2](https://doi.org/10.31219/osf.io/3tnrz_v2)
 
