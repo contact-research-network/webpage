@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- Golani Marcus, N. & <span style='color:#3F50B5'>Nasie, M.</span> (2026). **Children’s meta-perceptions about the out-group and their association with intergroup attitudes.** *Cognitive Development* [https://doi.org/10.1016/j.cogdev.2026.101674](https://doi.org/10.1016/j.cogdev.2026.101674)
+
 - <span style='color:#3F50B5'>Haines, E. A.</span>, Thomas, E. F. & Wenzel, M. (2026). **Agreeing to disagree: When do superordinate identities facilitate competing opinion‐based groups to work through intergroup conflict?** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70049](https://doi.org/10.1111/bjso.70049)
 
 - Bobba, B., Yang, H., <span style='color:#3F50B5'>Prati, F.</span> & Crocetti, E. (2026). **Where is your best friend from? Implications of intragroup and intergroup friendships for adolescents’ identity and well-being.** *Journal of Social and Personal Relationships* [https://doi.org/10.1177/02654075261420515](https://doi.org/10.1177/02654075261420515)
@@ -285,6 +287,7 @@
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
 # Other Research by Network Members
+- <span style='color:#3F50B5'>Haines, E. A.</span>, Thomas, E. F., Stothard, C., Kernot, D., Lizzio-Wilson, M., Caminschi, I., Ram, R. & Rizoiu, M. (2026). **Mapping the moral domain in a modern town hall: Moral foundations’ effects on collective action conditioned by ideology and issue.** *New Media &amp; Society* [https://doi.org/10.1177/14614448251413686](https://doi.org/10.1177/14614448251413686)
 - Konur, T., Lilly, K. J., Osborne, D., Sibley, C. G. & <span style='color:#3F50B5'>Sengupta, N. K.</span> (2026). **Frustrated by Deprivation or Privilege? Revealing Divergent Profiles of Perceived (Dis)advantage within Majority Groups.** *PsyArXiv* [https://doi.org/10.31234/osf.io/bkt2a_v1](https://doi.org/10.31234/osf.io/bkt2a_v1)
 - <span style='color:#3F50B5'>Van Assche, J.</span> (2026). **The Social–Psychological Consequences of COVID-19: An Integrative Review and Research Agenda.** *International Journal of Environmental Research and Public Health* [https://doi.org/10.3390/ijerph23020179](https://doi.org/10.3390/ijerph23020179)
 - Lacko, D., Prošek, T., Dostál, A., Lázničková, A., Čeněk, J., sasinka, c. & <span style='color:#3F50B5'>Graf, S.</span> (2026). **Beyond the Overt Response: Reaction Time Modeling in Self-Report Surveys Across Administration Modes and Item Formats.** *PsyArXiv* [https://doi.org/10.31234/osf.io/cbns9_v1](https://doi.org/10.31234/osf.io/cbns9_v1)
