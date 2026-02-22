@@ -58,7 +58,15 @@ get_image <- function(url, slug) {
     if (grepl("\\.(png|jpg|jpeg)$", url, ignore.case = TRUE)) {
       file_ext <- tools::file_ext(url)
       file_path <- file.path(slug, paste0("featured.", file_ext))
-      GET(url, write_disk(file_path, overwrite = TRUE))
+      response <- GET(url, write_disk(file_path, overwrite = TRUE))
+
+      # Validate that the downloaded content is actually an image
+      ct <- httr::http_type(response)
+      if (!ct %in% c("image/jpeg", "image/jpg", "image/png")) {
+        unlink(file_path)
+        warning(sprintf("Downloaded file for '%s' has unexpected content type '%s'. Skipping image.", slug, ct))
+        return(invisible(FALSE))
+      }
     } else {
       # Extract ID from the URL or use provided export URL
       if (!grepl("uc\\?export", url)) {
@@ -85,8 +93,8 @@ get_image <- function(url, slug) {
       # Define the final file path
       file_path <- file.path(slug, paste0("featured.", file_ext))
 
-      # Download the file
-      GET(download_url, write_disk(file_path, overwrite = TRUE))
+      # Write the already-fetched response to disk (content type already validated above)
+      writeBin(httr::content(response, "raw"), file_path)
     }
 
     # Check if the file is downloaded
