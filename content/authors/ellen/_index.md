@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:ellen.shi@sydney.edu.au
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ellen-shi
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
