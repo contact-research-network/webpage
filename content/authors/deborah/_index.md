@@ -4,8 +4,11 @@ title: Deborah Shulman
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 12
+
 # Role/position
-role: Senior Research Associate
+role: Membership — Senior Research Associate
 
 # Organizations/Affiliations
 organizations:
@@ -27,5 +30,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Network Members
+- Network Committee
 ---

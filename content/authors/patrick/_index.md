@@ -4,8 +4,11 @@ title: Patrick Kotzur
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 10
+
 # Role/position
-role: Assistant Professor in Psychology
+role: Colloquium — Associate Professor in Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -36,7 +39,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Network Members
+- Network Committee
 ---
 
 Patrick Kotzur is an Assistant Professor in Psychology in the Quantitative Social Psychology Group at Durham University.

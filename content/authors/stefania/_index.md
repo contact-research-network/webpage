@@ -4,8 +4,11 @@ title: Stefania Paolini
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 2
+
 # Role/position
-role: Professor of Psychology, Durham University
+role: Chair — Professor of Psychology, Durham University
 
 # Organizations/Affiliations
 organizations:
@@ -25,6 +28,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:stefania.paolini@durham.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.durham.ac.uk/staff/stefania-paolini/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=xwUnA5IAAAAJ&hl=en&oi=ao
@@ -35,7 +41,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Network Members
+- Network Committee
 
 ---
 

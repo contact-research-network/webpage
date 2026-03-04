@@ -4,8 +4,11 @@ title: Jie Huang
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 14
+
 # Role/position
-role: PhD Student
+role: Website — PhD Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -23,6 +26,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:jie.huang3@durham.ac.uk
+- icon: globe
+  icon-pack: fas
+  link: https://www.durham.ac.uk/staff/jie-huang3/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

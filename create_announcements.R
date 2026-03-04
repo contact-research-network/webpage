@@ -31,7 +31,7 @@ if (!is.null(old_hash) && new_hash == old_hash) {
 writeLines(new_hash, hash_file)
 
 # Filter for show = yes
-filtered_data <- data[data$Show == "yes", ]
+filtered_data <- data[tolower(trimws(data$Show)) == "yes", ]
 
 # Extract ID from Google Drive URL
 extract_id <- function(url) {
@@ -44,48 +44,75 @@ extract_id <- function(url) {
 # Function to get the image from URL and save it with the correct extension
 get_image <- function(url, slug) {
   url <- unlist(url)
-  # Check if URL ends with png, jpg or jpeg
-  if (grepl("\\.(png|jpg|jpeg)$", url)) {
-    file_ext <- tools::file_ext(url)
-    file_path <- file.path(slug, paste0("featured.", file_ext))
-    GET(url, write_disk(file_path, overwrite = TRUE))
-  } else {
-    # Extract ID from the URL
 
-    if (!grepl("uc\\?export", url)) {
-      id <- extract_id(url)
-      download_url <- paste0("https://drive.google.com/uc?export=download&id=", id)
-    } else {
-      download_url <- url
-    }
-
-    # Perform GET request to check headers
-    response <- GET(download_url)
-    content_type <- headers(response)$`content-type`
-
-    # Determine the file extension based on content type
-    if (content_type == "image/jpeg") {
-      file_ext <- "jpg"
-    } else if (content_type == "image/png") {
-      file_ext <- "png"
-    } else {
-      stop("Unsupported image type.")
-    }
-
-    # Define the final file path
-    file_path <- file.path(slug, paste0("featured.", file_ext))
-
-    # Download the file
-    GET(download_url, write_disk(file_path, overwrite = TRUE))
+  # Handle blank/missing URL with a warning instead of an error
+  if (is.null(url) || length(url) == 0 || is.na(url) || trimws(url) == "") {
+    warning(sprintf("No image URL provided for '%s'. Skipping image download.", slug))
+    return(invisible(FALSE))
   }
 
-  # Check if the file is downloaded
-  if (file.exists(file_path)) {
-    message("File downloaded successfully.")
-  } else {
-    message("File download failed.")
-  }
+  file_path <- NULL
+
+  tryCatch({
+    # Check if URL ends with png, jpg or jpeg
+    if (grepl("\\.(png|jpg|jpeg)$", url, ignore.case = TRUE)) {
+      file_ext <- tools::file_ext(url)
+      file_path <- file.path(slug, paste0("featured.", file_ext))
+      response <- GET(url, write_disk(file_path, overwrite = TRUE))
+
+      # Validate that the downloaded content is actually an image
+      ct <- httr::http_type(response)
+      if (!ct %in% c("image/jpeg", "image/jpg", "image/png")) {
+        unlink(file_path)
+        warning(sprintf("Downloaded file for '%s' has unexpected content type '%s'. Skipping image.", slug, ct))
+        return(invisible(FALSE))
+      }
+    } else {
+      # Extract ID from the URL or use provided export URL
+      if (!grepl("uc\\?export", url)) {
+        id <- extract_id(url)
+        download_url <- paste0("https://drive.google.com/uc?export=download&id=", id)
+      } else {
+        download_url <- url
+      }
+
+      # Perform GET request to check headers
+      response <- GET(download_url)
+
+      # Determine the file extension based on content type
+      ct <- httr::http_type(response)
+      if (ct %in% c("image/jpeg", "image/jpg")) {
+        file_ext <- "jpg"
+      } else if (ct == "image/png") {
+        file_ext <- "png"
+      } else {
+        warning(sprintf("Unsupported image type '%s' for '%s'. Skipping image download.", ct %||% "unknown", slug))
+        return(invisible(FALSE))
+      }
+
+      # Define the final file path
+      file_path <- file.path(slug, paste0("featured.", file_ext))
+
+      # Write the already-fetched response to disk (content type already validated above)
+      writeBin(httr::content(response, "raw"), file_path)
+    }
+
+    # Check if the file is downloaded
+    if (!is.null(file_path) && file.exists(file_path)) {
+      message("File downloaded successfully.")
+      return(invisible(TRUE))
+    } else {
+      warning(sprintf("File download failed for '%s'.", slug))
+      return(invisible(FALSE))
+    }
+  }, error = function(e) {
+    warning(sprintf("Problem downloading image for '%s': %s", slug, conditionMessage(e)))
+    return(invisible(FALSE))
+  })
 }
+
+# Helper for null-coalescing in messages
+`%||%` <- function(a, b) if (is.null(a)) b else a
 
 # Function to create a post from a row of the data
 create_post <- function(row) {
@@ -112,7 +139,6 @@ create_post <- function(row) {
 
   get_image(row["imageUrl"], slug_folder)
 }
-
 
 # Apply the function to each row of the filtered data
 apply(filtered_data, 1, function(row) create_post(as.list(row)))

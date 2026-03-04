@@ -8,3 +8,87 @@
   justify-content: center;
 }
 
+/* ===== Full-width hero section with overlaid title and full-width intro text ===== */
+
+.home-section.hero-overlay { position: relative; }
+
+/* Stretch the section to full width (remove theme container margins) */
+.home-section.hero-overlay > .container,
+.home-section.hero-overlay > .container-xl {
+  max-width: 100%;
+  width: 100vw;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* Stack vertically: image block first, text block second */
+.home-section.hero-overlay .row {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.home-section.hero-overlay .row > div:first-child { order: 2; }  /* text */
+.home-section.hero-overlay .row > div:last-child  { order: 1; }  /* image */
+
+/* Image block: full width and taller height */
+.home-section.hero-overlay .row > div:last-child {
+  position: relative;
+  height: 52vh;        /* adjust: 45–60vh */
+  min-height: 380px;
+  overflow: hidden;
+}
+
+/* Make image cover the container + optional blur/darken */
+.home-section.hero-overlay .row > div:last-child img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.03);
+  filter: blur(4px) brightness(0.78); /* tweak as needed */
+}
+
+/* Overlay the main title on top of the image */
+.home-section.hero-overlay h1 {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 52vh;        /* same as image block height */
+  min-height: 380px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 4vw, 56px);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+/* Subtle dark overlay to improve readability */
+.home-section.hero-overlay .row > div:last-child::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.15), rgba(0,0,0,.35));
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Intro text block below the image (comfortable reading width) */
+.home-section.hero-overlay .content {
+  max-width: 1100px;                 /* remove this line for truly full-width text */
+  margin: 1.25rem auto 2.5rem;
+  padding: 0 24px;
+  font-size: clamp(15px, 1.05vw, 18px);
+  line-height: 1.55;
+}
+
+/* Match body text font (same as People section) */
+.home-section.hero-overlay,
+.home-section.hero-overlay h1,
+.home-section.hero-overlay .content {
+  font-family: var(--wc-font-text, inherit) !important;
+}
