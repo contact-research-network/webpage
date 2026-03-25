@@ -5,7 +5,7 @@ title: Molly Adams
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Social Media - PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -23,9 +23,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:Mail:madams15@qub.ac.uk
+- icon: bluesky
+  icon_pack: fab
+  link: https://bsky.app/profile/mollyladams.bsky.social
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Network Members
+- Network Committee
 ---
