@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- Yang, H., Bobba, B., <span style='color:#3F50B5'>Prati, F.</span> & Crocetti, E. (2026). **Intergroup, Intragroup, and Changing Best Friendships: Implications for Prejudice and Attitudes Toward Integration in Ethnic Majority and Minority Adolescents.** *Journal of Youth and Adolescence* [https://doi.org/10.1007/s10964-026-02354-5](https://doi.org/10.1007/s10964-026-02354-5)
+
 - <span style='color:#3F50B5'>Rao, S.</span>, <span style='color:#3F50B5'>Dupont, P.</span>, Manley, D., Taylor, L. K. & <span style='color:#3F50B5'>McKeown, S.</span> (2026). **The habitual, spatial and temporal conditions of everyday youth intergroup contact in an ethnically diverse city.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70075](https://doi.org/10.1111/bjso.70075)
 
 - Sainz, M., Jiménez‐Moya, G., Lobato, R. M., Laffert, A., Vázquez, A. & <span style='color:#3F50B5'>González, R.</span> (2026). **Intergroup contact with people experiencing poverty reduces hostile but not benevolent classism.** *Political Psychology* [https://doi.org/10.1111/pops.70135](https://doi.org/10.1111/pops.70135)
