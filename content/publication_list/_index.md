@@ -316,6 +316,7 @@
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
 # Other Research by Network Members
+- Uluğ, Ö. M., <span style='color:#3F50B5'>Solak, N.</span>, <span style='color:#3F50B5'>Acar, Y. G.</span>, Chayinska, M., Thomas, E. F. & <span style='color:#3F50B5'>Tausch, N.</span> (2026). **The Affect, Context, and Target (ACT) Framework: A systematic and narrative review of emotions and collective action across democratic‐authoritarian regimes and tight‐loose cultures.** *Political Psychology* [https://doi.org/10.1111/pops.70139](https://doi.org/10.1111/pops.70139)
 - <span style='color:#3F50B5'>Zagefka, H.</span> (2026). **Parting words.** *Unlock Your PhD Potential* [https://doi.org/10.4324/9781003630074-9](https://doi.org/10.4324/9781003630074-9)
 - <span style='color:#3F50B5'>Zagefka, H.</span> (2026). **Your path to post-PhD success.** *Unlock Your PhD Potential* [https://doi.org/10.4324/9781003630074-8](https://doi.org/10.4324/9781003630074-8)
 - <span style='color:#3F50B5'>Zagefka, H.</span> (2026). **Introduction.** *Unlock Your PhD Potential* [https://doi.org/10.4324/9781003630074-1](https://doi.org/10.4324/9781003630074-1)
