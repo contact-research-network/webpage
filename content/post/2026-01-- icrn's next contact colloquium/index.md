@@ -1,5 +1,5 @@
 ---
-title: "ICRN's next Contaxt Colloqium"
+title: "ICRN's next Contact Colloqium"
 date: 2026-01-22
 tags: []
 categories:
