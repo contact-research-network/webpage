@@ -22,7 +22,7 @@ To coincide with this year’s ICRN summit 5-7 July 2026, we are launching a com
   Any questions (or drafts for feedback): contact Libby Drury (l.drury@bbk.ac.uk)
   
   **Current logo we are using**:
-  ![logo](https://drive.google.com/uc?export=view&id=1471nmCdDaTS_HEqZJ-ZMd1TrDXSjfKBV)
+  ![logo](https://lh3.googleusercontent.com/d/1471nmCdDaTS_HEqZJ-ZMd1TrDXSjfKBV)
   
   **Mission and Vision** (Draft) 
   To advance a plural research agenda on intergroup contact, focusing on disruptive, enlightened ideas and methodological approaches by fostering collaboration and equitable cooperation between scholars of varied ethnic, racial, national, linguistic, religious, gender and sexual identities, income and resources, age, health, career stages, and geographic backgrounds. ICRN envisions creating a global community of contact researchers, nurturing a new generation of scholars, whose work on contact informs policy and promotes social inclusion and diversity.
