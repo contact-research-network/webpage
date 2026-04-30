@@ -25,8 +25,8 @@ jobs:
       - name: Setup r2u
         uses: eddelbuettel/github-actions/r2u-setup@master
         
-     - name: Package Dependencies 
-       run: Rscript -e 'install.packages("rlang"); install.packages(c("googlesheets4", "httr", "digest"))'
+      - name: Package Dependencies 
+        run: Rscript -e 'install.packages("rlang"); install.packages(c("googlesheets4", "httr", "digest"))'
 
       - name: Create announcements
         run: |
