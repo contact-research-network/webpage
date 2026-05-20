@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- <span style='color:#3F50B5'>Afandiyev, Z.</span>, Penić, S., Khan, S. & Čehajić‐Clancy, S. (2026). **The enduring power of social context: Pre‐war contact opportunity amplifies the effects of post‐war contact.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70096](https://doi.org/10.1111/bjso.70096)
+
 - <span style='color:#3F50B5'>Smit, S.</span>, Seymour, M., <span style='color:#3F50B5'>Paolini, S.</span> & <span style='color:#3F50B5'>White, F. A.</span> (2026). **Virtual contact with digital humans: Exploring the boundary conditions of contact valence, group membership, and immersion levels.** *SSRN* [https://doi.org/10.2139/ssrn.6776157](https://doi.org/10.2139/ssrn.6776157)
 
 - <span style='color:#3F50B5'>Stelter, M.</span>, Essien, I., von Bargen, J. M. & <span style='color:#3F50B5'>Christ, O.</span> (2026). **Police officers' prejudice and distrust towards racialized groups is related to internal motivation to suppress prejudice and negative intergroup contact.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70094](https://doi.org/10.1111/bjso.70094)
