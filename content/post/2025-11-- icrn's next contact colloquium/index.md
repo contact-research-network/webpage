@@ -1,5 +1,5 @@
 ---
-title: "ICRN's next Contaxt Colloqium"
+title: "ICRN's next Contaxt Colloquium"
 date: 2025-11-17
 tags: []
 categories:
