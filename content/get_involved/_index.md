@@ -68,6 +68,11 @@ Interested in joining the Contact Research Network? Fill out the form below to g
         </div>
         
         <div class="form-group">
+            <label for="country" class="form-label">Country of primary professional affiliation (or country of residence, if no affiliation)</label>
+            <input name="Country" id="country" type="text" required />
+        </div>
+        
+        <div class="form-group">
             <label for="orcid" class="form-label">ORCID</label>
             <input name="ORCID" id="orcid" type="text" required />
         </div>
