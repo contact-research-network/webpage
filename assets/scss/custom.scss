@@ -3,6 +3,7 @@
 .home-section.wg-hero {
   padding: 0 !important;
   margin: 0 !important;
+  position: relative !important; /* anchor for the overlaid title */
 }
 .home-section.wg-hero .container {
   max-width: 100% !important;
@@ -41,14 +42,17 @@
   object-position: center 15% !important;
   display: block !important;
 }
-/* Title text overlay on the image - using fixed positioning relative to hero */
+/* Title text overlay on the image - absolutely positioned within the hero
+   image so it stays centred over the picture and scrolls with the page */
 .home-section.wg-hero h1.hero-title {
-  position: fixed !important;
-  top: 35% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  width: 90vw !important;
-  max-width: 1200px !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 62.5vh !important; /* match the hero image height */
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -58,10 +62,9 @@
   color: #ffffff !important;
   font-family: 'Montserrat', sans-serif !important;
   text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7) !important;
-  font-size: clamp(3rem, 8vw, 4.5rem) !important;
+  font-size: clamp(2.25rem, 7vw, 4.5rem) !important;
   text-align: center !important;
   background: none !important;
-  height: auto !important;
   pointer-events: none !important;
 }
 /* Left text column - push to second grid row */
