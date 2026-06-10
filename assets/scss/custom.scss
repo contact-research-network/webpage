@@ -67,8 +67,12 @@
   background: none !important;
   pointer-events: none !important;
 }
-/* Left text column - push to second grid row */
+/* Left text column - push to second grid row.
+   Force static positioning so the absolutely-positioned title anchors to the
+   hero SECTION (over the image) rather than to this column. Bootstrap makes
+   every .col-* position:relative by default, which would otherwise capture it. */
 .home-section.wg-hero .col-md-6:first-child {
+  position: static !important;
   grid-column: 1 !important;
   grid-row: 2 !important;
   width: 100% !important;
