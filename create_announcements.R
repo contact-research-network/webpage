@@ -126,7 +126,9 @@ create_post <- function(row) {
     "authors: [\"", row["Author"], "\"]\n",
     "---\n\n",
     gsub("\n", "\n  ", row["Description"]), "\n  \n", # Add spaces so that linebreaks are retained in Markdown
-    ifelse(!is.na(row["webUrl"]) & row["webUrl"] != "", paste0("[Read more](", row["webUrl"], ")"), "")
+    ifelse(!is.na(row["webUrl"]) & row["webUrl"] != "",
+      paste0("[", ifelse(!is.na(row["LinkText"]) & trimws(row["LinkText"]) != "", trimws(row["LinkText"]), "Read more"), "](", row["webUrl"], ")"), # LinkText: e.g. "Read the full newsletter" or "Check out the job description"
+      "")
   )
 
   slug_folder <- file.path("content/post", as.character(row["Slug"]))
