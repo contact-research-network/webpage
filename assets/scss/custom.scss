@@ -22,7 +22,8 @@
   margin: 0 !important;
   padding: 0 !important;
 }
-/* Hero image at full width and full height */
+/* Hero image at full width and full height.
+   z-index:0 keeps it below the pinned title (which sits above at z-index:1). */
 .home-section.wg-hero .col-md-6.hero-media {
   grid-column: 1 !important;
   grid-row: 1 !important;
@@ -32,6 +33,7 @@
   margin: 0 !important;
   padding: 0 !important;
   position: relative !important;
+  z-index: 0 !important;
   overflow: hidden !important;
   display: block !important;
 }
@@ -42,21 +44,25 @@
   object-position: center 15% !important;
   display: block !important;
 }
-/* Title text overlay on the image - absolutely positioned within the hero
-   image so it stays centred over the picture and scrolls with the page */
+/* Title text overlay on the image.
+   position:fixed pins the title to the viewport so the image scrolls *under* it.
+   It is rendered as a direct child of the section (see the hero.html override),
+   sitting above the image (z-index:1) but below the text column (z-index:2), so
+   as you scroll the white text column rises up and cleanly occludes it — the
+   title "disappears behind" the text instead of bleeding over it. */
 .home-section.wg-hero h1.hero-title {
-  position: absolute !important;
+  position: fixed !important;
   top: 0 !important;
   left: 0 !important;
   right: 0 !important;
-  height: 62.5vh !important; /* match the hero image height */
+  height: 62.5vh !important; /* match the hero image height so it centres on the image */
   transform: none !important;
   width: 100% !important;
   max-width: 100% !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  z-index: 5 !important;
+  z-index: 1 !important;
   margin: 0 !important;
   padding: 0 2rem !important;
   color: #ffffff !important;
@@ -68,11 +74,11 @@
   pointer-events: none !important;
 }
 /* Left text column - push to second grid row.
-   Force static positioning so the absolutely-positioned title anchors to the
-   hero SECTION (over the image) rather than to this column. Bootstrap makes
-   every .col-* position:relative by default, which would otherwise capture it. */
+   z-index:2 (above the pinned title) plus an opaque background makes this column
+   occlude the title as it scrolls up over it. */
 .home-section.wg-hero .col-md-6:first-child {
-  position: static !important;
+  position: relative !important;
+  z-index: 2 !important;
   grid-column: 1 !important;
   grid-row: 2 !important;
   width: 100% !important;
