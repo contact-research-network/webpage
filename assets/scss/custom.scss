@@ -46,10 +46,12 @@
 }
 /* Title text overlay on the image.
    position:fixed pins the title to the viewport so the image scrolls *under* it.
-   It is rendered as a direct child of the section (see the hero.html override),
-   sitting above the image (z-index:1) but below the text column (z-index:2), so
-   as you scroll the white text column rises up and cleanly occludes it — the
-   title "disappears behind" the text instead of bleeding over it. */
+   The title lives inside the text column (.col:first-child). Within that column's
+   stacking context it sits below the column's ::before occluder (z-index:2), so as
+   you scroll the column rises and its opaque ::before cleanly hides the title — it
+   "disappears behind" the text instead of bleeding over it. The whole text column
+   sits above the image (column z-index:1 > image z-index:0), so the pinned title
+   still shows over the picture at the top of the page. */
 .home-section.wg-hero h1.hero-title {
   position: fixed !important;
   top: 0 !important;
@@ -74,11 +76,11 @@
   pointer-events: none !important;
 }
 /* Left text column - push to second grid row.
-   z-index:2 (above the pinned title) plus an opaque background makes this column
-   occlude the title as it scrolls up over it. */
+   z-index:1 lifts the whole column (and the title nested in it) above the image.
+   Its ::before (below) is the opaque occluder that hides the pinned title on scroll. */
 .home-section.wg-hero .col-md-6:first-child {
   position: relative !important;
-  z-index: 2 !important;
+  z-index: 1 !important;
   grid-column: 1 !important;
   grid-row: 2 !important;
   width: 100% !important;
@@ -87,12 +89,30 @@
   margin: 0 !important;
   background: white !important;
 }
+/* Opaque occluder: covers the text column and, crucially, paints ABOVE the pinned
+   title (z-index:2 > title's z-index:1). As the column scrolls up over the fixed
+   title, this white layer hides it — so the title disappears behind the text rather
+   than scrolling over it. The actual text (.hero-lead) is lifted above it below. */
+.home-section.wg-hero .col-md-6:first-child::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: white !important;
+  z-index: 2 !important;
+  pointer-events: none !important;
+}
 /* DARK MODE - Add dark mode styles for hero text section */
 .dark .home-section.wg-hero .col-md-6:first-child {
   background: #212529 !important;
 }
-/* Description text block styling */
+.dark .home-section.wg-hero .col-md-6:first-child::before {
+  background: #212529 !important;
+}
+/* Description text block styling.
+   z-index:3 keeps the intro text above the occluder (which is z-index:2). */
 .home-section.wg-hero .hero-lead {
+  position: relative !important;
+  z-index: 3 !important;
   max-width: 1000px !important;
   margin: 0 auto !important;
   padding: 0 !important;
