@@ -9,4 +9,4 @@ authors: ["ICRN"]
 
 An episode of the Contact Research Now podcast examining whether negative contact outweighs positive contact and the nuances between contact types, featuring Stefania Paolini, Sarina Schäfer, Giulia Rosa Policardo and Jasper Van Assche.
   
-[Read more](https://contactresearch.substack.com/p/shades-of-contact-new-evidence-on)
+[Listen to the episode](https://contactresearch.substack.com/p/shades-of-contact-new-evidence-on)

@@ -14,4 +14,4 @@ Join us for our next ICRN Colloquium featuring Prof Rose Meleady from the Univer
   Discussant: Prof Shelley McKeown Jones, Oxford University
   Registration: https://events.teams.microsoft.com/event/3801a0a0-009a-4e1e-b0ad-a70d2e679918@7250d88b-4b68-4529-be44-d59a2d8a6f94
   
-[Read more](https://events.teams.microsoft.com/event/3801a0a0-009a-4e1e-b0ad-a70d2e679918@7250d88b-4b68-4529-be44-d59a2d8a6f94)
+[Register for the colloquium](https://events.teams.microsoft.com/event/3801a0a0-009a-4e1e-b0ad-a70d2e679918@7250d88b-4b68-4529-be44-d59a2d8a6f94)

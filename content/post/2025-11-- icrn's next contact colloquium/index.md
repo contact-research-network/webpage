@@ -19,4 +19,4 @@ Join us for our next ICRN Colloquium featuring Dr. Negusu Aklilu, who will prese
   Discussant: Julia Schreiber
   Registration: https://events.teams.microsoft.com/event/8566dd07-c8df-441d-806c-58c802edc894@6230e860-bfc5-4095-a6bc-104721add6e6
   
-[Read more](https://events.teams.microsoft.com/event/8566dd07-c8df-441d-806c-58c802edc894@6230e860-bfc5-4095-a6bc-104721add6e6)
+[Register for the colloquium](https://events.teams.microsoft.com/event/8566dd07-c8df-441d-806c-58c802edc894@6230e860-bfc5-4095-a6bc-104721add6e6)

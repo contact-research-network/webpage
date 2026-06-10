@@ -9,4 +9,4 @@ authors: ["ICRN"]
 
 An episode of the Contact Research Now podcast on using virtual reality and avatar embodiment to reduce prejudice and build empathy, weighing the benefits and risks, featuring Cassandra Crone and Dr Matilde Tassinari.
   
-[Read more](https://contactresearch.substack.com/p/virtual-realities-real-change-new)
+[Listen to the episode](https://contactresearch.substack.com/p/virtual-realities-real-change-new)

@@ -35,4 +35,4 @@ We invite you to participate in an exciting international meeting -- Peacebuildi
   Linda Tropp, PhD                                
   University of Massachusetts, USA
   
-[Read more](https://forms.gle/WGNQXXPY5UACfWF7A)
+[Submit expression of interest](https://forms.gle/WGNQXXPY5UACfWF7A)

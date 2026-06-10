@@ -9,4 +9,4 @@ authors: ["ICRN"]
 
 February 2026 edition: announcing the joint ICRN & Hamburg Group meeting on intergroup contact (5–6 July 2026, Karlsruhe), upcoming Contact Colloquium talks, recruitment for a voluntary Social Media Officer, and recent member publications.
   
-[Read more](https://contactresearch.substack.com/p/intergroup-contact-research-network-315)
+[Read the full newsletter](https://contactresearch.substack.com/p/intergroup-contact-research-network-315)

@@ -11,4 +11,4 @@ We’re excited to share an upcoming event from the Living Library in the Nether
   
   More information and registration: https://livinglibrary.nl/symposium
   
-[Read more](https://livinglibrary.nl/symposium)
+[Register for the event](https://livinglibrary.nl/symposium)

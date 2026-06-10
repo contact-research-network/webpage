@@ -25,4 +25,4 @@ We invite conceptual and empirical contributions from all disciplines represente
   
   Peace Psychology Conference: pp35@bigsss-bremen.de
   
-[Read more](https://www.dgps.de/uploads/tx_powermail/8zzsbmkls9l1hnav6rtferzxfwb3uz3e.pdf)
+[Download the call for papers](https://www.dgps.de/uploads/tx_powermail/8zzsbmkls9l1hnav6rtferzxfwb3uz3e.pdf)

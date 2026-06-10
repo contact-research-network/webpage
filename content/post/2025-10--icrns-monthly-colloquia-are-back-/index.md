@@ -19,4 +19,4 @@ We are excited to share that we have a new round of wonderful speakers lined up 
   
   Please join the talk and add it to your calendar following [this link](https://events.teams.microsoft.com/event/be7b3e09-22a8-4fec-962b-93616d4d2739@7250d88b-4b68-4529-be44-d59a2d8a6f94)
   
-[Read more](https://events.teams.microsoft.com/event/be7b3e09-22a8-4fec-962b-93616d4d2739@7250d88b-4b68-4529-be44-d59a2d8a6f94)
+[Register for the first talk](https://events.teams.microsoft.com/event/be7b3e09-22a8-4fec-962b-93616d4d2739@7250d88b-4b68-4529-be44-d59a2d8a6f94)

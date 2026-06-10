@@ -9,4 +9,4 @@ authors: ["ICRN"]
 
 Announcing the launch of the 'Contact Research Now' podcast and introducing the new ICRN Committee and its roles, with an invitation to fill open positions such as Secretary and Treasurer.
   
-[Read more](https://contactresearch.substack.com/p/launch-of-contact-research-now-podcast)
+[Read the full newsletter](https://contactresearch.substack.com/p/launch-of-contact-research-now-podcast)

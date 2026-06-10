@@ -11,4 +11,4 @@ An exciting opportunity has arisen for a Post-doctoral Researcher to join **Rose
   
   This full-time fixed-term post is available for 27 months from 1 July 2026. Salary £38,784–£46,049 per annum. Closing date: 18 May 2026. For details and to apply, see the job posting.
   
-[Read more](https://vacancies.uea.ac.uk/vacancies/2117/senior-research-associate-ra2386.html)
+[View job posting](https://vacancies.uea.ac.uk/vacancies/2117/senior-research-associate-ra2386.html)

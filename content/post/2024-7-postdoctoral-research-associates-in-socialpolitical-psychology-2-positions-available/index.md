@@ -28,4 +28,4 @@ Applications are invited for two posts of Postdoctoral Research Associate at the
   
   For an informal discussion about the posts, please contact Prof Giovanni Travaglino (giovanni.travaglino@rhul.ac.uk).
   
-[Read more](https://jobs.royalholloway.ac.uk/vacancy.aspx?ref=0724-223)
+[View job posting](https://jobs.royalholloway.ac.uk/vacancy.aspx?ref=0724-223)

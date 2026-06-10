@@ -17,4 +17,4 @@ Applicants are invited to apply for a full time post doctoral position commencin
   
   For further questions please contact Prof. Dr. Thomas Kessler (03641-945254, Thomas.Kessler@uni-jena.de) or Michael Fiagbenu (03641-945256, michaeledem.fiagbenu@uni-jena.de). People of all genders are strongly encouraged to apply. Applicants with disabilities and with equal aptitude and qualification will be favored.
   
-[Read more](https://jobs.uni-jena.de/jobposting/41a18ecb9dbfd0ccfb8f8c4a4fdd96653e05f2060)
+[View job posting](https://jobs.uni-jena.de/jobposting/41a18ecb9dbfd0ccfb8f8c4a4fdd96653e05f2060)

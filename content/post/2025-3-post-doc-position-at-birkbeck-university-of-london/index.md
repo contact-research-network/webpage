@@ -56,4 +56,4 @@ Birkbeck, University of London, is seeking a Postdoctoral Researcher to join the
   Enquiries:
   If you would like to know more about the role, please contact Dr Libby Drury (l.drury@bbk.ac.uk).
   
-[Read more](https://cis7.bbk.ac.uk/vacancy/postdoctoral-researcher-579568.html)
+[View job posting](https://cis7.bbk.ac.uk/vacancy/postdoctoral-researcher-579568.html)

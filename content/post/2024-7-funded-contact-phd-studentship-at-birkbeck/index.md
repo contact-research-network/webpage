@@ -11,4 +11,4 @@ Applicants are invited to apply for a fully funded PhD studentship in Organisati
   
   Please contact Dr Libby Drury with questions (l.drury@bbk.ac.uk)
   
-[Read more](https://www.bbk.ac.uk/student-services/financial-support/phd-funding/phd-studentship-in-organizational-psychology)
+[View studentship details](https://www.bbk.ac.uk/student-services/financial-support/phd-funding/phd-studentship-in-organizational-psychology)

@@ -25,4 +25,4 @@ An exciting opportunity has arisen to join a Leverhulme Trust funded project, le
   
   Closing date: 2 June 2025
   
-[Read more](https://vacancies.uea.ac.uk/vacancies/1514/senior-research-associate-ra2311.html)
+[View job posting](https://vacancies.uea.ac.uk/vacancies/1514/senior-research-associate-ra2311.html)

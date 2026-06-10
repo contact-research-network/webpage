@@ -13,4 +13,4 @@ The Durham Psychology Department got approval to advertise the position of an **
   
   Presentations from shortlisted candidates are scheduled for Tuesday, 13th August. Interviews are scheduled for Wednesday, 14th August.
   
-[Read more](https://durham.taleo.net/careersection/du_ext/jobdetail.ftl?job=24000984&tz=GMT%2B01%3A00&tzname=Europe%2FLondon)
+[View job posting](https://durham.taleo.net/careersection/du_ext/jobdetail.ftl?job=24000984&tz=GMT%2B01%3A00&tzname=Europe%2FLondon)

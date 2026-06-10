@@ -15,4 +15,4 @@ Dear ICRN members and friends,
   
   https://contactresearch.substack.com/p/icrn-response-to-evidence-of-abuse
   
-[Read more](https://contactresearch.substack.com/p/icrn-response-to-evidence-of-abuse)
+[Read the full statement](https://contactresearch.substack.com/p/icrn-response-to-evidence-of-abuse)
