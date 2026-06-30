@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- <span style='color:#3F50B5'>Zingora, T.</span>, <span style='color:#3F50B5'>Bracegirdle, C.</span>, Stark, T. H. & <span style='color:#3F50B5'>Spiegler, O.</span> (2026). **Outgroup friendships and social influence in the development of adolescent attitudes toward secondary outgroups.** *Journal of Personality and Social Psychology* [https://doi.org/10.1037/pspi0000530](https://doi.org/10.1037/pspi0000530)
+
 - <span style='color:#3F50B5'>Tassinari, M.</span>, Oyanagi, A. & Amemiya, T. (2026). **Combining intergroup contact and outgroup embodiment in virtual reality: An exploratory test of backfire and secondary transfer effects of outgroup embodiment.** *Computers in Human Behavior* [https://doi.org/10.1016/j.chb.2026.109094](https://doi.org/10.1016/j.chb.2026.109094)
 
 - <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Schäfer, S. J.</span>, Wüst, K., Dürr, C., Engel-Wolters, L., Kalkuhl, S. E., Böttcher, T., Resch, G., Sander, B., Orloff, L. T., Woltz, A., <span style='color:#3F50B5'>van Zalk, M. H. W.</span>, B, S. C., <span style='color:#3F50B5'>Barlow, F.</span>, <span style='color:#3F50B5'>Bracegirdle, C.</span>, Cernat, V., <span style='color:#3F50B5'>Hässler, T.</span>, Jugert, P., <span style='color:#3F50B5'>Kotzur, P. F.</span>, Bohmert, M. N., Swart, H., Van Laar, C., <span style='color:#3F50B5'>Wagner, U.</span>, O'Donnell, A. W., <span style='color:#3F50B5'>Spiegler, O.</span>, Richters, S. & <span style='color:#3F50B5'>Christ, O.</span> (2026). **A Comparative Multi-Method Re-Analysis of the Longitudinal Evidence for Causal Intergroup Contact Effects on Attitudes.** *PsyArXiv* [https://doi.org/10.31234/osf.io/vnhs7_v4](https://doi.org/10.31234/osf.io/vnhs7_v4)
@@ -43,8 +45,6 @@
 - Riikonen, R., Finell, E., Seppälä, T., <span style='color:#3F50B5'>Paajanen, P.</span> & Stevenson, C. (2026). **Identification With Local Mothers Is Related to Mothers' Attitudes Towards Their Children's Intergroup Contact: A Serial Mediation Model.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.70052](https://doi.org/10.1111/jasp.70052)
 
 - <span style='color:#3F50B5'>Bracegirdle, C.</span>, <span style='color:#3F50B5'>Zingora, T.</span> & <span style='color:#3F50B5'>Spiegler, O.</span> (2026). **From mate to hate? Prejudice socialization in friendship networks.** *American Psychologist* [https://doi.org/10.1037/amp0001662](https://doi.org/10.1037/amp0001662)
-
-- <span style='color:#3F50B5'>Drury, L.</span>, Abrams, D., Swift, H. J. & Palmer, S. (2026). **Understanding Care Worker Well-Being and Job Satisfaction: The Influence of Intergenerational Contact and Aging Anxiety.** *Issues in Mental Health Nursing* [https://doi.org/10.1080/01612840.2026.2621867](https://doi.org/10.1080/01612840.2026.2621867)
 
 - <span style='color:#3F50B5'>Ioannou, M.</span> & Constantinou, E. (2026). **Specific emotions elicited during valenced imagined intergroup encounters as mediators of the contact-prejudice relationship: the diverse effects of anger, fear, and sadness.** *Cognition and Emotion* [https://doi.org/10.1080/02699931.2026.2631171](https://doi.org/10.1080/02699931.2026.2631171)
 
@@ -330,6 +330,7 @@
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
 # Other Research by Network Members
+- Umbra, R. & <span style='color:#3F50B5'>Fasbender, U.</span> (2026). **Daily Workplace Anger and Same‐Day Employee Attitudes: The Moderating Role of Interpersonal Anger Coping.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.70076](https://doi.org/10.1111/jasp.70076)
 - Lacko, D., Kubelková, A., Oľhová, S., Klocek, A. & <span style='color:#3F50B5'>Graf, S.</span> (2026). **Measuring Prejudice and Stereotypes: A Systematic Review of Psychometric Quality and Conceptual Foundations.** *PsyArXiv* [https://doi.org/10.31234/osf.io/xwbyz_v2](https://doi.org/10.31234/osf.io/xwbyz_v2)
 - Christensen, M. C., Kattari, S., Korpak, A. K., Gzesh, A., Lacombe-Duncan, A., Morehead, E., Harrop, E., Gardener, H., Crate, H., Leitch, J., Reeder, K. G., Wernick, L. J., Chen, M., Hafen, Q., Polasek, Q., Singh, R. C. B., Luxmikanthan, S. & <span style='color:#3F50B5'>Ferguson, Z. E.</span> (2026). **Queering and Transing Social Work: Imagining QT Futures.** *Abolitionist Perspectives in Social Work* [https://doi.org/10.52713/93zhvx25](https://doi.org/10.52713/93zhvx25)
 - Dhont, K. & <span style='color:#3F50B5'>Hodson, G.</span> (2026). **Speciesism and the psychology of animal exploitation.** *Nature Reviews Psychology* [https://doi.org/10.1038/s44159-026-00585-8](https://doi.org/10.1038/s44159-026-00585-8)
