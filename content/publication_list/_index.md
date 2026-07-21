@@ -76,6 +76,8 @@
 
 - <span style='color:#3F50B5'>Birtel, M. D.</span> & <span style='color:#3F50B5'>Tausch, N.</span> (2026). **Brexit and Wellbeing: Strained Intergroup Relations and Positive Intergroup Contact Predict Wellbeing of Remainers and Leavers Post Brexit.** *Journal of Applied Social Psychology* [https://doi.org/10.1111/jasp.70041](https://doi.org/10.1111/jasp.70041)
 
+- Bick, N., Froehlich, L., <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span> & Landmann, H. (2026). **Facets of Social Evaluation Differentially Predict Intergroup Bias Toward Occupational and Migrant Groups.** *Social Psychological and Personality Science* [https://doi.org/10.1177/19485506251399234](https://doi.org/10.1177/19485506251399234)
+
 - Cyr, E. N., Steele, J. R., Schmader, T., Robinson, K., <span style='color:#3F50B5'>Wright, S. C.</span>, Spencer, S. J. & Bergsieker, H. B. (2026). **Friendship networks predict girls’ STEM fit and interest through subjective belonging.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302251385462](https://doi.org/10.1177/13684302251385462)
 
 - <span style='color:#3F50B5'>Kotzur, P. F.</span>, Bruns, A., <span style='color:#3F50B5'>Wagner, U.</span> & <span style='color:#3F50B5'>van Zalk, M. H. W.</span> (2026). **Intergroup Contact With Refugees Shapes Levels of Social Fear of Crime.** *European Journal of Social Psychology* [https://doi.org/10.1002/ejsp.70036](https://doi.org/10.1002/ejsp.70036)
@@ -89,8 +91,6 @@
 - O'Donnell, A. W., <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span>, Nitschinsk, L., Lizzio-Wilson, M., Sibley, C. G. & <span style='color:#3F50B5'>Barlow, F. K.</span> (2026). **Stable profiles of contact and prejudice: Few people report co-occurring increases in intergroup contact and decreases in prejudice over time.** *Journal of Personality and Social Psychology* [https://doi.org/10.1037/pspi0000500](https://doi.org/10.1037/pspi0000500)
 
 - Uluğ, Ö. M., Chayinska, M., <span style='color:#3F50B5'>Schreiber, J. A.</span> & Taylor, L. K. (2026). **A multi-dimensional typology of allyship action in violent intergroup conflict settings: Differentiating actor, target, and type of action.** *European Review of Social Psychology* [https://doi.org/10.1080/10463283.2024.2396733](https://doi.org/10.1080/10463283.2024.2396733)
-
-- Bick, N., Froehlich, L., <span style='color:#3F50B5'>Friehs, M.</span>, <span style='color:#3F50B5'>Kotzur, P. F.</span> & Landmann, H. (2025). **Facets of Social Evaluation Differentially Predict Intergroup Bias Toward Occupational and Migrant Groups.** *Social Psychological and Personality Science* [https://doi.org/10.1177/19485506251399234](https://doi.org/10.1177/19485506251399234)
 
 - <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Peetz, H. K.</span>, <span style='color:#3F50B5'>McKeown, S.</span>, Leckie, G. & Broadwood, J. (2025). **A Longitudinal Multilevel Analysis of Individual- and Contextual-Level Predictors of Cross-Ethnic Friendships in the UK.** *PsyArXiv* [https://doi.org/10.31234/osf.io/n4fpx_v1](https://doi.org/10.31234/osf.io/n4fpx_v1)
 
