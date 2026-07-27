@@ -19,6 +19,8 @@
 
 - <span style='color:#3F50B5'>Shi, E.</span>, <span style='color:#3F50B5'>White, F. A.</span> & Pinkus, R. T. (2026). **Mobilizing the Majority: The Role of Intergroup Contact and Exposure to Conceptualizations of Racism in Promoting Intergroup Solidarity.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302261454838](https://doi.org/10.1177/13684302261454838)
 
+- <span style='color:#3F50B5'>Afandiyev, Z.</span>, Penić, S., Khan, S. & Čehajić‐Clancy, S. (2026). **The enduring power of social context: Pre‐war contact opportunity amplifies the effects of post‐war contact.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70096](https://doi.org/10.1111/bjso.70096)
+
 - <span style='color:#3F50B5'>Smit, S.</span>, Seymour, M., <span style='color:#3F50B5'>Paolini, S.</span> & <span style='color:#3F50B5'>White, F. A.</span> (2026). **Virtual contact with digital humans: Exploring the boundary conditions of contact valence, group membership, and immersion levels.** *SSRN* [https://doi.org/10.2139/ssrn.6776157](https://doi.org/10.2139/ssrn.6776157)
 
 - <span style='color:#3F50B5'>Stelter, M.</span>, Essien, I., von Bargen, J. M. & <span style='color:#3F50B5'>Christ, O.</span> (2026). **Police officers' prejudice and distrust towards racialized groups is related to internal motivation to suppress prejudice and negative intergroup contact.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70094](https://doi.org/10.1111/bjso.70094)
@@ -151,6 +153,8 @@
 - <span style='color:#3F50B5'>Degner, J.</span>, Flöther, J. & Essien, I. (2025). **Pressured to be proud? Investigating the link between perceived norms and intergroup attitudes in members of disadvantaged minority groups.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.12874](https://doi.org/10.1111/bjso.12874)
 
 - Mendoza-Franco, G., Jasinskaja-Lahti, I., Aulbach, M. B., Harjunen, V. J., Peltola, A., Ravaja, J. N., <span style='color:#3F50B5'>Tassinari, M.</span>, Vainio, S. & Jääskeläinen, I. P. (2025). **Fingerprint patterns of human brain activity reveal a dynamic mix of emotional responses during virtual intergroup encounters.** *NeuroImage* [https://doi.org/10.1016/j.neuroimage.2025.121129](https://doi.org/10.1016/j.neuroimage.2025.121129)
+
+- <span style='color:#3F50B5'>Afandiyev, Z.</span> & Bilewicz, M. (2025). **Mediated contact improves attitudes during an ongoing armed conflict: A study during the war between Armenia and Azerbaijan.** *Peace and Conflict: Journal of Peace Psychology* [https://doi.org/10.1037/pac0000786](https://doi.org/10.1037/pac0000786)
 
 - <span style='color:#3F50B5'>Guvensoy, I.</span>, Bagci, S. C., <span style='color:#3F50B5'>Turner, R. N.</span> & <span style='color:#3F50B5'>Stathi, S.</span> (2025). **Do they dislike us as much as we think? Positive contact as a potential rectifier of meta-attitude inaccuracy in conflictual intergroup settings.** *Group Processes &amp; Intergroup Relations* [https://doi.org/10.1177/13684302251315063](https://doi.org/10.1177/13684302251315063)
 
