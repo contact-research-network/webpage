@@ -32,7 +32,7 @@ Intergroup contact can reduce prejudice, but majority and minority groups may en
   
   For further information, please get in touch with:
   
-  **Somidha Ray**
+  **Somidha Ray**,
   PhD Candidate, School of Psychology and Neuroscience
   University of St Andrews
   📧 sr332@st-andrews.ac.uk (Subject line: Global Study on Contact)
