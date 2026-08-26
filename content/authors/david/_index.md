@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Hyeonchang (Kay) Gim
+title: David Livert
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Cal Poly
-  url: https://www.calpoly.edu/
+- name: Pennsylvania State University
+  url: https://www.psu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,10 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:kgim@calpoly.edu
+  link: mailto:del11@psu.edu
+- icon: globe
+  icon-pack: fas
+  link: https://lehighvalley.psu.edu/person/dr-david-livert
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
