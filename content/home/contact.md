@@ -1,54 +1,112 @@
 ---
-title: "Contact"
+title: "Connect with us"
 layout: "contact"
+design:
+  columns: '1'
 ---
 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
 
 <style>
-        .form-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+.contact-connect {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 10px;
-        }
+.contact-connect p {
+    white-space: nowrap;
+}
 
-        .form-label {
-            font-weight: bold;
-        }
+@media (max-width: 600px) {
+    .contact-connect p {
+        white-space: normal;
+    }
+}
 
-        .form-textarea {
-            resize: vertical;
-            min-height: 100px; /* Adjust the minimum height as needed */
-        }
-    </style>
-    
-<div style="display: flex; justify-content: center; align-items: center; margin: 0;margin-top: 20;">
-<br>        <div style="width: 50%;"> <a href = "https://contactresearch.substack.com/">Subscribe to our newsletter </a> or send us a message below.<br>&nbsp;<br>      
-     <form class="form-container" action="https://public.herotofu.com/v1/c4ce2140-4c97-11ee-b711-0fdc810d0d65" method="POST" accept-charset="UTF-8">
-        <div class="form-group">
-            <label class="form-label" for="name">Your Name</label>
-            <input class="form-input" name="Name" id="name" type="text" required />
-        </div>
-        <div class="form-group">
-            <label class="form-label" for="email">Your Email</label>
-            <input class="form-input" name="Email" id="email" type="email" required />
-        </div>
-        <div class="form-group">
-            <label class="form-label" for="message">Your Message</label>
-            <textarea class="form-textarea" name="Message" id="message" required></textarea>
-        </div>
-        <div class="form-group">
-            <input class="form-input" type="submit" value="Send us a message" />
-            <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
-                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
-            </div>
-        </div>
-    </form>
+.contact-connect p {
+    margin-bottom: 1.5rem;
+}
+
+.contact-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-social-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-social-links a:hover {
+    color: #06805E;
+    transform: translateY(-2px);
+}
+
+.contact-social-links i {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.contact-social-links span {
+    font-size: 0.9rem;
+}
+
+.contact-divider {
+    border: none;
+    border-top: 1px solid #d5d5d5;
+    background: none;
+    background-image: none;
+    height: 0;
+    margin: 0.5rem auto 1.5rem;
+    max-width: 260px;
+}
+
+.dark .contact-social-links a {
+    color: #f1f3f5;
+}
+
+.dark .contact-social-links a:hover {
+    color: #64b5f6;
+}
+
+.dark .contact-divider {
+    border-top-color: #495057;
+    background: none;
+    background-image: none;
+}
+</style>
+
+<div class="contact-connect">
+
+<p>Follow our <a href="https://contactresearch.substack.com/" target="_blank" rel="noopener">latest news</a> and research on social media, or <a href="get_involved">get involved</a> with the network.</p>
+
+<div class="contact-social-links">
+    <a href="https://bsky.app/profile/contactresearch.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky">
+        <i class="ti ti-brand-bluesky" aria-hidden="true"></i>
+        <span>Bluesky</span>
+    </a>
+    <a href="https://www.linkedin.com/company/international-contact-research-network" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+        <span>LinkedIn</span>
+    </a>
+    <a href="https://www.youtube.com/@ContactResearchNetwork" target="_blank" rel="noopener" aria-label="YouTube">
+        <i class="ti ti-brand-youtube" aria-hidden="true"></i>
+        <span>YouTube</span>
+    </a>
 </div>
+
+<hr class="contact-divider">
+
+<p>Questions? Email us at <a href="mailto:contactresearchnetwork@gmail.com">contactresearchnetwork@gmail.com</a></p>
+
 </div>
