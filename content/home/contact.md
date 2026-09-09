@@ -5,8 +5,6 @@ design:
   columns: '1'
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
-
 <style>
 .contact-connect {
     max-width: 800px;
