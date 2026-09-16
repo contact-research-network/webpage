@@ -3,6 +3,8 @@
 
  Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.
 
+- <span style='color:#3F50B5'>Kauff, M.</span>, Small, C., Yudkin, D., Wylie, J. & <span style='color:#3F50B5'>Tropp, L. R.</span> (2026). **How Pro-contact Norms and Intergroup Anxiety Predict Interest in Intergroup Contact: Similarity and Variability across Outgroups.** *Social Psychology Quarterly* [https://doi.org/10.1177/01902725261480022](https://doi.org/10.1177/01902725261480022)
+
 - Colic, M. & Zezelj, I. (2026). **Measuring intergroup empathy bias: Systematic narrative review.** *Psihologija* [https://doi.org/10.2298/psi250929019c](https://doi.org/10.2298/psi250929019c)
 
 - <span style='color:#3F50B5'>Illy, L. J.</span>, Bobba, B., <span style='color:#3F50B5'>Prati, F.</span>, Rubini, M. & Crocetti, E. (2026). **The longitudinal interplay between acculturation and intergroup contact in adolescence.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70129](https://doi.org/10.1111/bjso.70129)
