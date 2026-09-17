@@ -52,8 +52,6 @@
 - <span style='color:#3F50B5'>Meleady, R.</span>, <span style='color:#3F50B5'>Peetz, H. K.</span>, <span style='color:#3F50B5'>McKeown, S.</span>, Leckie, G. & Broadwood, J. (2026). **A longitudinal multilevel analysis of individual‐ and contextual‐level predictors of cross‐ethnic friendships in the
                     <scp>UK</scp>.** *British Journal of Social Psychology* [https://doi.org/10.1111/bjso.70068](https://doi.org/10.1111/bjso.70068)
 
-- Dornschneider-Elkink, S., <span style='color:#3F50B5'>Christ, O.</span>, <span style='color:#3F50B5'>Schäfer, S. J.</span>, Munder, A. K., Halabi, S., Maoz, I. & Sobol-Sarag, D. (2026). **Positive contact dominates Jewish–Palestinian interactions in mixed Israeli neighborhoods.** *Conflict Management and Peace Science* [https://doi.org/10.1177/07388942261427231](https://doi.org/10.1177/07388942261427231)
-
 - <span style='color:#3F50B5'>Abbott, N.</span>, He, J. & Macaulay, P. J. R. (2026). **Late Adolescents' Cyber‐Upstanding Intentions Towards Bias‐Based Cyberbullying of Immigrants in the
                     <scp>UK</scp>
                     : Exploring the Importance of Intergroup Contact.** *Journal of Community &amp; Applied Social Psychology* [https://doi.org/10.1002/casp.70248](https://doi.org/10.1002/casp.70248)
@@ -346,6 +344,7 @@
 - Bagci, S. C., <span style='color:#3F50B5'>Stathi, S.</span> & Golec de Zavala, A. (2023). **Social identity threat across group status: Links to psychological well-being and intergroup bias through collective narcissism and ingroup satisfaction.** *Cultural Diversity &amp; Ethnic Minority Psychology* [https://doi.org/10.1037/cdp0000509](https://doi.org/10.1037/cdp0000509)
 
 # Other Research by Network Members
+- Brand, A., Wingen, T. & <span style='color:#3F50B5'>Christ, O.</span> (2026). **Can Large Language Models Simulate Child-Like Theory of Mind?** *PsyArXiv* [https://doi.org/10.31234/osf.io/386vw_v1](https://doi.org/10.31234/osf.io/386vw_v1)
 - Cliffe, B., Dark, A., Marsh, I., Phillips, P., Willis, A., <span style='color:#3F50B5'>Joyner, L.</span>, Marzano, L., Craig, P., Hawton, K. & Mackenzie, J. (2026). **Barriers and enablers to implementing and using surveillance technology for suicide prevention in public places.** *PsyArXiv* [https://doi.org/10.31234/osf.io/st3km_v1](https://doi.org/10.31234/osf.io/st3km_v1)
 - Cliffe, B., Marsh, I., Dark, A., Willis, A., Phillips, P., <span style='color:#3F50B5'>Joyner, L.</span>, Marzano, L., Hawton, K., George, C., Craig, P. & Mackenzie, J. (2026). **Ethical Considerations Around Surveillance Technologies for Suicide Prevention in Public Places: Bringing Together Staff and Lived/Living Experience Perspectives.** *PsyArXiv* [https://doi.org/10.31234/osf.io/7bx3f_v1](https://doi.org/10.31234/osf.io/7bx3f_v1)
 - Pavetich, M. & <span style='color:#3F50B5'>Stathi, S.</span> (2026). **Bridging the Political Divide: Meta-Humanization and Moral Emotions Shape Partisan Reconciliation.** *Personality and Social Psychology Bulletin* [https://doi.org/10.1177/01461672261481208](https://doi.org/10.1177/01461672261481208)
