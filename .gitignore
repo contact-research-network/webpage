@@ -6,3 +6,4 @@
 .DS_Store
 resources/
 assets/jsconfig.json
+public/

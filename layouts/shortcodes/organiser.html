@@ -1,0 +1,14 @@
+{{ $slug := .Get 0 }}
+{{ $author := .Page.Site.GetPage (printf "/authors/%s" $slug) }}
+{{ if $author }}
+<div class="events-organiser-card">
+  {{ $avatar := ($author.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ if $avatar }}
+    {{ $img := $avatar.Fill "200x200 Center" }}
+    <a href="{{ $author.RelPermalink }}"><img class="avatar avatar-circle events-organiser-avatar" src="{{ $img.RelPermalink }}" alt="{{ $author.Title }}"></a>
+  {{ end }}
+  <div class="events-organiser-name"><a href="{{ $author.RelPermalink }}">{{ $author.Title }}</a></div>
+  {{ with (index $author.Params.organizations 0) }}<div class="events-organiser-org">{{ .name }}</div>{{ end }}
+  {{ with $author.Params.role }}<div class="events-organiser-role">{{ . | markdownify }}</div>{{ end }}
+</div>
+{{ end }}

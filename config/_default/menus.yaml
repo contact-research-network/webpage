@@ -13,9 +13,12 @@ main:
   - name: Get Involved
     url: "get_involved"
     weight: 80
-  - name: Contact Colloquium
+  - name: Colloquium
     url: "colloquium"
     weight: 90
+  - name: Events
+    url: "events"
+    weight: 91
   - name: Podcast
     url: "https://contactresearch.substack.com/podcast"
     weight: 95
