@@ -5,10 +5,10 @@ title: Emine Bilgen
 superuser: true
 
 # Last name first
-weight: 8
+weight: 9
 
 # Role/position
-role: Newsletter and Podcast — PhD Student
+role: 'PhD Student<span class="role-line">Newsletter and Podcast</span>'
 
 # Organizations/Affiliations
 organizations:

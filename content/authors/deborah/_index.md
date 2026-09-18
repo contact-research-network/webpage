@@ -8,7 +8,7 @@ superuser: true
 weight: 12
 
 # Role/position
-role: Membership — Senior Research Associate
+role: 'Senior Research Associate<span class="role-line">Membership</span>'
 
 # Organizations/Affiliations
 organizations:

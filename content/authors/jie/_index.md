@@ -8,7 +8,7 @@ superuser: true
 weight: 14
 
 # Role/position
-role: Website — PhD Candidate
+role: 'PhD Candidate<span class="role-line">Website</span>'
 
 # Organizations/Affiliations
 organizations:

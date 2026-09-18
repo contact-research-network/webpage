@@ -5,10 +5,10 @@ title: Shelley McKeown Jones
 superuser: true
 
 # Last name first
-weight: 18
+weight: 8
 
 # Role/position
-role: Professor of Social Psychology
+role: 'Professor of Social Psychology<span class="role-line">Secretary</span>'
 
 # Organizations/Affiliations
 organizations:

@@ -8,7 +8,7 @@ superuser: true
 weight: 6
 
 # Role/position
-role: Co-Chair — Reader in Social and Organisational Psychology
+role: 'Reader in Social and Organisational Psychology<span class="role-line">Co-Chair</span>'
 
 # Organizations/Affiliations
 organizations:

@@ -10,7 +10,7 @@ weight: 20
 superuser: true
 
 # Role/position
-role: Network Founder — Associate Professor, Lead of Centre for Mental Health
+role: 'Associate Professor, Lead of Centre for Mental Health<span class="role-line">Network Founder</span>'
 
 # Organizations/Affiliations
 organizations:

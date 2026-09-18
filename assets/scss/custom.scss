@@ -213,3 +213,9 @@
 .dark .site-footer .social-links a:hover {
   color: #64b5f6;
 }
+
+/* === PEOPLE WIDGET: SECOND ROLE LINE SPACING === */
+.people-widget .portrait-title h3 .role-line {
+  display: block;
+  margin-top: 0.5rem;
+}

@@ -4,8 +4,11 @@ title: Molly Adams
 # Is this the primary user of the site?
 superuser: true
 
+# Last name first
+weight: 18
+
 # Role/position
-role: Social Media - PhD Student
+role: 'PhD Student<span class="role-line">Social Media</span>'
 
 # Organizations/Affiliations
 organizations:

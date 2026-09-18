@@ -8,7 +8,7 @@ superuser: true
 weight: 11
 
 # Role/position
-role: Colloquium — PhD Candidate
+role: 'PhD Candidate<span class="role-line">Colloquium</span>'
 
 # Organizations/Affiliations
 organizations:

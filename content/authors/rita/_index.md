@@ -5,10 +5,10 @@ title: Rita Guerra
 superuser: true
 
 # Last name first
-weight: 8
+weight: 22
 
 # Role/position
-role: Secretary — Research Fellow
+role: Research Fellow
 
 # Organizations/Affiliations
 organizations:

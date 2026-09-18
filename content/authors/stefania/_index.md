@@ -8,7 +8,7 @@ superuser: true
 weight: 2
 
 # Role/position
-role: Chair — Professor of Psychology, Durham University
+role: 'Professor of Psychology<span class="role-line">Chair</span>'
 
 # Organizations/Affiliations
 organizations:
