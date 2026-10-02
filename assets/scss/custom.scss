@@ -157,3 +157,18 @@ $dark-bg: #0B1A33;
   display: block;
   margin-top: 0.5rem;
 }
+
+/* === PUBLICATION LIST: NETWORK MEMBERS (span.member from fetch_publications.py) === */
+.member {
+  color: $violet;
+  font-weight: 600;
+}
+.dark .member {
+  color: $peach;
+}
+
+/* === POST METADATA IN DARK MODE === */
+.dark .article-metadata,
+.dark .article-metadata a {
+  color: rgba(255, 255, 255, 0.7);
+}

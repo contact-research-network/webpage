@@ -71,12 +71,12 @@ def format_citation(items, group_members):
               family_name = author['family']
               author_str = f"{family_name}, {' '.join([i[0]+'.' for i in author.get('given', '').split()])}"
               if family_name in group_members.values:
-                  author_str = f"<span style='color:#3F50B5'>{author_str}</span>"
+                  author_str = f"<span class='member'>{author_str}</span>"
               authors.append(author_str)
           elif 'name' in author:
               name = author['name']
               if name in group_members.values:
-                  name = f"<span style='color:#3F50B5'>{name}</span>"
+                  name = f"<span class='member'>{name}</span>"
               authors.append(name)
 
         if not authors:
@@ -144,7 +144,7 @@ def main(email, orcid_url, additions_url):
         contact_research, other_research = format_citation(all_items, orcid_df['Last name'])
         with open("content/publication_list/_index.md", "w") as file:
             file.write("# Contact Research by Network Members\n")
-            file.write("\n\n Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors in <span style='color:#3F50B5'>blue</span> are members of the Contact Research Network.\n\n")
+            file.write("\n\n Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors <span class='member'>highlighted like this</span> are members of the International Contact Research Network.\n\n")
             file.write("\n\n".join(contact_research))
             file.write("\n\n# Other Research by Network Members\n")
             file.write("\n".join(other_research))

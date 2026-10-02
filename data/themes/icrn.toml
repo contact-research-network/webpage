@@ -18,6 +18,7 @@ link = "#5F3787"             # violet
 link_hover = "#002A61"       # navy
 
 [dark]
+  background = "#0B1A33"     # dark navy
   primary = "#36ADE6"        # sky
   home_section_odd = "#0B1A33"
   home_section_even = "#071226"
