@@ -30,8 +30,9 @@ if (!is.null(old_hash) && new_hash == old_hash) {
 # Save new hash
 writeLines(new_hash, hash_file)
 
-# Filter for show = yes
-filtered_data <- data[tolower(trimws(data$Show)) == "yes", ]
+# Keep rows marked show = yes that have a slug. which() drops rows where Show is
+# blank (NA); plain logical indexing would turn them into all-NA rows.
+filtered_data <- data[which(tolower(trimws(data$Show)) == "yes" & !is.na(data$Slug) & data$Slug != ""), ]
 
 # Extract ID from Google Drive URL
 extract_id <- function(url) {
@@ -55,18 +56,18 @@ get_image <- function(url, slug) {
 
   tryCatch({
     # Check if URL ends with png, jpg or jpeg
+    # A failed download leaves any existing featured image in place.
     if (grepl("\\.(png|jpg|jpeg)$", url, ignore.case = TRUE)) {
       file_ext <- tools::file_ext(url)
       file_path <- file.path(slug, paste0("featured.", file_ext))
-      response <- GET(url, write_disk(file_path, overwrite = TRUE))
+      response <- GET(url)
 
-      # Validate that the downloaded content is actually an image
       ct <- httr::http_type(response)
       if (!ct %in% c("image/jpeg", "image/jpg", "image/png")) {
-        unlink(file_path)
         warning(sprintf("Downloaded file for '%s' has unexpected content type '%s'. Skipping image.", slug, ct))
         return(invisible(FALSE))
       }
+      writeBin(httr::content(response, "raw"), file_path)
     } else {
       # Extract ID from the URL or use provided export URL
       if (!grepl("uc\\?export", url)) {
