@@ -42,10 +42,15 @@ $dark-bg: #0B1A33;
 }
 
 /* === HOME HERO === */
-/* Text on the left, mosaic pattern rising to the right edge of the window. */
+/* Navy band in light and dark mode: text on the left, mosaic pattern rising
+   to the right edge of the window. The pattern uses white for its navy tiles. */
 .home-section.wg-icrn-hero {
   padding: 0;
   overflow: hidden;
+}
+.home-section.wg-icrn-hero,
+.home-section.wg-icrn-hero > .home-section-bg {
+  background: $dark-bg;
 }
 .home-section.wg-icrn-hero > .container {
   max-width: none;
@@ -68,13 +73,17 @@ $dark-bg: #0B1A33;
   font-weight: 700;
   font-size: clamp(2rem, 3.2vw, 2.9rem);
   line-height: 1.15;
-  color: $navy;
+  color: #FFFFFF;
   margin-bottom: 1.5rem;
 }
 .icrn-hero-lead p {
   font-size: 1.15rem;
   line-height: 1.7;
   margin: 0;
+  color: #FFFFFF;
+}
+.icrn-hero-lead a {
+  color: $peach;
 }
 .icrn-hero-pattern {
   position: absolute;
@@ -84,19 +93,6 @@ $dark-bg: #0B1A33;
   width: 50%;
   object-fit: contain;
   object-position: right bottom;
-}
-.icrn-hero .pattern-dark,
-.dark .icrn-hero .pattern-light {
-  display: none;
-}
-.dark .icrn-hero .pattern-dark {
-  display: block;
-}
-.dark .icrn-hero-text h1 {
-  color: #FFFFFF;
-}
-.dark .icrn-hero-lead a {
-  color: $peach;
 }
 @media (max-width: 991px) {
   .icrn-hero {
