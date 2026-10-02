@@ -5,16 +5,16 @@
 
 # Appearance
 
-theme: ocean
+theme: icrn
 day_night: true
-font: minimal
+font: icrn
 font_size: L
 
 # SEO
 
 site_type: Organization
 local_business_type: ''
-org_name: 'Contact Research Network'
+org_name: 'International Contact Research Network'
 description:
 twitter: ''
 

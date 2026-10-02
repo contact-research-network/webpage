@@ -1,0 +1,10 @@
+{{/* Home hero: title and intro text beside the mosaic pattern from the logo. */}}
+{{ $page := .page }}
+<div class="icrn-hero">
+  <div class="icrn-hero-text">
+    <h1>{{ $page.Title | markdownify }}</h1>
+    <div class="icrn-hero-lead">{{ $page.Content }}</div>
+  </div>
+  <img class="icrn-hero-pattern pattern-light" src="{{ "media/brand/pattern.svg" | relURL }}" alt="" aria-hidden="true">
+  <img class="icrn-hero-pattern pattern-dark" src="{{ "media/brand/pattern-dark.svg" | relURL }}" alt="" aria-hidden="true">
+</div>

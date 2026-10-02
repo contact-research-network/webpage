@@ -7,3 +7,5 @@
 resources/
 assets/jsconfig.json
 public/
+bin/
+.hugo_build.lock

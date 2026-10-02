@@ -1,0 +1,25 @@
+# ICRN brand colours (see icrn/logo/vector/mark.py)
+name = "ICRN"
+
+light = true
+
+primary = "#002A61"          # navy
+background = "#FFFFFF"
+
+menu_primary = "#FFFFFF"
+menu_text = "#002A61"        # navy
+menu_text_active = "#5F3787" # violet
+menu_title = "#002A61"
+
+home_section_odd = "#FFFFFF"
+home_section_even = "#F4F6FA"
+
+link = "#5F3787"             # violet
+link_hover = "#002A61"       # navy
+
+[dark]
+  primary = "#36ADE6"        # sky
+  home_section_odd = "#0B1A33"
+  home_section_even = "#071226"
+  link = "#FDAD54"           # peach
+  link_hover = "#36ADE6"     # sky

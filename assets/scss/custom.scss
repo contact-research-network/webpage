@@ -1,181 +1,119 @@
-/* === NUCLEAR OPTION: Complete hero layout override using CSS Grid === */
-/* Reset the entire hero section structure */
-.home-section.wg-hero {
-  padding: 0 !important;
-  margin: 0 !important;
-  position: relative !important; /* anchor for the overlaid title */
-}
-.home-section.wg-hero .container {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-/* Convert row to CSS Grid for absolute control */
-.home-section.wg-hero .row {
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  grid-template-rows: auto auto !important;
-  gap: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-/* Hero image at full width and full height.
-   z-index:0 keeps it below the pinned title (which sits above at z-index:1). */
-.home-section.wg-hero .col-md-6.hero-media {
-  grid-column: 1 !important;
-  grid-row: 1 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 62.5vh !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  position: relative !important;
-  z-index: 0 !important;
-  overflow: hidden !important;
-  display: block !important;
-}
-.home-section.wg-hero .col-md-6.hero-media img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: center 15% !important;
-  display: block !important;
-}
-/* Title text overlay on the image.
-   position:fixed pins the title to the viewport so the image scrolls *under* it.
-   The title lives inside the text column (.col:first-child). Within that column's
-   stacking context it sits below the column's ::before occluder (z-index:2), so as
-   you scroll the column rises and its opaque ::before cleanly hides the title — it
-   "disappears behind" the text instead of bleeding over it. The whole text column
-   sits above the image (column z-index:1 > image z-index:0), so the pinned title
-   still shows over the picture at the top of the page. */
-.home-section.wg-hero h1.hero-title {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  height: 62.5vh !important; /* match the hero image height so it centres on the image */
-  transform: none !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 1 !important;
-  margin: 0 !important;
-  padding: 0 2rem !important;
-  color: #ffffff !important;
-  font-family: 'Montserrat', sans-serif !important;
-  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7) !important;
-  font-size: clamp(2.25rem, 7vw, 4.5rem) !important;
-  text-align: center !important;
-  background: none !important;
-  pointer-events: none !important;
-}
-/* Left text column - push to second grid row.
-   z-index:1 lifts the whole column (and the title nested in it) above the image.
-   Its ::before (below) is the opaque occluder that hides the pinned title on scroll. */
-.home-section.wg-hero .col-md-6:first-child {
-  position: relative !important;
-  z-index: 1 !important;
-  grid-column: 1 !important;
-  grid-row: 2 !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  padding: 2rem 2rem !important;
-  margin: 0 !important;
-  background: white !important;
-}
-/* Opaque occluder: covers the text column and, crucially, paints ABOVE the pinned
-   title (z-index:2 > title's z-index:1). As the column scrolls up over the fixed
-   title, this white layer hides it — so the title disappears behind the text rather
-   than scrolling over it. The actual text (.hero-lead) is lifted above it below. */
-.home-section.wg-hero .col-md-6:first-child::before {
-  content: "" !important;
-  position: absolute !important;
-  inset: 0 !important;
-  background: white !important;
-  z-index: 2 !important;
-  pointer-events: none !important;
-}
-/* DARK MODE - Add dark mode styles for hero text section */
-.dark .home-section.wg-hero .col-md-6:first-child {
-  background: #212529 !important;
-}
-.dark .home-section.wg-hero .col-md-6:first-child::before {
-  background: #212529 !important;
-}
-/* Description text block styling.
-   z-index:3 keeps the intro text above the occluder (which is z-index:2). */
-.home-section.wg-hero .hero-lead {
-  position: relative !important;
-  z-index: 3 !important;
-  max-width: 1000px !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
-  text-align: center !important;
-  p {
-    font-family: 'Montserrat', sans-serif !important;
-    color: #333333 !important;
-    font-size: 1.1rem !important;
-    line-height: 1.7 !important;
-    margin: 0 !important;
-  }
-}
-/* DARK MODE - Change text color */
-.dark .home-section.wg-hero .hero-lead p {
-  color: #e0e0e0 !important;
-}
+/* === BRAND === */
+/* Colours match the logo palette in data/themes/icrn.toml. */
+$navy: #002A61;
+$violet: #5F3787;
+$sky: #36ADE6;
+$peach: #FDAD54;
+$dark-bg: #0B1A33;
 
-/* DARK MODE - Change link colors in hero section */
-.dark .home-section.wg-hero .hero-lead a {
-  color: #64b5f6 !important;
-}
-
-.dark .home-section.wg-hero .hero-lead a:hover {
-  color: #90caf9 !important;
-}
-
-/* === NAVBAR STYLING === */
-/* Light mode - navbar with white background and dark text */
+/* === NAVBAR === */
 .navbar-light {
-  background-color: rgba(255, 255, 255, 0.95) !important;
-  border-bottom: 1px solid #cccccc !important;
+  background-color: rgba(255, 255, 255, 0.97) !important;
+  border-bottom: 1px solid #E3E7EF !important;
   box-shadow: none !important;
 }
-
 .navbar-light .navbar-nav .nav-link {
-  color: #333333 !important;
+  color: $navy !important;
+  font-weight: 500;
 }
-
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0066cc !important;
+  color: $violet !important;
 }
-
-.navbar-light .navbar-brand {
-  color: #333333 !important;
+.navbar-brand img {
+  height: 40px;
+  max-height: 40px;
 }
-
-/* Dark mode - navbar with dark background and light text */
+.navbar-brand .logo-dark,
+.dark .navbar-brand .logo-light {
+  display: none;
+}
+.dark .navbar-brand .logo-dark {
+  display: inline;
+}
 .dark .navbar-light {
-  background-color: rgba(55, 59, 63, 0.92) !important;
-  border-bottom: 1px solid #444444 !important;
-  box-shadow: none !important;
+  background-color: rgba(11, 26, 51, 0.96) !important;
+  border-bottom: 1px solid #1E3050 !important;
 }
-
 .dark .navbar-light .navbar-nav .nav-link {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
-
 .dark .navbar-light .navbar-nav .nav-link:hover {
-  color: #cccccc !important;
+  color: $peach !important;
 }
 
-.dark .navbar-light .navbar-brand {
-  color: #ffffff !important;
+/* === HOME HERO === */
+/* Text on the left, mosaic pattern rising to the right edge of the window. */
+.home-section.wg-icrn-hero {
+  padding: 0;
+  overflow: hidden;
+}
+.home-section.wg-icrn-hero > .container {
+  max-width: none;
+  padding: 0;
+}
+.icrn-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: unquote("min(68vh, 640px)");
+}
+.icrn-hero-text {
+  position: relative;
+  z-index: 1;
+  width: 48%;
+  padding: 4rem 2rem 4rem unquote("max(2rem, calc((100vw - 1140px) / 2))");
+}
+.icrn-hero-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 3.2vw, 2.9rem);
+  line-height: 1.15;
+  color: $navy;
+  margin-bottom: 1.5rem;
+}
+.icrn-hero-lead p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 0;
+}
+.icrn-hero-pattern {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 50%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+.icrn-hero .pattern-dark,
+.dark .icrn-hero .pattern-light {
+  display: none;
+}
+.dark .icrn-hero .pattern-dark {
+  display: block;
+}
+.dark .icrn-hero-text h1 {
+  color: #FFFFFF;
+}
+.dark .icrn-hero-lead a {
+  color: $peach;
+}
+@media (max-width: 991px) {
+  .icrn-hero {
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 0;
+  }
+  .icrn-hero-text {
+    width: 100%;
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  .icrn-hero-pattern {
+    position: static;
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+  }
 }
 
 /* === FOOTER SOCIAL LINKS === */
@@ -193,12 +131,12 @@
   justify-content: center;
   font-size: 1.4rem;
   line-height: 1;
-  color: #1a1a1a;
+  color: $navy;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .site-footer .social-links a:hover {
-  color: #06805E;
+  color: $violet;
   transform: translateY(-2px);
 }
 
@@ -211,7 +149,7 @@
 }
 
 .dark .site-footer .social-links a:hover {
-  color: #64b5f6;
+  color: $peach;
 }
 
 /* === PEOPLE WIDGET: SECOND ROLE LINE SPACING === */

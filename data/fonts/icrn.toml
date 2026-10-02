@@ -1,0 +1,7 @@
+# Montserrat for headings and navigation (as in the logo), Roboto for body text.
+name = "ICRN"
+google_fonts = "family=Montserrat:wght@400;500;600;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+heading_font = "Montserrat"
+body_font = "Roboto"
+nav_font = "Montserrat"
+mono_font = "Roboto Mono"
