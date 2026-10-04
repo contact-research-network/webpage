@@ -7,11 +7,11 @@ markup: "html"
 ---
 <style>
 .article-container {
-    max-width: 1140px;
+    max-width: 1280px;
 }
 
 .events-page {
-    max-width: 1100px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -102,7 +102,7 @@ markup: "html"
 
 .events-organiser-card {
     text-align: center;
-    width: 230px;
+    width: 210px;
 }
 
 .events-organiser-card .events-organiser-avatar {
@@ -296,12 +296,12 @@ markup: "html"
 <div class="events-page">
 
 <div class="events-tabs" role="tablist">
-    <button type="button" class="events-tab is-active" data-year="2024" role="tab" aria-selected="true">2024</button>
+    <button type="button" class="events-tab is-active" data-year="2026" role="tab" aria-selected="true">2026</button>
     <button type="button" class="events-tab" data-year="2025" role="tab" aria-selected="false">2025</button>
-    <button type="button" class="events-tab" data-year="2026" role="tab" aria-selected="false">2026</button>
+    <button type="button" class="events-tab" data-year="2024" role="tab" aria-selected="false">2024</button>
 </div>
 
-<div id="events-2024" class="events-panel is-active">
+<div id="events-2024" class="events-panel">
 
 <div class="events-heading">
     <span class="events-year">2024</span>
@@ -334,11 +334,9 @@ We struck up various new collaborations and can't wait to see them play out - an
 <div class="events-gallery" data-gallery="2024" data-visible="6">
     <figure class="events-gallery-item">
         <img src="/media/events/2024/organisers.jpg" alt="The three summit organisers, Michèle Birtel, Libby Drury and Lukas Wallrich, at Birkbeck">
-        <figcaption>Libby, Michèle &amp; Lukas</figcaption>
     </figure>
     <figure class="events-gallery-item">
         <img src="/media/events/2024/dinner.jpg" alt="Summit participants at the group dinner">
-        <figcaption>The group at dinner</figcaption>
     </figure>
 </div>
 <button type="button" class="events-gallery-toggle is-hidden" data-gallery-toggle="2024">Show more</button>
@@ -354,7 +352,6 @@ We struck up various new collaborations and can't wait to see them play out - an
 
 <figure class="events-photo-feature">
     <img src="/media/events/2025/group.jpg" alt="Summit participants outside Lady Margaret Hall, University of Oxford">
-    <figcaption>The group at Lady Margaret Hall</figcaption>
 </figure>
 
 <h2 class="events-section-label">Organisers</h2>
@@ -362,6 +359,8 @@ We struck up various new collaborations and can't wait to see them play out - an
 <div class="events-organisers-grid">
 {{< organiser "shelley" >}}
 {{< organiser "lukas" >}}
+{{< organiser "libby" >}}
+{{< organiser "stefania" >}}
 </div>
 
 <h2 class="events-section-label">Keynote Speaker</h2>
@@ -391,14 +390,13 @@ During the meeting, Stefania (Paolini), Lukas (Wallrich) and Rita (Guerra), in t
 <div class="events-gallery" data-gallery="2025" data-visible="6">
     <figure class="events-gallery-item is-square">
         <img src="/media/events/2025/talks.jpg" alt="Presenters at the 2025 summit">
-        <figcaption>Presentations throughout the day</figcaption>
     </figure>
 </div>
 <button type="button" class="events-gallery-toggle is-hidden" data-gallery-toggle="2025">Show more</button>
 
 </div>
 
-<div id="events-2026" class="events-panel">
+<div id="events-2026" class="events-panel is-active">
 
 <div class="events-heading">
     <span class="events-year">2026</span>
@@ -407,7 +405,6 @@ During the meeting, Stefania (Paolini), Lukas (Wallrich) and Rita (Guerra), in t
 
 <figure class="events-photo-feature">
     <img src="/media/events/2026/group2.jpg" alt="Summit participants at the FernUniversität Campus Centre, Karlsruhe">
-    <figcaption>The group in Karlsruhe</figcaption>
 </figure>
 
 <h2 class="events-section-label">Organisers</h2>
@@ -449,7 +446,33 @@ The Summit continues to grow each year, and we're already looking forward to see
 <div class="events-gallery" data-gallery="2026" data-visible="6">
     <figure class="events-gallery-item is-square">
         <img src="/media/events/2026/collage.jpg" alt="Moments from the 2026 summit: presentations, unconferencing, the picnic and dinner">
-        <figcaption>Moments from the Summit</figcaption>
+    </figure>
+    <figure class="events-gallery-item">
+        <img src="/media/events/2026/meeting-discussion.jpg" alt="Attendees in discussion during a summit session">
+    </figure>
+    <figure class="events-gallery-item">
+        <img src="/media/events/2026/eca-awards.jpg" alt="Summit attendees holding certificates">
+    </figure>
+    <figure class="events-gallery-item">
+        <img src="/media/events/2026/group-photo1.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item">
+        <img src="/media/events/2026/group-photo2.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item">
+        <img src="/media/events/2026/group-photo3.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item is-square">
+        <img src="/media/events/2026/group-photo4.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item is-square">
+        <img src="/media/events/2026/group-photo5.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item is-square">
+        <img src="/media/events/2026/group-photo6.jpg" alt="Summit attendees">
+    </figure>
+    <figure class="events-gallery-item is-square">
+        <img src="/media/events/2026/group-photo7.jpg" alt="Summit attendees">
     </figure>
 </div>
 <button type="button" class="events-gallery-toggle is-hidden" data-gallery-toggle="2026">Show more</button>
