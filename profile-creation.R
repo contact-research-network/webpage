@@ -44,13 +44,9 @@ people <- lapply(people, function(person) {
 })
 
 
-# Placeholder photo: a brand-coloured figure, picked by profile folder name so
-# each person keeps the same colour. Built by icrn/logo/vector/build_avatars.py.
-placeholder_avatar <- function(slug) {
-  files <- sort(list.files("helpers/avatar_placeholders", pattern = "\\.jpg$", full.names = TRUE))
-  codes <- utf8ToInt(slug)
-  files[sum(codes * seq_along(codes)) %% length(files) + 1]
-}
+# Placeholder photo for members without one. The people page recolours
+# placeholders in a fixed sequence (layouts/partials/widgets/people.html).
+placeholder_avatar <- file.path("assets", "media", "placeholders", "teal.jpg")
 
 # Function to create directory and write _index.md
 create_profile <- function(person) {
@@ -91,7 +87,7 @@ create_profile <- function(person) {
   )
   writeLines(content, file_path)
   slug <- tolower(person$first_name)
-  file.copy(placeholder_avatar(slug), file.path("content", "authors", slug, "avatar.jpg"))
+  file.copy(placeholder_avatar, file.path("content", "authors", slug, "avatar-placeholder.jpg"))
 }
 
 # Create profiles for all people
