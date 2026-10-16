@@ -9,8 +9,8 @@ role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: University of Groningen
-  url: https://www.rug.nl/staff/i.borinca/?lang=en
+- name: Maynooth University
+  url: https://www.maynoothuniversity.ie/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:i.borinca@rug.nl
+  link: mailto:Islam.Borinca@mu.ie
 - icon: twitter
   icon_pack: fab
   label: Follow me on Twitter

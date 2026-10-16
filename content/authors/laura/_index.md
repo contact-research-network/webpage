@@ -9,8 +9,8 @@ role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Middlesex University
-  url: https://www.mdx.ac.uk
+- name: University of Westminster
+  url: https://www.westminster.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:l.joyner@mdx.ac.uk
+  link: mailto:L.Joyner@westminster.ac.uk
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
