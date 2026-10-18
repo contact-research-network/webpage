@@ -6,10 +6,10 @@ title: ""
 type: page
 ---
 
-## 2025/26 Schedule
+## 2026/27 Schedule
 
 <div style="border: 1px solid #ddd; border-radius: 4px; overflow: hidden; margin: 20px 0;">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vQaz6_tzPUBIe6Pi661KanTx2JTLypXYWD-A7Jw4ChIDYDAK1EdFwe6OXHgH0dlQA/pub?embedded=true" width="100%" height="800" style="border: none;"></iframe>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSdrnzP4nIz6K7ZfnY0LSQiFLZDM_OsmU5t131UwW9RaDIno_uRWF4r4CWq_TEDyA/pub?embedded=true" width="100%" height="800" style="border: none;"></iframe>
 </div>
 
 *This schedule is automatically updated by the colloquium coordinators.*
@@ -17,6 +17,18 @@ type: page
 ---
 
 ## Past Sessions
+
+### 2025/26 Sessions
+
+| Date                |                                                       | Speaker                                                | Title                                                                                               | Discussant                                  | Recording                                 |
+|---------------------|------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------|---------------------------------------------|
+| **Friday, 29 May 2026**   | <span style="color:#bb99ff;">●</span>            | Dr. Lukas Wallrich <br> *Birkbeck, University of London* | From contact associations to contact effects: Conceptual puzzles in a maturing field | Dr Nikhil Sengupta, *University of Kent* |  |
+| **Friday, 24 Apr 2026**   | <span style="color:#66ff66;">●</span>            | Prof. Oliver Christ <br> *FernUniversität in Hagen* | The role of tolerance in intergroup relations | Dr Maria-Therese Friehs, *FernUniversität in Hagen* |  |
+| **Monday, 23 Mar 2026**   | <span style="color:#66ff66;">●</span>            | Dr. Chloe Bracegirdle <br> *University of Oxford* | Social network insights into intergroup contact in schools | Prof. Olivia Spiegler, *University of Oxford* |  |
+| **Friday, 27 Feb 2026**   | <span style="color:#e03030;">●</span>            | Dr. Fiona Kazarovytska <br> *University of Mainz* <br><br> Max Primbs <br> *Radboud University* | Contact as Collective Action: Positive and Negative Contact Experiences of Disadvantaged Group Members <br><br> A big data approach to intergroup contact | Dr Maria-Therese Friehs, *FernUniversität in Hagen* |  |
+| **Friday, 30 Jan 2026**   | <span style="color:#66ff66;">●</span>            | Prof. Rose Meleady <br> *University of East Anglia* | Stable people, stable contexts, stable attitudes? Contact effects reconsidered | Prof. Shelley McKeown Jones, *University of Oxford* |  |
+| **Monday, 24 Nov 2025**   | <span style="color:#ffb066;">●</span>            | Dr. Negusu Aklilu <br> *Destiny Ethiopia Initiative* | Building peace before the polls: Political party dialogues to prevent electoral violence in Ethiopia | Julia Schreiber, *University of Sussex* |  |
+| **Friday, 31 Oct 2025**   | <span style="color:#66ff66;">●</span>            | Prof. Jake Harwood <br> *University of Arizona* | The rhythm is gonna get you: What people *do* during contact matters | Prof. Stefania Paolini, *Durham University* | [![YouTube](https://img.icons8.com/color/16/000000/youtube-play.png)](https://www.youtube.com/watch?v=kpQQJ44Te2E) [Watch on YouTube](https://www.youtube.com/watch?v=kpQQJ44Te2E) |
 
 ### 2024/25 Sessions
 
