@@ -4,6 +4,8 @@ $navy: #002A61;
 $violet: #5F3787;
 $sky: #36ADE6;
 $peach: #FDAD54;
+$orange: #FF9C06;
+$red: #F7474D;
 $dark-bg: #0B1A33;
 
 /* === NAVBAR === */
@@ -17,7 +19,7 @@ $dark-bg: #0B1A33;
   font-weight: 500;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: $violet !important;
+  color: $red !important;
 }
 .navbar-brand img {
   height: 40px;
@@ -42,8 +44,8 @@ $dark-bg: #0B1A33;
 }
 
 /* === HOME HERO === */
-/* Navy band in light and dark mode: text on the left, mosaic pattern rising
-   to the right edge of the window. The pattern uses white for its navy tiles. */
+/* Navy band in light and dark mode. Text on the left and the logo mosaic on
+   the right, both inside the same 1140px column as the sections below. */
 .home-section.wg-icrn-hero {
   padding: 0;
   overflow: hidden;
@@ -57,58 +59,90 @@ $dark-bg: #0B1A33;
   padding: 0;
 }
 .icrn-hero {
-  position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  column-gap: 2.5rem;
   align-items: center;
-  min-height: unquote("min(68vh, 640px)");
-}
-.icrn-hero-text {
-  position: relative;
-  z-index: 1;
-  width: 48%;
-  padding: 4rem 2rem 4rem unquote("max(2rem, calc((100vw - 1140px) / 2))");
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 4.5rem 15px;
 }
 .icrn-hero-text h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: clamp(2rem, 3.2vw, 2.9rem);
+  font-weight: 600;
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  letter-spacing: -0.015em;
   line-height: 1.15;
   color: #FFFFFF;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  white-space: nowrap; /* two lines: "International Contact" / "Research Network" */
 }
 .icrn-hero-lead p {
-  font-size: 1.15rem;
-  line-height: 1.7;
+  max-width: 34rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
   margin: 0;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.88);
 }
 .icrn-hero-lead a {
   color: $peach;
 }
 .icrn-hero-pattern {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 50%;
-  object-fit: contain;
-  object-position: right bottom;
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  justify-self: end;
+}
+.icrn-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+.icrn-hero-lead a.icrn-btn {
+  display: inline-block;
+  padding: 0.6rem 1.35rem;
+  border: 1.5px solid $orange;
+  border-radius: 8px;
+  background: $orange;
+  color: $navy;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.icrn-hero-lead a.icrn-btn:hover {
+  background: $peach;
+  border-color: $peach;
+  color: $navy;
+  text-decoration: none;
+}
+/* Secondary button: still a button, but quiet next to "Join us". */
+.icrn-hero-lead a.icrn-btn-subtle {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+}
+.icrn-hero-lead a.icrn-btn-subtle:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.7);
+  color: #FFFFFF;
 }
 @media (max-width: 991px) {
-  .icrn-hero {
-    flex-direction: column;
-    align-items: stretch;
-    min-height: 0;
+  .icrn-hero-text h1 {
+    white-space: normal;
   }
-  .icrn-hero-text {
-    width: 100%;
-    padding: 2.5rem 1.5rem 1rem;
+  .icrn-hero {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    padding: 2.5rem 1.5rem;
   }
   .icrn-hero-pattern {
-    position: static;
-    width: 100%;
-    height: auto;
-    max-height: 60vh;
+    max-width: 320px;
+    justify-self: start;
   }
 }
 
@@ -132,7 +166,7 @@ $dark-bg: #0B1A33;
 }
 
 .site-footer .social-links a:hover {
-  color: $violet;
+  color: $red;
   transform: translateY(-2px);
 }
 

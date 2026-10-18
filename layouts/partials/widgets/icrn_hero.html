@@ -1,9 +1,9 @@
-{{/* Home hero: title and intro text beside the mosaic pattern from the logo. */}}
+{{/* Home hero: title and intro text beside the logo mosaic. */}}
 {{ $page := .page }}
 <div class="icrn-hero">
   <div class="icrn-hero-text">
-    <h1>{{ $page.Title | markdownify }}</h1>
+    <h1>{{ replace $page.Title " Research" "<br>Research" | safeHTML }}</h1>
     <div class="icrn-hero-lead">{{ $page.Content }}</div>
   </div>
-  <img class="icrn-hero-pattern" src="{{ "media/brand/pattern.svg" | relURL }}" alt="" aria-hidden="true">
+  <img class="icrn-hero-pattern" src="{{ "media/brand/hero-illustration.png" | relURL }}" alt="" aria-hidden="true">
 </div>
