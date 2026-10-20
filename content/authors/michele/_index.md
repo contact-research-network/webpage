@@ -45,6 +45,6 @@ user_groups:
 
 # Below the line: a longer bio if you like
 ---
-Founder of the International Contact Research Network and organizer of the Contact Colloquium 2024/25. 
+Founder of the International Contact Research Network and organiser of the inaugural Contact Colloquium 2024/25. 
 Associate Professor of Clinical and Health Psychology and Lead of Research Centre for Mental Health at London and South East University Group. Senior Research Fellow in Health Psychology at University of Vienna.
 For more details about my background and my work, please visit my [website](https://www.michelebirtel.com).
