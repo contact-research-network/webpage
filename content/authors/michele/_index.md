@@ -10,11 +10,11 @@ weight: 20
 superuser: true
 
 # Role/position
-role: 'Associate Professor, Lead of Centre for Mental Health<span class="role-line">Network Founder</span>'
+role: 'Associate Professor, Lead of Centre for Mental Health, <span class="role-line">Network Founder</span>'
 
 # Organizations/Affiliations
 organizations:
-- name: University of Greenwich & University of Vienna
+- name: London and South East University Group & University of Vienna
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -36,7 +36,7 @@ social:
   link: https://scholar.google.co.uk/citations?user=BFjGDdEAAAAJ&hl=en
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/michelebirtel/
+  link: https://www.linkedin.com/in/micheledbirtel/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -45,6 +45,6 @@ user_groups:
 
 # Below the line: a longer bio if you like
 ---
-Founder of the International Contact Research Network and organizer of the Contact Colloquium 2024/25. 
-Associate Professor of Health Psychology and Lead of Research Centre for Mental Health at University of Greenwich. Senior Research Fellow in Health Psychology at University of Vienna.
+Founder of the International Contact Research Network and organiser of the inaugural Contact Colloquium 2024/25. 
+Associate Professor of Clinical and Health Psychology and Lead of Research Centre for Mental Health at the London and South East University Group. Senior Research Fellow in Health Psychology at University of Vienna.
 For more details about my background and my work, please visit my [website](https://www.michelebirtel.com).
