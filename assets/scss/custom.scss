@@ -146,6 +146,16 @@ $dark-bg: #0B1A33;
   }
 }
 
+/* Dark mode: keep the band dark, but a clearly lighter, more saturated blue than the
+   page, with a faint edge line, so the hero reads as its own block. */
+body.dark .home-section.wg-icrn-hero,
+body.dark .home-section.wg-icrn-hero > .home-section-bg {
+  background: #17315C !important;
+}
+body.dark .home-section.wg-icrn-hero {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 /* === FOOTER SOCIAL LINKS === */
 .site-footer .social-links {
   display: flex;
