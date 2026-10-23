@@ -67,13 +67,23 @@
 
     {{ $searchText := printf "%s %s" .Title $summaryText | lower }}
 
-    <div class="ann-item" data-category="{{ $cat }}" data-yearmonth="{{ .Date.Format "2006-01" }}" data-search="{{ $searchText | htmlEscape }}">
-      <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
-      <div class="ann-item-meta">
-        {{ .Date.Format "Jan 2, 2006" }}
-        <span class="ann-item-badge">{{ $catLabel }}</span>
+    <div class="ann-item media" data-category="{{ $cat }}" data-yearmonth="{{ .Date.Format "2006-01" }}" data-search="{{ $searchText | htmlEscape }}">
+      <div class="media-body">
+        <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
+        <div class="ann-item-meta">
+          {{ .Date.Format "Jan 2, 2006" }}
+          <span class="ann-item-badge">{{ $catLabel }}</span>
+        </div>
+        <div class="article-style">{{ $summaryText }}</div>
       </div>
-      <div class="article-style">{{ $summaryText }}</div>
+      {{ $title := .Title }}
+      {{ with (.Resources.ByType "image").GetMatch "*featured*" }}
+      <div class="ml-3">
+        <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
+          <img src="{{ (.Resize "150x").RelPermalink }}" alt="{{ $title }}" loading="lazy">
+        </a>
+      </div>
+      {{ end }}
     </div>
   {{ end }}
   </div>
