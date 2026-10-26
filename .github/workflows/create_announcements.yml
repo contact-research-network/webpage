@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     name: Generate announcement
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # r2u-setup needs apt-key, which Ubuntu 26.04 removed
 
     permissions:
       # Give default GITHUB_TOKEN write permission to commit and push the changed files back to repo.
