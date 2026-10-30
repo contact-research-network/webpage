@@ -5,7 +5,7 @@ title: Duygu Cavdar
 superuser: true
 
 # Role/position
-role: Education Specialist
+role: Education Specialist, PhD in Educational Psychology
 
 # Organizations/Affiliations
 organizations:

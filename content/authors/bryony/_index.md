@@ -9,8 +9,8 @@ role: Postdoctoral Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: King's College London
-  url: https://www.kcl.ac.uk/
+- name: Birkbeck, University of London
+  url: https://www.bbk.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:bryony.payne@kcl.ac.uk
+  link: mailto:bryony.payne@bbk.ac.uk
 - icon: globe
   icon-pack: fas
   link: https://www.kcl.ac.uk/people/bryony-payne

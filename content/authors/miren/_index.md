@@ -5,7 +5,7 @@ title: Miren Chenevert
 superuser: true
 
 # Role/position
-role: PhD student
+role: Postdoctoral Fellow
 
 # Organizations/Affiliations
 organizations:
