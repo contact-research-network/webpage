@@ -8,11 +8,15 @@ type: page
 
 ## 2026/27 Schedule
 
-<div style="border: 1px solid #ddd; border-radius: 4px; overflow: hidden; margin: 20px 0;">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSdrnzP4nIz6K7ZfnY0LSQiFLZDM_OsmU5t131UwW9RaDIno_uRWF4r4CWq_TEDyA/pub?embedded=true" width="100%" height="800" style="border: none;"></iframe>
+<div style="border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 20px 0;">
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSdrnzP4nIz6K7ZfnY0LSQiFLZDM_OsmU5t131UwW9RaDIno_uRWF4r4CWq_TEDyA/pub?embedded=true" width="100%" height="800" style="display: block; border: none;"></iframe>
 </div>
 
 *This schedule is automatically updated by the colloquium coordinators.*
+
+<div style="text-align: left; margin: 2rem 0;">
+  <img src="/media/colloquium/2026-27-speakers.jpg" alt="Contact Colloquium 2026/27: monthly online talks from October 2026 to May 2027, with speakers Nils Reimer, Ulrich Wagner, Afreen Khalid, Anne Speer, Fiona White, Shelley McKeown Jones, Loris Vezzali, Sofia Stathi and Tabea Hässler" style="display: block; margin: 0 auto; width: 100%; max-width: 780px; height: auto; border-radius: 8px;">
+</div>
 
 ---
 
