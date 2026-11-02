@@ -9,8 +9,8 @@ role: PhD Student in Psychology
 
 # Organizations/Affiliations
 organizations:
-- name: Durham University
-  url: https://www.dur.ac.uk
+- name: University of Bologna
+  url: https://www.unibo.it/en/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:mohammad.m.khoddami@durham.ac.uk
+  link: mailto:mohammad.khoddami2@unibo.it
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

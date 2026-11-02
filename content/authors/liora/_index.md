@@ -9,8 +9,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Stockholm University
-  url: https://www.su.se/english
+- name: University of Massachusett
+  url: https://www.umass.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -22,7 +22,7 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:liora.morhayim@su.se
+  link: mailto:lmorhayim@umass.edu
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
