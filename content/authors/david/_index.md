@@ -5,7 +5,7 @@ title: David Livert
 superuser: true
 
 # Role/position
-role: Associate Professor
+role: Professor of Psychology
 
 # Organizations/Affiliations
 organizations:

@@ -5,12 +5,12 @@ title: Stephen Wright
 superuser: true
 
 # Role/position
-role: 
+role: Professor Emeritus
 
 # Organizations/Affiliations
 organizations:
 - name: Simon Fraser University
-  url: https://www.sfu.ca
+  url: https://www.sfu.ca/psychology/about/people/retired-faculty---staff.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

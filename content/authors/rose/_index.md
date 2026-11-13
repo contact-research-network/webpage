@@ -5,12 +5,12 @@ title: Rose Meleady
 superuser: true
 
 # Role/position
-role: Associate Professor of Psychology
+role: Professor of Psychology
 
 # Organizations/Affiliations
 organizations:
 - name: University of East Anglia
-  url: "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fresearch-portal.uea.ac.uk%2fen%2fpersons%2frose-meleady&c=E,1,gKy0UO0w3n7drP6AGJ1rUlMoUkteZ47Cl-c2u7EeC1hOHDL5NTr8Ecb1XY6jbNFYo1n2bXXGTLWlRFn6H18tEPthrPfjpoEr5z3aC4fXlAQFhEqM-FOC&typo=1"
+  url: https://www.uea.ac.uk/about/school-of-psychology
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

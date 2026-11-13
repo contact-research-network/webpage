@@ -5,12 +5,12 @@ title: Elizaveta Komyaginskaya
 superuser: true
 
 # Role/position
-role: 
+role: Junior Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Center for Sociocultural Research, HSE University
-  url: https://www.researchgate.net/profile/Elizaveta-Komyaginskaya
+- name: Centre for Sociocultural Research, HSE University
+  url: https://www.hse.ru/en/org/persons/825907369
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

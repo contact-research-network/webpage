@@ -5,12 +5,12 @@ title: Tibor Zingora
 superuser: true
 
 # Role/position
-role: Post Doc
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: University of Groningen
-  url: https://www.linkedin.com/in/tibor-%25C5%25BEingora-90980a84/
+- name: Masaryk University
+  url: https://www.muni.cz/en/people/362589-tibor-zingora
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

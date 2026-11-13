@@ -5,12 +5,12 @@ title: Mustafa Firat
 superuser: true
 
 # Role/position
-role: PhD Candidate in Sociology
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Radboud University
-  url: https://www.ru.nl/en
+- name: University of Twente
+  url: https://people.utwente.nl/m.firat
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
