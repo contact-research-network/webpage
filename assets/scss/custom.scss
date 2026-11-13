@@ -65,7 +65,7 @@ $dark-bg: #0B1A33;
   align-items: center;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 4.5rem 15px;
+  padding: 3rem 15px;
 }
 .icrn-hero-text h1 {
   font-family: 'Montserrat', sans-serif;
@@ -90,7 +90,7 @@ $dark-bg: #0B1A33;
 .icrn-hero-pattern {
   display: block;
   width: 100%;
-  max-width: 450px;
+  max-width: 360px;
   height: auto;
   justify-self: end;
 }
@@ -164,6 +164,9 @@ body.dark .home-section.wg-icrn-hero {
 $sky-text: #1A78AE;
 $orange-text: #B86A00;
 $red-text: #D2323A;
+.home-section.wg-icrn-values {
+  padding-top: 3.5rem;
+}
 .icrn-values {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
