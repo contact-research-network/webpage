@@ -156,6 +156,173 @@ body.dark .home-section.wg-icrn-hero {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* === HOME VALUES === */
+/* Two columns: "What we stand for" (mission + four values in a 2x2 grid) and a
+   "What we do" panel. Both headings share one top line, and the panel stretches
+   to the left column's height with the Join button at its foot. Value names use
+   darker shades of the logo accents so they keep contrast on the light tint. */
+$sky-text: #1A78AE;
+$orange-text: #B86A00;
+$red-text: #D2323A;
+.icrn-values {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  column-gap: 3.5rem;
+  align-items: stretch;
+}
+.icrn-values h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  color: $navy;
+  margin: 0 0 1.25rem;
+}
+.icrn-values-lead p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0;
+}
+.icrn-values-list {
+  list-style: none;
+  margin: 2.25rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 2.5rem;
+}
+/* Each value spans two rows of the parent grid (name, text) via subgrid, so in
+   each pair the texts start on the same line even when one name wraps. Short
+   names sit on the bottom line of their row, next to the wrapped name's last
+   line. */
+.icrn-values-list li {
+  display: grid;
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+  margin-bottom: 1.75rem;
+}
+.icrn-values-list li h3 { align-self: end; }
+.icrn-values-list h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  color: $sky-text;
+}
+.icrn-values-list li:nth-child(2) h3 { color: $violet; }
+.icrn-values-list li:nth-child(3) h3 { color: $orange-text; }
+.icrn-values-list li:nth-child(4) h3 { color: $red-text; }
+.icrn-values-list p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+/* Panel: its padding-top is cancelled by a negative margin so its heading sits
+   on the same line as "What we stand for". */
+.icrn-activities {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #E3E7EF;
+  border-radius: 10px;
+  padding: 1.75rem 1.75rem 2rem;
+  margin-top: -1.75rem;
+}
+.icrn-activities ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.icrn-activities li {
+  padding: 0.9rem 0;
+}
+.icrn-activities li:first-child { padding-top: 0; }
+.icrn-activities li + li { border-top: 1px solid #E3E7EF; }
+.icrn-activities li > a {
+  white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: $navy;
+}
+.icrn-activities li > a::after {
+  content: " \2192";
+  color: $violet;
+}
+.icrn-activities li > a:hover { color: $violet; text-decoration: none; }
+.icrn-activities li p {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.icrn-activities-join {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid #E3E7EF;
+}
+.icrn-activities-join p {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.icrn-values a.icrn-join-btn {
+  display: inline-block;
+  padding: 0.6rem 1.35rem;
+  border-radius: 8px;
+  background: $orange;
+  color: $navy;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+.icrn-values a.icrn-join-btn:hover {
+  background: $peach;
+  color: $navy;
+}
+@media (max-width: 1199px) {
+  .icrn-values {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .icrn-activities { margin-top: 0; }
+  .icrn-activities ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+  .icrn-activities li,
+  .icrn-activities li:first-child { padding: 0.9rem 0; }
+  .icrn-activities li + li { border-top: 0; }
+  .icrn-activities-join { margin-top: 1rem; }
+}
+@media (max-width: 767px) {
+  .icrn-activities ul { grid-template-columns: 1fr; }
+  .icrn-activities li + li { border-top: 1px solid #E3E7EF; }
+  .dark .icrn-activities li + li { border-top-color: rgba(255, 255, 255, 0.12); }
+}
+@media (max-width: 575px) {
+  .icrn-values-list { grid-template-columns: 1fr; }
+  .icrn-values-list li { margin-bottom: 1.5rem; }
+}
+.dark .icrn-values h2 { color: #FFFFFF; }
+.dark .icrn-values-list h3 { color: $sky; }
+.dark .icrn-values-list li:nth-child(2) h3 { color: #B08AD8; }
+.dark .icrn-values-list li:nth-child(3) h3 { color: $orange; }
+.dark .icrn-values-list li:nth-child(4) h3 { color: #FF7A7F; }
+.dark .icrn-activities {
+  background: #12284A;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+.dark .icrn-activities li + li,
+.dark .icrn-activities-join {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.dark .icrn-activities li > a { color: #FFFFFF; }
+.dark .icrn-activities li > a::after { color: $peach; }
+
 /* === FOOTER SOCIAL LINKS === */
 .site-footer .social-links {
   display: flex;
