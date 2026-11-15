@@ -1,0 +1,38 @@
+{{/* Home values section, two columns: "What we stand for" (mission, then the
+     four core values in a 2x2 grid with names in the logo accent colours) and
+     a "What we do" panel (activities, membership line, Join us button). The
+     panel stretches to the height of the left column. On narrow screens the
+     panel drops below. Text lives in content/home/values.md. */}}
+{{ $page := .page }}
+<div class="icrn-values">
+  <div class="icrn-values-main">
+    <h2>{{ $page.Title }}</h2>
+    <div class="icrn-values-lead">{{ $page.Content }}</div>
+    <ul class="icrn-values-list">
+      {{ range $page.Params.values }}
+      <li>
+        <h3>{{ .name }}</h3>
+        <p>{{ .text | markdownify }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ with $page.Params.activities }}
+  <div class="icrn-activities">
+    <h2>{{ $page.Params.activities_title | default "What we do" }}</h2>
+    <ul>
+      {{ range . }}
+      {{ $external := hasPrefix .url "http" }}
+      <li>
+        <a href="{{ .url }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+        <p>{{ .text | markdownify }}</p>
+      </li>
+      {{ end }}
+    </ul>
+    <div class="icrn-activities-join">
+      {{ with $page.Params.approach }}<p>{{ . | markdownify }}</p>{{ end }}
+      {{ with $page.Params.join_url }}<a class="icrn-join-btn" href="{{ . }}">{{ $page.Params.join_label | default "Join us" }}</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

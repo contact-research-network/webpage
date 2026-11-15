@@ -5,12 +5,12 @@ title: Diana Cheso
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Lecturer in Psychology
 
 # Organizations/Affiliations
 organizations:
-- name: Royal Holloway, Univsersity of London
-  url: "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fpure.royalholloway.ac.uk%2fen%2fpersons%2fdiana-cheso&c=E,1,Sjfp2fXa1Vu58KoElr4LthI7uIoFbBrFDZteWnZ36GKo7pbvwBEfa-cQTBf7o2CXh2VAp23RYMv7YlNVNCJvrKjB56UBowotnsqI-Mmb0AQcCQ,,&typo=1"
+- name: University of Surrey
+  url: https://www.surrey.ac.uk/people/diana-cheso
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

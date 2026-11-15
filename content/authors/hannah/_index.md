@@ -5,12 +5,12 @@ title: Hannah Peetz
 superuser: true
 
 # Role/position
-role: PhD Candidate
+role: Postdoctoral Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: Radboud University Nijmegen
-  url: https://www.linkedin.com/in/hannah-peetz-148176150/?originalSubdomain=nl
+- name: University of East Anglia
+  url: https://www.uea.ac.uk/about/school-of-psychology
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

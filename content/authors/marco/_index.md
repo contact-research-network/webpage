@@ -5,12 +5,12 @@ title: Marco Marinucci
 superuser: true
 
 # Role/position
-role: Postdoc Fellow in Social Psychology
+role: Postdoctoral Fellow (MSCA COFUND)
 
 # Organizations/Affiliations
 organizations:
-- name: University of Milano-Bicocca
-  url: https://en.unimib.it/
+- name: University of Münster
+  url: https://www.uni-muenster.de/PsyIFP/AEEchterhoff/en/personen/marcomarinucci.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

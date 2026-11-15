@@ -8,12 +8,12 @@ superuser: true
 weight: 9
 
 # Role/position
-role: 'PhD Student<span class="role-line">Newsletter and Podcast</span>'
+role: 'Assistant Professor<span class="role-line">Newsletter and Podcast</span>'
 
 # Organizations/Affiliations
 organizations:
-- name: Royal Holloway, University of London
-  url: https://www.royalholloway.ac.uk
+- name: Bursa Technical University
+  url: https://sayfam.btu.edu.tr/en/emine.bilgen
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

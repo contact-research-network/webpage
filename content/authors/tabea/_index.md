@@ -5,12 +5,12 @@ title: Tabea Hässler
 superuser: true
 
 # Role/position
-role: Senior Research Associate
+role: SNSF Professor
 
 # Organizations/Affiliations
 organizations:
 - name: University of Zürich
-  url: https://www.psychology.uzh.ch/en/areas/sob/sozpsy/Team/thaessler.html
+  url: https://psychology.uzh.ch/en/areas/sob/interrel/team/Tabea-H%C3%A4ssler.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
