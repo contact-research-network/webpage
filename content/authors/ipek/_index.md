@@ -5,7 +5,7 @@ title: Ipek Guvensoy
 superuser: true
 
 # Role/position
-role: PhD student
+role: Post Doctoral Researcher 
 
 # Organizations/Affiliations
 organizations:
@@ -23,6 +23,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:ipek.guvensoy@sabanciuniv.edu
+- icon: globe
+  icon-pack: fas
+  link: https://www.ipekguvensoy.com/
 
 
 # Organizational groups that you belong to (for People widget)
