@@ -2,8 +2,11 @@
      four core values in a 2x2 grid with names in the logo accent colours) and
      a "What we do" panel (activities, membership line, Join us button). The
      panel stretches to the height of the left column. On narrow screens the
-     panel drops below. Text lives in content/home/values.md. */}}
+     panel drops below. Text lives in content/home/about.md, so the section id is #about;
+     the empty #values span keeps older links working, and #join marks the
+     membership line and Join us button. */}}
 {{ $page := .page }}
+<span id="values"></span>
 <div class="icrn-values">
   <div class="icrn-values-main">
     <h2>{{ $page.Title }}</h2>
@@ -29,7 +32,7 @@
       </li>
       {{ end }}
     </ul>
-    <div class="icrn-activities-join">
+    <div class="icrn-activities-join" id="join">
       {{ with $page.Params.approach }}<p>{{ . | markdownify }}</p>{{ end }}
       {{ with $page.Params.join_url }}<a class="icrn-join-btn" href="{{ . }}">{{ $page.Params.join_label | default "Join us" }}</a>{{ end }}
     </div>
