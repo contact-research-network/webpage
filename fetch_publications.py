@@ -3,9 +3,16 @@ import requests
 from datetime import datetime
 import re
 import unicodedata
-#import json
+import json
+import os
+import time
+from urllib.parse import quote
 
 list_duration = 3 # how many years should be included prior to the current year
+records_file = 'publication_records.json' # last good Crossref records, kept when a request fails
+crossref_fields = ['DOI', 'title', 'author', 'container-title', 'group-title', 'created', 'published', 'published-online', 'published-print']
+crossref_pause = 0.4 # seconds between requests, to stay below Crossref's limit of 3 per second
+crossref_attempts = 6
 
 # Authors who share a surname and first initial with a member but are a different person
 non_members = {'b keith payne'}
@@ -13,13 +20,76 @@ non_members = {'b keith payne'}
 def download_csv(url):
     return pd.read_csv(url)
 
+def crossref_get(url, params, email):
+    # Returns the response message, or None if Crossref cannot provide it
+    for attempt in range(crossref_attempts):
+        time.sleep(crossref_pause)
+        wait = 2 ** attempt
+        try:
+            response = requests.get(url, params={**params, 'mailto': email}, timeout=60)
+            if response.status_code == 200:
+                return response.json()['message']
+            if response.status_code != 429 and response.status_code < 500:
+                return None
+            retry_after = response.headers.get('Retry-After', '')
+            wait = int(retry_after) if retry_after.isdigit() else wait
+        except (requests.RequestException, ValueError, KeyError) as error:
+            print('Crossref request failed:', error)
+        time.sleep(min(wait, 60))
+    return None
+
+def trim_record(item):
+    record = {field: item[field] for field in crossref_fields if field in item}
+    if 'author' in record:
+        record['author'] = [{key: author[key] for key in ('given', 'family', 'name', 'ORCID') if key in author}
+                            for author in record['author']]
+    return record
+
 def fetch_publications(orcid, email):
+    # Returns all works for an ORCID, or None if any page could not be retrieved
     current_year = datetime.now().year
-    url = f"https://api.crossref.org/works?filter=orcid:{orcid},from-pub-date:{current_year-list_duration-1}-01-01,until-pub-date:{current_year}-12-31&mailto={email}&select=DOI,title,author,container-title,group-title,created,published,published-online,published-print"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()['message']['items']
-    return []
+    params = {
+        'filter': f"orcid:{orcid},from-pub-date:{current_year-list_duration-1}-01-01,until-pub-date:{current_year}-12-31",
+        'select': ','.join(crossref_fields),
+        'rows': 1000,
+        'cursor': '*',
+    }
+    items = []
+    while True:
+        message = crossref_get('https://api.crossref.org/works', params, email)
+        if message is None:
+            return None
+        items.extend(message['items'])
+        if not message['items'] or len(items) >= message['total-results']:
+            return items if len(items) >= message['total-results'] else None
+        params['cursor'] = message['next-cursor']
+
+def load_records():
+    if os.path.exists(records_file):
+        with open(records_file, encoding='utf-8') as file:
+            return json.load(file)
+    return {'orcids': {}, 'items': {}}
+
+def save_records(records):
+    with open(records_file, 'w', encoding='utf-8') as file:
+        json.dump(records, file, ensure_ascii=False, indent=1, sort_keys=True)
+
+def update_member_records(records, orcids, email):
+    # Replaces a member's stored works only after a complete, non-empty response
+    works_by_orcid, kept = {}, []
+    for orcid in dict.fromkeys(filter(None, map(clean_orcid, orcids))):
+        print('Retrieving publications for ORCID:', orcid)
+        items = fetch_publications(orcid, email)
+        stored = records['orcids'].get(orcid, [])
+        if items is None or (not items and stored):
+            works_by_orcid[orcid] = stored
+            kept.append(orcid)
+            continue
+        records['items'].update({item['DOI'].lower(): trim_record(item) for item in items})
+        works_by_orcid[orcid] = sorted(item['DOI'].lower() for item in items)
+    records['orcids'] = works_by_orcid
+    if kept:
+        print(f"::warning::Kept stored publications for {len(kept)} ORCIDs after Crossref failures: {', '.join(kept)}")
 
 def format_author_list(authors):
     if len(authors) > 1:
@@ -167,35 +237,31 @@ def format_citation(items, group_members):
 
     return contact_research, other_research
   
-def process_manual_additions(all_items, addition_df, email):
+def process_manual_additions(records, addition_df, email):
     print('Processing manual additions')
-    # Remove items with DOIs marked as 'out'
-    out_dois = set(addition_df[addition_df['Action'] == 'out']['DOI'])
-    all_items = [item for item in all_items if item['DOI'] not in out_dois]
-    
-    # Fetch and add items with DOIs marked as 'in'
-    in_dois = addition_df[addition_df['Action'] == 'in']['DOI']
-    for doi in in_dois:
-        url = f"https://api.crossref.org/works/{doi}?mailto={email}"
-        response = requests.get(url)
-        if response.status_code == 200:
-            new_item = response.json()['message']
-            if new_item['DOI'] not in [item['DOI'] for item in all_items]:  # Avoid duplicates
-                all_items.append(new_item)
-    return all_items
+    dois = addition_df['DOI'].astype(str).str.strip().str.lower()
+    out_dois = set(dois[addition_df['Action'] == 'out'])
+    in_dois = set(dois[addition_df['Action'] == 'in'])
+
+    # Only DOIs that are not stored yet need a request
+    for doi in sorted(in_dois - set(records['items'])):
+        message = crossref_get(f"https://api.crossref.org/works/{quote(doi)}", {}, email)
+        if message:
+            records['items'][doi] = trim_record(message)
+
+    # Keep only records that are still in use, leaving out DOIs marked as 'out'
+    member_dois = {doi for works in records['orcids'].values() for doi in works}
+    records['items'] = {doi: item for doi, item in records['items'].items() if doi in member_dois | in_dois}
+    return [item for doi, item in records['items'].items() if doi not in out_dois]
 
 def main(email, orcid_url, additions_url):
     orcid_df = download_csv(orcid_url)
-    all_items = []
-    for orcid in orcid_df['ORCiD']:
-        print('Retrieving publications for ORCID:', orcid)
-        all_items.extend(fetch_publications(orcid, email))
     addition_df = download_csv(additions_url)
-    all_items = process_manual_additions(all_items, addition_df, email)
-    
-    #with open("refs.json", "w") as final:
-    #    json.dump(all_items, final)
-    
+    records = load_records()
+    update_member_records(records, orcid_df['ORCiD'], email)
+    all_items = process_manual_additions(records, addition_df, email)
+    save_records(records)
+
     if all_items:
         contact_research, other_research = format_citation(all_items, orcid_df)
         with open("content/publication_list/_index.md", "w") as file:
