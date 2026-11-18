@@ -60,7 +60,7 @@ def clean_orcid(orcid):
     return match.group() if match else None
 
 def index_members(group_members):
-    surnames_by_orcid, given_names_by_surname, given_names_by_surname_word = {}, {}, {}
+    names_by_orcid, given_names_by_surname, given_names_by_surname_word = {}, {}, {}
     for _, member in group_members.fillna('').iterrows():
         surname, given_names = member['Last name'], name_parts(member['First name'])
         if given_names:
@@ -70,8 +70,8 @@ def index_members(group_members):
                     given_names_by_surname_word.setdefault(word, []).append(given_names)
         orcid = clean_orcid(member['ORCiD'])
         if orcid:
-            surnames_by_orcid.setdefault(orcid, set()).update(name_parts(surname))
-    return surnames_by_orcid, given_names_by_surname, given_names_by_surname_word
+            names_by_orcid.setdefault(orcid, set()).update(name for name in given_names + name_parts(surname) if len(name) > 1)
+    return names_by_orcid, given_names_by_surname, given_names_by_surname_word
 
 def given_names_match(author_given, member_given):
     return author_given[0][0] == member_given[0][0] or any(len(name) > 1 and name in author_given for name in member_given)
@@ -83,13 +83,13 @@ def full_words_match(full_name, given_names_by_surname_word):
                for member_given in given_names_by_surname_word.get(word, [])
                for name in member_given)
 
-def is_member(author, surnames_by_orcid, given_names_by_surname, given_names_by_surname_word):
+def is_member(author, names_by_orcid, given_names_by_surname, given_names_by_surname_word):
     author_given = name_parts(author.get('given', ''))
     full_name = author_given + name_parts(author['family'])
     if ' '.join(full_name) in non_members:
         return False
-    # Crossref occasionally attaches an ORCID to the wrong co-author, so the surname must agree too
-    if surnames_by_orcid.get(clean_orcid(author.get('ORCID')), set()) & set(full_name):
+    # Crossref occasionally attaches an ORCID to the wrong co-author, so part of the name must agree too
+    if names_by_orcid.get(clean_orcid(author.get('ORCID')), set()) & set(full_name):
         return True
     if full_words_match(full_name, given_names_by_surname_word):
         return True
