@@ -2,9 +2,13 @@ import pandas as pd
 import requests
 from datetime import datetime
 import re
+import unicodedata
 #import json
 
 list_duration = 3 # how many years should be included prior to the current year
+
+# Authors who share a surname and first initial with a member but are a different person
+non_members = {'b keith payne'}
 
 def download_csv(url):
     return pd.read_csv(url)
@@ -41,8 +45,60 @@ def extract_year_ref(reference):
         return int(match.group(1))
     return None
 
+def name_parts(name):
+    # Lower-case words without diacritics, so that Uluğ matches Ulug
+    name = unicodedata.normalize('NFKD', name.translate(str.maketrans('łŁıđĐøØ', 'lLidDoO')))
+    name = ''.join(char for char in name if not unicodedata.combining(char))
+    return re.findall(r'[a-z]+', name.casefold())
+
+def surname_key(surname):
+    # Also treats transliterated umlauts as equal, so that Schaefer matches Schäfer
+    return re.sub(r'([aou])e', r'\1', ''.join(name_parts(surname)))
+
+def clean_orcid(orcid):
+    match = re.search(r'\d{4}-\d{4}-\d{4}-\d{3}[\dX]', str(orcid).upper())
+    return match.group() if match else None
+
+def index_members(group_members):
+    surnames_by_orcid, given_names_by_surname, given_names_by_surname_word = {}, {}, {}
+    for _, member in group_members.fillna('').iterrows():
+        surname, given_names = member['Last name'], name_parts(member['First name'])
+        if given_names:
+            given_names_by_surname.setdefault(surname_key(surname), []).append(given_names)
+            for word in name_parts(surname):
+                if len(word) > 3: # Skips particles such as van and da
+                    given_names_by_surname_word.setdefault(word, []).append(given_names)
+        orcid = clean_orcid(member['ORCiD'])
+        if orcid:
+            surnames_by_orcid.setdefault(orcid, set()).update(name_parts(surname))
+    return surnames_by_orcid, given_names_by_surname, given_names_by_surname_word
+
+def given_names_match(author_given, member_given):
+    return author_given[0][0] == member_given[0][0] or any(len(name) > 1 and name in author_given for name in member_given)
+
+def full_words_match(full_name, given_names_by_surname_word):
+    # Catches surnames recorded differently, such as Lytkina for Widmer-Lytkina
+    return any(len(name) > 1 and name != word and name in full_name
+               for word in set(full_name)
+               for member_given in given_names_by_surname_word.get(word, [])
+               for name in member_given)
+
+def is_member(author, surnames_by_orcid, given_names_by_surname, given_names_by_surname_word):
+    author_given = name_parts(author.get('given', ''))
+    full_name = author_given + name_parts(author['family'])
+    if ' '.join(full_name) in non_members:
+        return False
+    # Crossref occasionally attaches an ORCID to the wrong co-author, so the surname must agree too
+    if surnames_by_orcid.get(clean_orcid(author.get('ORCID')), set()) & set(full_name):
+        return True
+    if full_words_match(full_name, given_names_by_surname_word):
+        return True
+    return bool(author_given) and any(given_names_match(author_given, member_given)
+                                      for member_given in given_names_by_surname.get(surname_key(author['family']), []))
+
 def format_citation(items, group_members):
     print('Generating reference list')
+    member_index = index_members(group_members)
     # Remove duplicates and sort by creation date
     unique_items = {item['DOI']: item for item in items}
     sorted_items = sorted(unique_items.values(), key=lambda x: x['created']['timestamp'], reverse=True)
@@ -70,12 +126,12 @@ def format_citation(items, group_members):
           if 'family' in author:
               family_name = author['family']
               author_str = f"{family_name}, {' '.join([i[0]+'.' for i in author.get('given', '').split()])}"
-              if family_name in group_members.values:
+              if is_member(author, *member_index):
                   author_str = f"<span class='member'>{author_str}</span>"
               authors.append(author_str)
           elif 'name' in author:
               name = author['name']
-              if name in group_members.values:
+              if name in group_members['Last name'].values:
                   name = f"<span class='member'>{name}</span>"
               authors.append(name)
 
@@ -141,7 +197,7 @@ def main(email, orcid_url, additions_url):
     #    json.dump(all_items, final)
     
     if all_items:
-        contact_research, other_research = format_citation(all_items, orcid_df['Last name'])
+        contact_research, other_research = format_citation(all_items, orcid_df)
         with open("content/publication_list/_index.md", "w") as file:
             file.write("# Contact Research by Network Members\n")
             file.write("\n\n Note that this list is automatically generated and may not be exhaustive (or entirely accurate). Authors <span class='member'>highlighted like this</span> are members of the International Contact Research Network.\n\n")
