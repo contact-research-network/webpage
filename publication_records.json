@@ -147552,6 +147552,140 @@
     "Measuring Prejudice and Stereotypes: A Systematic Review of Psychometric Quality and Conceptual Foundations"
    ]
   },
+  "10.31234/osf.io/y2zwb": {
+   "DOI": "10.31234/osf.io/y2zwb",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-1856-2744",
+     "family": "Gul",
+     "given": "Pelin"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-2350-0564",
+     "family": "Sojoudi",
+     "given": "Sajad"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6502-1158",
+     "family": "Jahanitabesh",
+     "given": "Azra"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6014-4415",
+     "family": "Foster",
+     "given": "Stephen D."
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7831-2491",
+     "family": "Ozkan",
+     "given": "Zafer"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4164-872X",
+     "family": "Lambert",
+     "given": "Aleksandra Ewa"
+    },
+    {
+     "family": "Çınar",
+     "given": "Çağla"
+    },
+    {
+     "family": "Kupfer",
+     "given": "Tom"
+    }
+   ],
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      18
+     ]
+    ],
+    "date-time": "2026-11-18T20:03:46Z",
+    "timestamp": 1795032226000
+   },
+   "group-title": "PsyArXiv",
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      18
+     ]
+    ]
+   },
+   "title": [
+    "From Endorsement to Enforcement: Ideological Mate Guarding across Cultures"
+   ]
+  },
+  "10.31234/osf.io/y2zwb_v1": {
+   "DOI": "10.31234/osf.io/y2zwb_v1",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-1856-2744",
+     "family": "Gul",
+     "given": "Pelin"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-2350-0564",
+     "family": "Sojoudi",
+     "given": "Sajad"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6502-1158",
+     "family": "Jahanitabesh",
+     "given": "Azra"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6014-4415",
+     "family": "Foster",
+     "given": "Stephen D."
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7831-2491",
+     "family": "Ozkan",
+     "given": "Zafer"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4164-872X",
+     "family": "Lambert",
+     "given": "Aleksandra Ewa"
+    },
+    {
+     "family": "Çınar",
+     "given": "Çağla"
+    },
+    {
+     "family": "Kupfer",
+     "given": "Tom"
+    }
+   ],
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      18
+     ]
+    ],
+    "date-time": "2026-11-18T20:03:46Z",
+    "timestamp": 1795032226000
+   },
+   "group-title": "PsyArXiv",
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      18
+     ]
+    ]
+   },
+   "title": [
+    "From Endorsement to Enforcement: Ideological Mate Guarding across Cultures"
+   ]
+  },
   "10.31234/osf.io/ydv3h": {
    "DOI": "10.31234/osf.io/ydv3h",
    "author": [
@@ -157821,6 +157955,8 @@
    "10.31234/osf.io/efzrn_v1",
    "10.31234/osf.io/ra8qe",
    "10.31234/osf.io/ra8qe_v1",
+   "10.31234/osf.io/y2zwb",
+   "10.31234/osf.io/y2zwb_v1",
    "10.36484/liberal.1488230",
    "10.37093/ijsi.1355450",
    "10.7816/nesne-10-24-10"
