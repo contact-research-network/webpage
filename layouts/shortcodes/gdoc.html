@@ -1,0 +1,56 @@
+{{- /*
+  Embed a published Google Doc at full height, so the page has a single scrollbar.
+  Usage: {{< gdoc src="https://docs.google.com/document/d/e/.../pub?embedded=true" title="..." >}}
+  The visible iframe is Google's own page. Its height cannot be read across origins, so the
+  script fetches the same HTML (Google allows cross-origin reads), lays it out in a hidden
+  same-origin copy at the same width, and gives the visible iframe that height. If the fetch
+  fails, the iframe keeps its fixed fallback height and scrolls internally.
+*/ -}}
+{{- $id := printf "gdoc-%d" .Ordinal -}}
+<iframe id="{{ $id }}" src="{{ .Get "src" }}" title="{{ .Get "title" | default "Embedded Google Doc" }}" width="100%" height="800" style="display: block; border: none;"></iframe>
+<script>
+(function () {
+  var frame = document.getElementById("{{ $id }}");
+  if (!window.fetch || !("srcdoc" in frame)) return;
+  fetch(frame.src).then(function (res) {
+    if (!res.ok) throw new Error(res.status);
+    return res.text();
+  }).then(function (html) {
+    var probe = document.createElement("iframe");
+    probe.setAttribute("aria-hidden", "true");
+    probe.tabIndex = -1;
+    probe.style.cssText = "position:absolute;left:-10000px;top:0;visibility:hidden;border:none;height:" + frame.offsetHeight + "px";
+    probe.addEventListener("load", function () {
+      var doc = probe.contentDocument;
+      if (!doc || !doc.body) return;
+      var fit = function () {
+        probe.style.width = frame.clientWidth + "px";
+        var root = doc.documentElement;
+        var style = doc.defaultView.getComputedStyle(doc.body);
+        var height = doc.body.offsetHeight + parseFloat(style.marginTop) + parseFloat(style.marginBottom);
+        // Without sideways overflow, switch off the frame's own scrollbar: a classic scrollbar
+        // narrows the doc, makes it taller and would then never go away.
+        if (root.scrollWidth > root.clientWidth) {
+          height += probe.offsetHeight - root.clientHeight;
+          frame.removeAttribute("scrolling");
+        } else {
+          frame.setAttribute("scrolling", "no");
+        }
+        frame.style.height = Math.ceil(height) + 4 + "px";
+      };
+      fit();
+      if (window.ResizeObserver) {
+        new ResizeObserver(fit).observe(frame);
+        new ResizeObserver(fit).observe(doc.body);
+      }
+      if (doc.fonts) doc.fonts.ready.then(fit);
+    }, { once: true });
+    probe.srcdoc = html
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      // Google blocks its doc images on other sites; a blank image keeps their sized boxes.
+      .replace(/(<img\b[^>]*?\ssrc=)"[^"]*"/gi, '$1"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"')
+      .replace(/<head([^>]*)>/i, "<head$1><style>html{overflow-y:hidden}</style>");
+    frame.parentNode.insertBefore(probe, frame.nextSibling);
+  }).catch(function () { /* keep the fixed-height iframe */ });
+})();
+</script>

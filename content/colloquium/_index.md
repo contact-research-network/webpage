@@ -9,7 +9,7 @@ type: page
 ## 2026/27 Schedule
 
 <div style="border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 20px 0;">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSdrnzP4nIz6K7ZfnY0LSQiFLZDM_OsmU5t131UwW9RaDIno_uRWF4r4CWq_TEDyA/pub?embedded=true" width="100%" height="800" style="display: block; border: none;"></iframe>
+{{< gdoc src="https://docs.google.com/document/d/e/2PACX-1vSdrnzP4nIz6K7ZfnY0LSQiFLZDM_OsmU5t131UwW9RaDIno_uRWF4r4CWq_TEDyA/pub?embedded=true" title="Contact Colloquium 2026/27 schedule" >}}
 </div>
 
 *This schedule is automatically updated by the colloquium coordinators.*
