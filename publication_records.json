@@ -64389,6 +64389,15 @@
      ]
     ]
    },
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      2
+     ]
+    ]
+   },
    "title": [
     "Moral transgressions, moral emotions, and regulatory behaviours at work: evidence from two studies"
    ]
@@ -79857,6 +79866,61 @@
    },
    "title": [
     "No Words for Intergroup Feelings: Intergroup Empathy Mediates the Relationship Between Alexithymia and Intergroup Relations"
+   ]
+  },
+  "10.1111/jasp.70121": {
+   "DOI": "10.1111/jasp.70121",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-4375-465X",
+     "family": "Cayir",
+     "given": "Burak"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3451-5734",
+     "family": "Rubini",
+     "given": "Monica"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3639-8631",
+     "family": "Prati",
+     "given": "Francesca"
+    }
+   ],
+   "container-title": [
+    "Journal of Applied Social Psychology"
+   ],
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      20
+     ]
+    ],
+    "date-time": "2026-11-20T10:57:14Z",
+    "timestamp": 1795172234000
+   },
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      20
+     ]
+    ]
+   },
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      20
+     ]
+    ]
+   },
+   "title": [
+    "Asymmetric Threat Spillover Across Minority Groups: Tolerance of Cultural Expression and Institutional Accommodation"
    ]
   },
   "10.1111/jmft.12659": {
@@ -159294,6 +159358,7 @@
    "10.1111/bjso.70129",
    "10.1111/jasp.70034",
    "10.1111/jasp.70056",
+   "10.1111/jasp.70121",
    "10.1177/0261927x241237260",
    "10.1177/02654075261420515",
    "10.31234/osf.io/9gh6k",
