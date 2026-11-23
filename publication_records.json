@@ -24588,6 +24588,66 @@
     "Paranormal beliefs and core knowledge confusions: A meta-analysis"
    ]
   },
+  "10.1016/j.pmedr.2026.103745": {
+   "DOI": "10.1016/j.pmedr.2026.103745",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-5301-5332",
+     "family": "Shani",
+     "given": "Maor"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7239-326X",
+     "family": "Ne'eman-Haviv",
+     "given": "Vered"
+    },
+    {
+     "family": "Stern",
+     "given": "Nehemia"
+    },
+    {
+     "family": "Nagar",
+     "given": "Guy"
+    },
+    {
+     "family": "Shalom",
+     "given": "Uzi Ben"
+    }
+   ],
+   "container-title": [
+    "Preventive Medicine Reports"
+   ],
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      22
+     ]
+    ],
+    "date-time": "2026-11-22T15:25:43Z",
+    "timestamp": 1795361143000
+   },
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      11
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      11
+     ]
+    ]
+   },
+   "title": [
+    "Profiles of licensed firearm owners in Israel after October 7: A latent profile analysis across two samples"
+   ]
+  },
   "10.1016/j.sftr.2026.102163": {
    "DOI": "10.1016/j.sftr.2026.102163",
    "author": [
@@ -153860,6 +153920,64 @@
     "Personality and Social Relationships: What Do We Know and Where Do We Go"
    ]
   },
+  "10.61455/sujiem.v4i02.666": {
+   "DOI": "10.61455/sujiem.v4i02.666",
+   "author": [
+    {
+     "family": "Mundoffar",
+     "given": "Akhmad"
+    },
+    {
+     "family": "Rizal Shalahuddin",
+     "given": "Muhammad"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0203-7846",
+     "family": "R. Tropp",
+     "given": "Linda"
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4076-0149",
+     "family": "Ahmadi",
+     "given": "Ahmadi"
+    }
+   ],
+   "container-title": [
+    "Solo Universal Journal of Islamic Education and Multiculturalism"
+   ],
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      22
+     ]
+    ],
+    "date-time": "2026-11-22T16:05:52Z",
+    "timestamp": 1795363552000
+   },
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      7
+     ]
+    ]
+   },
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      7
+     ]
+    ]
+   },
+   "title": [
+    "Internalizing Religious Moderation in an Al-Qur’an-Based School: Strategies for Developing Inclusive Student Character at SMP IQ Al Husna Mayong"
+   ]
+  },
   "10.70165/cglobal.v11is1.691": {
    "DOI": "10.70165/cglobal.v11is1.691",
    "author": [
@@ -158549,6 +158667,7 @@
   ],
   "0000-0002-5301-5332": [
    "10.1007/s10964-025-02202-y",
+   "10.1016/j.pmedr.2026.103745",
    "10.1038/s41467-024-44693-6",
    "10.1057/s41254-024-00386-x",
    "10.1093/pnasnexus/pgag087",
@@ -159087,7 +159206,8 @@
    "10.1177/10892680211046517",
    "10.1177/13684302261462033",
    "10.3102/0013189x251322791",
-   "10.4337/9781800881921.00037"
+   "10.4337/9781800881921.00037",
+   "10.61455/sujiem.v4i02.666"
   ],
   "0000-0003-0232-6672": [
    "10.1177/00027642241240418",
