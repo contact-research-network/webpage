@@ -152,3 +152,5 @@
 ^\.devcontainer
 ^run\.sh$
 ^\.devcontainer
+^run\.sh$
+^\.devcontainer
